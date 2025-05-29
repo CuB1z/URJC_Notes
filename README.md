@@ -10,6 +10,7 @@ Este espacio está pensado para compartir materiales de estudio, resúmenes, eje
 
 La organización del repositorio es la siguiente:
 
+- `BD` - Apuntes de Bases de Datos (2º)
 - `DAS` - Apuntes de Diseño y Arquitectura de Software (3º).
 - `DAW` - Apuntes de Desarrollo de Aplicaciones Web (3º).
 - `EAS` - Apuntes de Evaluación y Adaptación de Software (3º).
