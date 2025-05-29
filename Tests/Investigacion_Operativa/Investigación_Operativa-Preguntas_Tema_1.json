@@ -1,0 +1,632 @@
+{
+    "id": "IO-T1-2025",
+    "title": "Test de Investigación Operativa - Tema 1",
+    "description": "Este test evalúa los conocimientos sobre el Tema 1 de Investigación Operativa.",
+    "tags": [
+        "Investigación Operativa",
+        "URJC",
+        "Tema 1"
+    ],
+    "questions": [
+        {
+            "id": "q1",
+            "type": "multiple",
+            "text": "¿Qué es la Investigación Operativa?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Una disciplina que aplica modelos matemáticos y técnicas analíticas para apoyar la toma de decisiones óptimas.",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un método para realizar investigaciones científicas.",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Una técnica para mejorar la calidad de productos.",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un proceso para desarrollar software.",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q2",
+            "type": "multiple",
+            "text": "¿Quiénes introdujeron los conceptos de probabilidad en los siglos XVII-XIX?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Isaac Newton y Albert Einstein",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Blaise Pascal y Pierre de Fermat",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Leonhard Euler y Carl Friedrich Gauss",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "George Dantzig y Agner Erlang",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q3",
+            "type": "multiple",
+            "text": "¿Cuál es uno de los objetivos de la Investigación Operativa?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Maximizar resultados",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Minimizar costos",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Reducir tiempos o mejorar la calidad",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o4",
+                    "text": "Todas las anteriores",
+                    "isCorrect": true,
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "id": "q4",
+            "type": "multiple",
+            "text": "¿Qué método exacto se utiliza en la búsqueda de la solución óptima en Investigación Operativa?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Método Simplex",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Algoritmos genéticos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Redes neuronales",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Simulación Monte Carlo",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q5",
+            "type": "multiple",
+            "text": "¿Qué empresa implementó el sistema ORION para optimizar rutas y reducir costos operativos?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Amazon",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Google",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "UPS",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o4",
+                    "text": "Walmart",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q6",
+            "type": "multiple",
+            "text": "¿Qué técnica se utilizó en el Proyecto Manhattan para modelar problemas complejos?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Simulación Monte Carlo",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Método Simplex",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Teoría de colas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Optimización combinatoria",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q7",
+            "type": "multiple",
+            "text": "¿Qué se busca optimizar en la función objetivo de un modelo de Investigación Operativa?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Resultados",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Restricciones",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Variables de decisión",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Parámetros",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q8",
+            "type": "multiple",
+            "text": "¿Qué empresa utilizó modelos de gestión energética para reducir el consumo en centros de datos en más del 40%?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Google",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Amazon",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "UPS",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "NHS",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q9",
+            "type": "multiple",
+            "text": "¿Qué teoría desarrolló Agner Erlang para optimizar sistemas de espera?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Teoría de colas",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Programación lineal",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Optimización combinatoria",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Simulación Monte Carlo",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q10",
+            "type": "multiple",
+            "text": "¿Qué se debe hacer para validar un modelo de Investigación Operativa?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Comparar resultados del modelo con datos históricos",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Establecer objetivos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Identificar variables de decisión",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Representar relaciones con ecuaciones matemáticas",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q11",
+            "type": "multiple",
+            "text": "¿Qué empresa optimizó la ubicación de centros de distribución para minimizar distancias y tiempos de entrega?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Amazon",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Google",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "UPS",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Walmart",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q12",
+            "type": "multiple",
+            "text": "¿Qué se debe hacer en la etapa de implementación de la solución en Investigación Operativa?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Adaptar las soluciones al entorno real",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Establecer objetivos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Identificar variables de decisión",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Comparar resultados del modelo con datos históricos",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q13",
+            "type": "multiple",
+            "text": "¿Qué empresa utilizó modelos de inventarios para equilibrar disponibilidad y costos?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Walmart",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Amazon",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Google",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "UPS",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q14",
+            "type": "multiple",
+            "text": "¿Qué se debe hacer en la etapa de definición del problema en Investigación Operativa?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Establecer objetivos",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Comparar resultados del modelo con datos históricos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Adaptar las soluciones al entorno real",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Representar relaciones con ecuaciones matemáticas",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q15",
+            "type": "multiple",
+            "text": "¿Qué empresa mejoró el flujo de trabajo y redujo tiempos de espera en hospitales?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "NHS",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Amazon",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Google",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "UPS",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q16",
+            "type": "multiple",
+            "text": "¿Qué técnica se utiliza para evaluar la robustez de un modelo en Investigación Operativa?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Análisis de sensibilidad",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Método Simplex",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Optimización combinatoria",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Teoría de colas",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q17",
+            "type": "multiple",
+            "text": "¿Qué se debe hacer en la etapa de modelado del problema en Investigación Operativa?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Representar relaciones con ecuaciones matemáticas",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Establecer objetivos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Comparar resultados del modelo con datos históricos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Adaptar las soluciones al entorno real",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q18",
+            "type": "multiple",
+            "text": "¿Qué técnica se utiliza para la optimización de sistemas de espera?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Teoría de colas",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Simulación Monte Carlo",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Programación lineal",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Optimización combinatoria",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q19",
+            "type": "multiple",
+            "text": "¿Qué se debe hacer en la etapa de búsqueda de la solución óptima en Investigación Operativa?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Uso de heurísticas y metaheurísticas",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Establecer objetivos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Identificar variables de decisión",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Comparar resultados del modelo con datos históricos",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q20",
+            "type": "multiple",
+            "text": "¿Qué empresa utilizó precios dinámicos para generar 500 millones de dólares adicionales?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "American Airlines",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Amazon",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Google",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Walmart",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        }
+    ]
+}

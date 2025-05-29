@@ -1,0 +1,228 @@
+{
+  "id": "ipo_tema_1_1_quiz_001",
+  "title": "Quiz sobre Interacción Persona-Ordenador (Tema 1.1)",
+  "description": "Preguntas para evaluar conocimientos sobre los conceptos fundamentales de la Interacción Persona-Ordenador, basados en el Tema 1.1.",
+  "tags": ["URJC", "IPO", "Interacción Persona Ordenador", "HCI"],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "text": "¿Cuál es el objetivo principal de la Interacción Persona-Ordenador (IPO)?",
+      "options": [
+        { "id": "o1", "text": "Diseñar sistemas que funcionen correctamente y mejoren la experiencia del usuario", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Incrementar la complejidad de los sistemas informáticos", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Reducir el número de usuarios para simplificar el desarrollo", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Fomentar el uso exclusivo de comandos de texto", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "text": "Las 3 'ues' que debe cumplir una herramienta para facilitar una tarea son:",
+      "options": [
+        { "id": "o1", "text": "Útil, Usable, Usada", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Universal, Útil, Único", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Útil, Usable, Único", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Usado, Usable, Útil", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "text": "¿Qué factor no forma parte de la calidad de una interfaz?",
+      "options": [
+        { "id": "o1", "text": "Menor tiempo de aprendizaje", "isCorrect": false, "value": 0 },
+        { "id": "o2", "text": "Mayor número de errores", "isCorrect": true, "value": 1 },
+        { "id": "o3", "text": "Mayor satisfacción subjetiva del usuario", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Mayor velocidad de realización de una tarea", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "text": "Según la definición de ACM - SIGCHI, ¿qué abarca la Interacción Persona-Ordenador?",
+      "options": [
+        { "id": "o1", "text": "Diseño, evaluación e implementación de sistemas interactivos", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Sólo el diseño gráfico de las interfaces", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "El desarrollo de hardware para ordenadores", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "El análisis financiero de proyectos informáticos", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "text": "¿Cuál de los siguientes es un objetivo general de la IPO?",
+      "options": [
+        { "id": "o1", "text": "Mejorar la seguridad y usabilidad de los sistemas tecnológicos", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Disminuir la interacción del usuario con el sistema", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Optimizar el diseño de hardware exclusivamente", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Eliminar el uso de interfaces gráficas", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "text": "¿Qué consecuencias puede tener una interfaz de usuario pobre?",
+      "options": [
+        { "id": "o1", "text": "Reducción de productividad y aumento de errores", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Mayor facilidad de aprendizaje", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Incremento de satisfacción del usuario", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Disminución de los tiempos de aprendizaje", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "text": "La ergonomía en la IPO se enfoca en:",
+      "options": [
+        { "id": "o1", "text": "Maximizar la seguridad y confort del usuario", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Reducir el número de funcionalidades del sistema", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Diseñar solo la estética de la interfaz", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Incrementar la complejidad técnica", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "text": "¿Cuál es la función del sistema cognitivo en el modelo de procesamiento humano?",
+      "options": [
+        { "id": "o1", "text": "Procesar la información y tomar decisiones", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Controlar los movimientos físicos del usuario", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Captar estímulos sensoriales del entorno", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Almacenar información de largo plazo", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "text": "¿Qué tipo de memoria se caracteriza por almacenar información por un corto tiempo y pasarla a la memoria a corto plazo si algo llama la atención?",
+      "options": [
+        { "id": "o1", "text": "Memoria sensorial", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Memoria a largo plazo", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Memoria a corto plazo", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Memoria procedural", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "text": "¿Qué disciplina contribuye a la IPO proporcionando conocimientos sobre comportamiento y procesamiento de información?",
+      "options": [
+        { "id": "o1", "text": "Psicología", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Ergonomía", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Sociología", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Diseño gráfico", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q11",
+      "type": "multiple",
+      "text": "¿Cuál de estas afirmaciones sobre la interacción física en la interfaz es correcta?",
+      "options": [
+        { "id": "o1", "text": "Incluye dispositivos como teclado, ratón y pantalla", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Se refiere únicamente a la información que se muestra en pantalla", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Es la parte invisible de la interfaz", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "No afecta la experiencia del usuario", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q12",
+      "type": "multiple",
+      "text": "¿Cuál es una contribución clave de la inteligencia artificial a la IPO?",
+      "options": [
+        { "id": "o1", "text": "Interfaces en lenguaje natural mediante voz y agentes inteligentes", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Reducción de hardware físico", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Eliminación de la necesidad de interfaces gráficas", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Desarrollo exclusivo de interfaces táctiles", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q13",
+      "type": "multiple",
+      "text": "En el diseño centrado en el usuario, ¿cuál es un aspecto fundamental durante el desarrollo del sistema?",
+      "options": [
+        { "id": "o1", "text": "Involucrar al usuario en todas las fases del desarrollo", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Ignorar las necesidades del usuario para acelerar el desarrollo", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Priorizar únicamente el diseño visual", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Diseñar sólo para usuarios expertos", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q14",
+      "type": "multiple",
+      "text": "¿Qué característica es recomendable evitar al diseñar interfaces para personas con deficiencias visuales o auditivas?",
+      "options": [
+        { "id": "o1", "text": "Evitar interfaces que dependan exclusivamente del color", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Incluir retroalimentación táctil", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Usar combinaciones de color compatibles", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Diseñar con menús accesibles", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q15",
+      "type": "multiple",
+      "text": "¿Cuál de las siguientes agrupaciones de controles es una organización ergonómica recomendada?",
+      "options": [
+        { "id": "o1", "text": "Funcional, secuencial y por frecuencia de uso", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Alfabética, por tamaño y color", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Por orden de diseño gráfico", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Por orden aleatorio para evitar hábitos", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q16",
+      "type": "multiple",
+      "text": "¿Qué significa que una interfaz sea 'amistosa' para el usuario?",
+      "options": [
+        { "id": "o1", "text": "Que sea intuitiva, eficiente y genere satisfacción", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Que sea compleja y requiera formación extensa", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Que limite el acceso a funciones avanzadas", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Que utilice exclusivamente texto para la interacción", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q17",
+      "type": "multiple",
+      "text": "¿Qué papel juega el etnógrafo dentro de un equipo de diseño centrado en el usuario?",
+      "options": [
+        { "id": "o1", "text": "Estudiar el comportamiento y necesidades de los usuarios en su contexto", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Desarrollar el software del sistema", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Diseñar la interfaz gráfica", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Evaluar exclusivamente el hardware", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q18",
+      "type": "multiple",
+      "text": "¿Cuál es una ventaja de utilizar un diseño iterativo en espiral en el desarrollo de sistemas interactivos?",
+      "options": [
+        { "id": "o1", "text": "Permite mejorar continuamente el sistema mediante ciclos de evaluación", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Evita la participación de los usuarios para acelerar el proceso", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Minimiza la retroalimentación del usuario", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Reduce la calidad del producto final", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q19",
+      "type": "multiple",
+      "text": "En el contexto de IPO, ¿qué es la memoria a corto plazo (MCP)?",
+      "options": [
+        { "id": "o1", "text": "Una memoria de duración breve y capacidad limitada para retener información temporal", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Una memoria con capacidad infinita y acceso rápido", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Una memoria que almacena datos permanentemente", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Una memoria para almacenar hábitos motores", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q20",
+      "type": "multiple",
+      "text": "¿Qué aspecto NO es propio del diseño dentro de la IPO?",
+      "options": [
+        { "id": "o1", "text": "Crear objetos que solo sean estéticamente agradables sin funcionalidad", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Lograr que los productos sean funcionales y visualmente agradables", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Asegurar que los productos cumplan requisitos funcionales y estéticos", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Contribuir a la creación de interfaces efectivas", "isCorrect": false, "value": 0 }
+      ]
+    }
+  ]
+}

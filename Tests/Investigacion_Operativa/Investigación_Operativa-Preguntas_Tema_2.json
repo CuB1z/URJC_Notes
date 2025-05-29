@@ -1,0 +1,944 @@
+{
+    "id": "IO-T2-2025",
+    "title": "Test de Investigación Operativa - Tema 2",
+    "description": "Evaluación sobre los conceptos del Tema 2 de Investigación Operativa",
+    "tags": [
+        "Investigación Operativa",
+        "Tema 2",
+        "Evaluación",
+        "Optimización",
+        "Programación Lineal"
+    ],
+    "questions": [
+        {
+            "id": "q1",
+            "type": "multiple",
+            "text": "¿Cuál es el objetivo principal de la Investigación Operativa?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Maximizar costos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Minimizar beneficios",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Optimizar la toma de decisiones",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o4",
+                    "text": "Incrementar la complejidad",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q2",
+            "type": "multiple",
+            "text": "¿Qué técnica se utiliza comúnmente en Investigación Operativa para resolver problemas de optimización?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Análisis de regresión",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Programación lineal",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Análisis de varianza",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Teoría de juegos",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q3",
+            "type": "multiple",
+            "text": "¿Qué es un modelo matemático en Investigación Operativa?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Una representación gráfica de datos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Una ecuación que describe un sistema",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Un conjunto de reglas de negocio",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un algoritmo de búsqueda",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q4",
+            "type": "multiple",
+            "text": "¿Cuál es la función objetivo en un problema de programación lineal?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Una restricción del problema",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Una variable de decisión",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "La función que se desea maximizar o minimizar",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o4",
+                    "text": "Un parámetro del modelo",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q5",
+            "type": "multiple",
+            "text": "¿Qué representa una restricción en un modelo de programación lineal?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un límite en los valores de las variables de decisión",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "La función objetivo",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un parámetro del modelo",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Una variable de decisión",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q6",
+            "type": "multiple",
+            "text": "¿Qué es una variable de decisión en un modelo de programación lineal?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Una constante del modelo",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Una variable que se puede controlar",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Un parámetro del modelo",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Una restricción del problema",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q7",
+            "type": "multiple",
+            "text": "¿Qué método se utiliza para resolver problemas de programación lineal?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Método de Monte Carlo",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Método Simplex",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Análisis de regresión",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Teoría de colas",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q8",
+            "type": "multiple",
+            "text": "¿Qué es un problema de transporte en Investigación Operativa?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un problema de optimización de rutas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Un problema de asignación de recursos",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Un problema de programación de tareas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un problema de teoría de juegos",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q9",
+            "type": "multiple",
+            "text": "¿Qué es un problema de asignación en Investigación Operativa?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un problema de optimización de rutas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Un problema de asignación de tareas a recursos",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Un problema de programación de tareas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un problema de teoría de colas",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q10",
+            "type": "multiple",
+            "text": "¿Qué es la teoría de colas en Investigación Operativa?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "El estudio de líneas de espera",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "El estudio de la asignación de recursos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "El estudio de la programación de tareas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "El estudio de la teoría de juegos",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q11",
+            "type": "multiple",
+            "text": "¿Qué es un modelo de simulación en Investigación Operativa?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un modelo que utiliza ecuaciones diferenciales",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Un modelo que imita el comportamiento de un sistema real",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Un modelo que optimiza la toma de decisiones",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un modelo que utiliza análisis de regresión",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q12",
+            "type": "multiple",
+            "text": "¿Qué es la teoría de juegos en Investigación Operativa?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "El estudio de la toma de decisiones en situaciones de competencia",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "El estudio de la optimización de rutas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "El estudio de la programación de tareas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "El estudio de la teoría de colas",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q13",
+            "type": "multiple",
+            "text": "¿Qué es un problema de inventarios en Investigación Operativa?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un problema de optimización de rutas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Un problema de gestión de stock",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Un problema de programación de tareas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un problema de teoría de juegos",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q14",
+            "type": "multiple",
+            "text": "¿Qué es un problema de programación de tareas en Investigación Operativa?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un problema de optimización de rutas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Un problema de asignación de recursos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un problema de secuenciación de actividades",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o4",
+                    "text": "Un problema de teoría de colas",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q15",
+            "type": "multiple",
+            "text": "¿Qué es un problema de optimización combinatoria en Investigación Operativa?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un problema de optimización de rutas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Un problema de optimización de combinaciones de elementos",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Un problema de programación de tareas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un problema de teoría de colas",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q16",
+            "type": "multiple",
+            "text": "¿Qué es el análisis de sensibilidad en programación lineal?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un análisis para determinar la robustez de la solución óptima ante cambios en los parámetros",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un análisis para encontrar la solución óptima",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un análisis para minimizar los costos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un análisis para maximizar los beneficios",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q17",
+            "type": "multiple",
+            "text": "¿Qué es un valor sombra en programación lineal?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "El valor de una variable de decisión",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "El incremento en el valor de la función objetivo por unidad adicional de recurso",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "El costo reducido de una variable",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "El valor de una restricción no activa",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q18",
+            "type": "multiple",
+            "text": "¿Qué es una restricción activa en programación lineal?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Una restricción que no se cumple en la solución óptima",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Una restricción que se cumple con igualdad en la solución óptima",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Una restricción que tiene un valor sombra de cero",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Una restricción que no afecta la solución óptima",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q19",
+            "type": "multiple",
+            "text": "¿Qué es una restricción no activa en programación lineal?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Una restricción que se cumple con igualdad en la solución óptima",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Una restricción que tiene un valor sombra positivo",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Una restricción que tiene un margen en la solución óptima",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o4",
+                    "text": "Una restricción que limita directamente la solución",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q20",
+            "type": "multiple",
+            "text": "¿Qué es el método Simplex en programación lineal?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un método para resolver problemas de programación no lineal",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Un método iterativo para encontrar la solución óptima de problemas de programación lineal",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Un método para resolver problemas de teoría de juegos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un método para realizar análisis de regresión",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q21",
+            "type": "multiple",
+            "text": "¿Qué es la programación entera en Investigación Operativa?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un tipo de programación lineal donde las variables de decisión deben ser enteras",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un tipo de programación no lineal",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un método para resolver problemas de teoría de colas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un método para realizar análisis de regresión",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q22",
+            "type": "multiple",
+            "text": "¿Qué es un problema de flujo en redes en Investigación Operativa?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un problema de optimización de rutas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Un problema de asignación de recursos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un problema de maximización del flujo a través de una red",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o4",
+                    "text": "Un problema de teoría de juegos",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q23",
+            "type": "multiple",
+            "text": "¿Qué es la programación dinámica en Investigación Operativa?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un método para resolver problemas de optimización dividiéndolos en subproblemas más pequeños",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un método para resolver problemas de teoría de colas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un método para realizar análisis de regresión",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un método para resolver problemas de programación no lineal",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q24",
+            "type": "multiple",
+            "text": "¿Qué es un problema de localización en Investigación Operativa?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un problema de optimización de rutas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Un problema de asignación de recursos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un problema de determinar la mejor ubicación para instalaciones",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o4",
+                    "text": "Un problema de teoría de juegos",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q25",
+            "type": "multiple",
+            "text": "¿Qué es un problema de secuenciación en Investigación Operativa?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un problema de optimización de rutas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Un problema de asignación de recursos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un problema de determinar el orden de realización de tareas",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o4",
+                    "text": "Un problema de teoría de juegos",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q26",
+            "type": "multiple",
+            "text": "¿Qué es una restricción de no negatividad en programación lineal?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Una restricción que asegura que las variables de decisión no sean negativas",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Una restricción que asegura que las variables de decisión sean enteras",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Una restricción que asegura que las variables de decisión sean fraccionarias",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Una restricción que asegura que las variables de decisión sean positivas",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q27",
+            "type": "multiple",
+            "text": "¿Qué es el análisis de resultados en Gurobipy?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un análisis para determinar la robustez de la solución óptima",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Un análisis para encontrar la solución óptima",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un análisis para interpretar los valores sombra, costes reducidos y holguras",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o4",
+                    "text": "Un análisis para maximizar los beneficios",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q28",
+            "type": "multiple",
+            "text": "¿Qué es una restricción activa en programación lineal?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Una restricción que se cumple con igualdad en la solución óptima",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Una restricción que no se cumple en la solución óptima",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Una restricción que tiene un valor sombra de cero",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Una restricción que no afecta la solución óptima",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q29",
+            "type": "multiple",
+            "text": "¿Qué es una restricción no activa en programación lineal?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Una restricción que se cumple con igualdad en la solución óptima",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Una restricción que tiene un valor sombra positivo",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Una restricción que tiene un margen en la solución óptima",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o4",
+                    "text": "Una restricción que limita directamente la solución",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q30",
+            "type": "multiple",
+            "text": "¿Qué es el método Simplex en programación lineal?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un método para resolver problemas de programación no lineal",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Un método iterativo para encontrar la solución óptima de problemas de programación lineal",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Un método para resolver problemas de teoría de juegos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un método para realizar análisis de regresión",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        }
+    ]
+}

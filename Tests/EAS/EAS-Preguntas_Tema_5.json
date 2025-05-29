@@ -1,0 +1,635 @@
+{
+  "id": "quiz-evolucion-adaptacion-software-04",
+  "title": "Principios de Diseño y Arquitectura - Tema 5",
+  "description": "Cuestionario sobre principios SOLID, RCC, ASS, Inversión de Control y patrones de diseño clave para un diseño sostenible y modular.",
+  "tags": [
+    "URJC",
+    "EAS",
+    "Principios Diseño",
+    "SOLID",
+    "Patrones",
+    "Arquitectura"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "text": "¿Cuál es uno de los objetivos del diseño orientado a objetos moderno?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Garantizar escalabilidad, mantenibilidad y flexibilidad ante cambios.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "Reducir el número de clases en el sistema.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Evitar el uso de patrones de diseño.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Eliminar completamente las dependencias entre módulos.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "text": "¿Qué indica el Principio de Responsabilidad Única (SRP)?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Una clase debe tener un solo motivo para cambiar.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "Una clase debe implementar todas las funcionalidades posibles.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Las clases deben ser altamente acopladas.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Las interfaces deben tener múltiples responsabilidades.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "text": "¿Qué propone el Principio Abierto-Cerrado (OCP)?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Las entidades deben estar abiertas a extensión pero cerradas a modificación.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "El código debe ser constantemente reescrito para adaptarse.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Las clases deben tener múltiples responsabilidades.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Las interfaces deben agrupar muchas funcionalidades.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "text": "¿Cuál es el objetivo del Principio de Sustitución de Liskov (LSP)?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Las subclases deben poder reemplazar a sus clases base sin afectar el programa.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "Las subclases deben tener comportamientos completamente distintos.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Todas las clases deben evitar la herencia.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Los métodos deben ser siempre privados.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "text": "¿Qué sugiere el Principio de Segregación de Interfaces (ISP)?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Los clientes no deben depender de interfaces que no usan.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "Todas las funcionalidades deben estar en una única interfaz.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Las interfaces deben heredar de clases concretas.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Las interfaces deben implementarse solo una vez.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "text": "¿Qué establece el Principio de Inversión de Dependencias (DIP)?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Los módulos de alto nivel deben depender de abstracciones, no de detalles.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "Los módulos deben evitar el uso de interfaces.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Las clases deben conocer sus dependencias concretas.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "No se debe usar polimorfismo para la inyección de dependencias.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "text": "¿Qué patrón es adecuado para crear objetos sin conocer su clase concreta?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Factory Method",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "Decorator",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Bridge",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Observer",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "text": "¿Qué patrón permite extender la funcionalidad sin modificar el código existente?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Decorator",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "Adapter",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Command",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Factory Method",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "text": "¿Qué establece el Principio de Equivalencia Reutilización/Revisión (REP)?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Los elementos reutilizados juntos deben vivir y distribuirse juntos.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "Los paquetes deben cambiar con frecuencia para ser útiles.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Cada clase debe pertenecer a un paquete independiente.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "No se deben usar herramientas de gestión de versiones.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "text": "¿Cuál es una consecuencia de violar el Principio de Reutilización Común (CRP)?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Cambios en el paquete afectan a clientes que no usan todas sus clases.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "Los paquetes se vuelven más cohesionados.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Se mejora la mantenibilidad.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Los clientes tienen menos dependencias.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "type": "multiple",
+      "text": "¿Qué sugiere el Principio de Cierre Común (CCP)?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Agrupar clases que cambian por las mismas razones.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "Evitar usar reglas de negocio en paquetes.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Distribuir clases sin relación en el mismo paquete.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Separar reglas similares en múltiples paquetes.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "type": "multiple",
+      "text": "¿Qué se busca evitar con el Principio de Dependencias Acíclicas (ADP)?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Ciclos en las dependencias entre paquetes.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "Uso de interfaces en paquetes.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Clases abstractas en múltiples paquetes.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Herencia entre componentes de UI.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "type": "multiple",
+      "text": "¿Qué indica el Principio de Dependencias Estables (SDP)?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Un paquete debe depender solo de otros más estables que él.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "Un paquete puede depender de cualquier otro sin restricciones.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Las dependencias deben ser siempre circulares.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "La estabilidad no es relevante en el diseño de paquetes.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "type": "multiple",
+      "text": "¿Cuál es la relación entre estabilidad y abstracción según el Principio SAP?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Los paquetes estables deben ser abstractos para permitir su extensión.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "Los paquetes inestables deben ser concretos.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Los paquetes estables no deben modificarse nunca.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Abstracción y estabilidad no están relacionadas.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "type": "multiple",
+      "text": "¿Qué busca la Inversión de Control (IoC)?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Delegar el control de dependencias a un framework o contenedor.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "Eliminar completamente la herencia.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Forzar a los módulos de bajo nivel a controlar el flujo.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Aumentar el acoplamiento entre clases.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "type": "multiple",
+      "text": "¿Cuál de los siguientes patrones está relacionado con la Inversión de Control?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Template Method",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "Visitor",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Flyweight",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Builder",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "type": "multiple",
+      "text": "¿Cuál es un beneficio del Principio de Inversión de Dependencias (DIP)?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Fomenta una arquitectura desacoplada y flexible.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "Reduce el uso de interfaces.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Elimina la necesidad de pruebas automatizadas.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Requiere clases concretas para cada componente.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "type": "multiple",
+      "text": "¿Qué permite aplicar correctamente los principios RCC y ASS?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Una organización modular y mantenible a gran escala.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "Eliminar la documentación del sistema.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Reducir la calidad del software intencionalmente.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Unificar todos los paquetes en uno solo.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "type": "multiple",
+      "text": "¿Qué patrón permite cambiar el comportamiento de una clase en tiempo de ejecución?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Strategy",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "Singleton",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Prototype",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Facade",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "type": "multiple",
+      "text": "¿Qué beneficio general se obtiene al aplicar principios como SOLID, RCC y ASS?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Reducción del acoplamiento y mejora de la mantenibilidad.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "Incremento del tamaño del sistema.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Mayor dificultad para aplicar pruebas.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Dependencia exclusiva en frameworks externos.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    }
+  ]
+}

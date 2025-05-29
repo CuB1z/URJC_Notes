@@ -1,0 +1,312 @@
+{
+    "id": "DAS-ENERO-23-24",
+    "title": "Test de Diseño y Arquitectura Software - Enero 2023",
+    "description": "Examen de Diseño y Arquitectura Software de la convocatoria de Enero de 2023.",
+    "tags": [
+        "Diseño de Software",
+        "Arquitectura de Software",
+        "Enero 2023"
+    ],
+    "questions": [
+        {
+            "id": "q1",
+            "text": "Sobre las decisiones de diseño arquitectónicas podemos afirmar",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Son elementos de diseño considerados de primera clase al igual que los componentes de una arquitectura",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Deben contener un estado que indique el nivel de toma de decisión por parte de los arquitectos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "No permiten capturar las razones subyacentes en la selección de alternativas de diseño",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Se toman en función de los patrones de diseño disponibles",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q2",
+            "text": "¿En qué consiste una arquitectura de referencia?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Una arquitectura que se puede aplicar en diversos sodminios",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "El mapeo de un modelo de referencia a componentes software",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "El resultado de elegir un estilo arquitectónico",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Una arquitectura software que no tiene componentes",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q3",
+            "text": "¿Cuál de los siguientes NO es un principio de diseño software?, entendiendo por principio una buena práctica de diseño",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "El grado de cohesión entre clases debe ser alto",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Las arquitecturas deben ser modulares",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "El grado de acoplamiento entre clases debe ser alto",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o4",
+                    "text": "Los módulos de las arquitecturas deben seguir la separación de responsabilidades",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q4",
+            "text": "Sobre la trazabilidad interna entre decisiones de diseño, se puede decir:",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "La trazabilidad interna depende de la externa",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Solo es necesaria la trazabilidad entre las decisiones y la arquitectura",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Es necesario tener trazabilidad de decisiones a requisitos pero no hacia la arquitectura",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "La trazabilidad entre decisiones permite conocer el impacto al modificar una decisión",
+                    "isCorrect": true,
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "id": "q5",
+            "text": "En los sistemas desarrollados bajo el modelo de lo que se conoce como Industria 4.0 podemos encontrar:",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Todos los sistemas de I4.0 cuentan con un gemelo digital",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "La optimización de los procesos es un aspecto obligatorio",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Siempre existen algoritmos inteligentes basados en IA",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un grado de automatización y digitalización sin precedentes",
+                    "isCorrect": true,
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "id": "q6",
+            "text": "Sobre los patrones de diseño software, podemos afirmar:",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Suele haber un estilo equivalente a cada patrón de diseño",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Son, junto a los estilos, soluciones de diseño",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Tiene una granularidad equivalente a los estilos arquitectónicos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Son elemenos arquitectónicos derivados de los estilos en arquitectura",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q7",
+            "text": "Podemos afirmar acerca de los SoS, que:",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un SoS no dispone de interoperabilidad entre sus constituyentes",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "La construcción de un SoS puede involucrar diferentes disciplinas",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Un SoS necesita un sistema de coordinación centralizado",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un SoS es un sistema de complejidad media formado por 2 o más estilos arquitectónicos",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q8",
+            "text": "Se entiende por pensamiento reflectivo en arquitectura software lo siguiente:",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Una forma de pensamiento crítico sobre decisiones que se toman",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Valorar siempre las mejores alternativas de diseño",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Una técnica que permite modifica nuestras decisiones",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Son las razones subyacentes por las cuales sabemos que una decisión es correcta",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q9",
+            "text": "Las herramientas de AKM (Architectural Knowledge Management) permiten:",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Deben permitir votas sobre las alternativas de diseño planteadas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Siempre capturan y comparten el conocimiento con téncias de knowledge sharing",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Solo capturar el conocimiento en plantillas de texto",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Facilitan la captura y representación del conocimiento (AK) en diversos formatos",
+                    "isCorrect": true,
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "id": "q10",
+            "text": "Una arquitectura se define como:",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Una arquitectura de referencia que no necesita personalizarse",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "El resultado de un conjunto de decisiones de diseño",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "El diseño software de un sistema solo de las clases de bajo nivel",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "El diseño de una única vista arquitectónica",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        }
+    ]
+}

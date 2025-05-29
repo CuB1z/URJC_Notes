@@ -1,0 +1,450 @@
+{
+    "id": "SO-T6-2025",
+    "title": "Test sobre el Tema 6 - Gestión de Ficheros",
+    "description": "Evaluación sobre la gestión de ficheros en sistemas operativos",
+    "tags": [
+        "Sistemas Operativos",
+        "Gestión de Ficheros",
+        "Inodos",
+        "NTFS",
+        "APFS",
+        "Ext4",
+        "XFS"
+    ],
+    "questions": [
+        {
+            "id": "q1",
+            "type": "multiple",
+            "text": "¿Qué es un sistema de ficheros?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un sistema para gestionar redes",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Un software para organizar y gestionar dispositivos de almacenamiento secundario",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Un protocolo de seguridad de datos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un hardware de almacenamiento",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q2",
+            "type": "multiple",
+            "text": "¿Qué atributo de un fichero identifica su formato?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Tamaño",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Nombre",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Tipo",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o4",
+                    "text": "Permisos",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q3",
+            "type": "multiple",
+            "text": "¿Cuál de los siguientes no es un tipo de archivo?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Secuencia de bytes",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "ASCII",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Binarios",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Conexión remota",
+                    "isCorrect": true,
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "id": "q4",
+            "type": "multiple",
+            "text": "¿Qué estructura se utiliza en sistemas Unix/Linux para almacenar metadata de un archivo?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "FAT",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Árboles B",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Inodos",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o4",
+                    "text": "Superbloque",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q5",
+            "type": "multiple",
+            "text": "¿Cuál es una ventaja del método de asignación contigua de bloques?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Evita la fragmentación externa",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Acceso rápido a los datos",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Ocupa menos espacio en disco",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Requiere índices adicionales",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q6",
+            "type": "multiple",
+            "text": "¿Qué operación sobre archivos permite modificar su contenido?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Creación",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Lectura",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Escritura",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o4",
+                    "text": "Búsqueda",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q7",
+            "type": "multiple",
+            "text": "¿Qué sistema de archivos utiliza Master File Table (MFT) para gestionar archivos y metadatos?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Ext4",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "NTFS",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "BTRFS",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "XFS",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q8",
+            "type": "multiple",
+            "text": "¿Qué método de gestión del espacio libre utiliza un bit para indicar si un bloque está libre u ocupado?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Mapa de bits",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Lista enlazada",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Árboles B+",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "FAT",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q9",
+            "type": "multiple",
+            "text": "¿Cuál de los siguientes sistemas de archivos está diseñado para dispositivos SSD?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "APFS",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "NTFS",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Ext4",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "BTRFS",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q10",
+            "type": "multiple",
+            "text": "¿Qué atributo de un fichero indica qué usuarios pueden acceder al archivo?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Nombre",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Tipo",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Tamaño",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Permisos",
+                    "isCorrect": true,
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "id": "q11",
+            "type": "multiple",
+            "text": "¿Qué estructura utiliza Ext4 para reducir la fragmentación?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "FAT",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Inodos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Extents",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o4",
+                    "text": "Superbloque",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q12",
+            "type": "multiple",
+            "text": "¿Cuál de los siguientes sistemas de archivos es ideal para entornos de Big Data?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Ext4",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "NTFS",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "APFS",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "XFS",
+                    "isCorrect": true,
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "id": "q13",
+            "type": "multiple",
+            "text": "¿Qué método de asignación de bloques elimina la fragmentación externa pero es ineficiente para acceso directo?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Contigua",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Enlazada",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Indexada",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Extents",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q14",
+            "type": "multiple",
+            "text": "¿Qué componente del sistema de ficheros almacena información esencial como la cantidad de bloques libres?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Bloque de control de arranque",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Superbloque",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Tabla FAT",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Tabla MFT",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        }
+    ]
+}

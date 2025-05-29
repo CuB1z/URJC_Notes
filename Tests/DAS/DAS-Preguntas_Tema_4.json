@@ -1,0 +1,943 @@
+{
+    "id": "DAS-T4-2025",
+    "title": "Test de Diseño y Arquitectura Software - Tema 4",
+    "description": "Este test evalúa los conocimientos sobre el Tema 4 de Decisiones de Diseño y Conocimiento Arquitectónico.",
+    "tags": [
+        "Decisiones de Diseño",
+        "Conocimiento Arquitectónico",
+        "URJC",
+        "Tema 4"
+    ],
+    "questions": [
+        {
+            "id": "q1",
+            "type": "multiple",
+            "text": "¿Qué son las Decisiones de Diseño Arquitectónico?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un conjunto de componentes y conectores.",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "El resultado de un conjunto de decisiones de diseño.",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Un método para realizar investigaciones científicas.",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Una técnica para mejorar la calidad de productos.",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q2",
+            "type": "multiple",
+            "text": "¿Qué permite la caracterización de decisiones?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Capturar conocimiento de ADD utilizando plantillas de texto, ontologías y anotaciones en código.",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Mejorar la calidad de productos.",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Realizar investigaciones científicas.",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Desarrollar software.",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q3",
+            "type": "multiple",
+            "text": "¿Qué herramienta se utiliza para la captura y mantenimiento de conocimiento aplicado (AK)?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "PAKME",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Archium",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "AREL/eAREL",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "ADDSS",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q4",
+            "type": "multiple",
+            "text": "¿Qué permite la trazabilidad en la captura y gestión de decisiones arquitectónicas?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Establecer trazabilidad con requisitos y arquitecturas.",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Mejorar la calidad de productos.",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Realizar investigaciones científicas.",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Desarrollar software.",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q5",
+            "type": "multiple",
+            "text": "¿Qué se debe hacer en la etapa de evolución de decisiones?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Mantener un histórico de las decisiones.",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Mejorar la calidad de productos.",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Realizar investigaciones científicas.",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Desarrollar software.",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q6",
+            "type": "multiple",
+            "text": "¿Qué herramienta permite la captura de decisiones de diseño con avisos sobre decisiones incompatibles?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Archium",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "PAKME",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "AREL/eAREL",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "ADDSS",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q7",
+            "type": "multiple",
+            "text": "¿Qué herramienta permite incluir decisiones de diseño en los modelos de clases UML?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "AREL/eAREL",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "PAKME",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Archium",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "ADDSS",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q8",
+            "type": "multiple",
+            "text": "¿Qué herramienta permite la captura de conocimiento y soporta personalización de atributos?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "ADDSS",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "PAKME",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Archium",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "AREL/eAREL",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q9",
+            "type": "multiple",
+            "text": "¿Qué herramienta permite marcar las decisiones de diseño con otros elementos del documento Word?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "The Knowledge Architect",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "PAKME",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Archium",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "ADDSS",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q10",
+            "type": "multiple",
+            "text": "¿Qué herramienta permite compartir conocimiento y gestión de usuarios basada en la plataforma Hipergate?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "EAGLE",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "PAKME",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Archium",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "ADDSS",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q11",
+            "type": "multiple",
+            "text": "¿Qué herramienta almacena más de 400 decisiones SOA?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "AdWiki",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "PAKME",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Archium",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "ADDSS",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q12",
+            "type": "multiple",
+            "text": "¿Qué herramienta soporta la captura y representación de decisiones arquitectónicas mediante el método QOC?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "ADvISE",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "PAKME",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Archium",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "ADDSS",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q13",
+            "type": "multiple",
+            "text": "¿Qué herramienta proporciona una vista de componentes y conectores de la arquitectura junto con ADvISE?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "VbMF",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "PAKME",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Archium",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "ADDSS",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q14",
+            "type": "multiple",
+            "text": "¿Qué formato libre se utiliza para capturar decisiones arquitectónicas en ficheros markdown?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "MADR",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "PAKME",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Archium",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "ADDSS",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q15",
+            "type": "multiple",
+            "text": "¿Qué se debe evitar en la toma de decisiones en diseño arquitectónico?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Decisiones sesgadas",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Capturar conocimiento",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Documentar motivos subyacentes",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Facilitar la evolución de la arquitectura",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q16",
+            "type": "multiple",
+            "text": "¿Qué tarea corresponde a Mind 1 en el modelo Mind1/Mind2?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Identificar contexto y requisitos",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Reflexionar sobre contexto y requisitos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Reflexionar sobre problemas de diseño",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Reflexionar sobre soluciones",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q17",
+            "type": "multiple",
+            "text": "¿Qué tarea corresponde a Mind 2 en el modelo Mind1/Mind2?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Reflexionar sobre contexto y requisitos",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Identificar contexto y requisitos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Formular problemas de diseño",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Plantear soluciones",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q18",
+            "type": "multiple",
+            "text": "¿Qué se debe hacer antes de tomar una decisión en diseño arquitectónico?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Reflexionar",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Desarrollar software",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Realizar investigaciones científicas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Mejorar la calidad de productos",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q19",
+            "type": "multiple",
+            "text": "¿Qué permite el histórico de decisiones en la evolución de decisiones?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Conocer la historia de las decisiones tomadas",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Mejorar la calidad de productos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Realizar investigaciones científicas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Desarrollar software",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q20",
+            "type": "multiple",
+            "text": "¿Qué permite la captura y documentación de las decisiones de diseño y arquitectura?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Establecer trazabilidad con requisitos y arquitecturas",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Mejorar la calidad de productos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Realizar investigaciones científicas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Desarrollar software",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q21",
+            "type": "multiple",
+            "text": "¿Qué permite la forward traceability en la gestión de decisiones arquitectónicas?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Estimar el impacto de cambios en los requisitos sobre el diseño.",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Rastrear las causas y orígenes de los cambios en el diseño.",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Mejorar la calidad de productos.",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Desarrollar software.",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q22",
+            "type": "multiple",
+            "text": "¿Qué permite la backward traceability en la gestión de decisiones arquitectónicas?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Rastrear las causas y orígenes de los cambios en el diseño.",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Estimar el impacto de cambios en los requisitos sobre el diseño.",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Mejorar la calidad de productos.",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Desarrollar software.",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q23",
+            "type": "multiple",
+            "text": "¿Qué se debe hacer antes de tomar una decisión en diseño arquitectónico?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Reflexionar",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Desarrollar software",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Realizar investigaciones científicas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Mejorar la calidad de productos",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q24",
+            "type": "multiple",
+            "text": "¿Qué se debe evitar en la toma de decisiones en diseño arquitectónico?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Decisiones sesgadas",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Capturar conocimiento",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Documentar motivos subyacentes",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Facilitar la evolución de la arquitectura",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q25",
+            "type": "multiple",
+            "text": "¿Qué tarea corresponde a Mind 1 en el modelo Mind1/Mind2?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Identificar contexto y requisitos",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Reflexionar sobre contexto y requisitos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Reflexionar sobre problemas de diseño",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Reflexionar sobre soluciones",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q26",
+            "type": "multiple",
+            "text": "¿Qué tarea corresponde a Mind 2 en el modelo Mind1/Mind2?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Reflexionar sobre contexto y requisitos",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Identificar contexto y requisitos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Formular problemas de diseño",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Plantear soluciones",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q27",
+            "type": "multiple",
+            "text": "¿Qué permite el histórico de decisiones en la evolución de decisiones?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Conocer la historia de las decisiones tomadas",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Mejorar la calidad de productos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Realizar investigaciones científicas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Desarrollar software",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q28",
+            "type": "multiple",
+            "text": "¿Qué permite la captura y documentación de las decisiones de diseño y arquitectura?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Establecer trazabilidad con requisitos y arquitecturas",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Mejorar la calidad de productos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Realizar investigaciones científicas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Desarrollar software",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q29",
+            "type": "multiple",
+            "text": "¿Qué permite la caracterización de decisiones?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Capturar conocimiento de ADD utilizando plantillas de texto, ontologías y anotaciones en código.",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Mejorar la calidad de productos.",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Realizar investigaciones científicas.",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Desarrollar software.",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q30",
+            "type": "multiple",
+            "text": "¿Qué permite la trazabilidad en la captura y gestión de decisiones arquitectónicas?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Establecer trazabilidad con requisitos y arquitecturas.",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Mejorar la calidad de productos.",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Realizar investigaciones científicas.",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Desarrollar software.",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        }
+    ]
+}

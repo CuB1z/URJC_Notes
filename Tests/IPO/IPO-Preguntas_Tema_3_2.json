@@ -1,0 +1,228 @@
+{
+  "id": "ipo_tema_3_2_quiz_001",
+  "title": "Quiz sobre Análisis de Datos en IPO y Perfiles de Usuario (Tema 3.2)",
+  "description": "Preguntas para evaluar conocimientos sobre tipos de datos, análisis cuantitativo y cualitativo, visualización, perfiles de usuario y presentación de resultados, basadas en el Tema 3.2.",
+  "tags": ["URJC", "IPO", "Análisis de Datos", "Cuantitativo", "Cualitativo", "Perfiles de Usuario", "Personas"],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "text": "¿Cuál es una diferencia fundamental entre datos cuantitativos y cualitativos?",
+      "options": [
+        { "id": "o1", "text": "Los datos cuantitativos son numéricos y medibles; los cualitativos son descripciones y opiniones", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Los datos cualitativos son siempre más precisos que los cuantitativos", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Los datos cuantitativos no se pueden analizar estadísticamente", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Los datos cualitativos no aportan contexto", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "text": "¿Qué medida estadística es robusta frente a valores extremos (outliers)?",
+      "options": [
+        { "id": "o1", "text": "Mediana", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Media", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Moda", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Desviación estándar", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "text": "¿Qué es un perfil de usuario o persona en diseño centrado en el usuario?",
+      "options": [
+        { "id": "o1", "text": "Un arquetipo que sintetiza características de un grupo de usuarios para orientar el diseño", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Un usuario real que prueba el sistema", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Un tipo de hardware para usuarios", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Un documento legal para usuarios", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "text": "¿Cuál es una técnica usada para el análisis en profundidad de datos cualitativos?",
+      "options": [
+        { "id": "o1", "text": "Identificación de patrones y diagramas de afinidad", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Cálculo de medias y desviaciones", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Codificación binaria", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Uso exclusivo de gráficos circulares", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "text": "¿Cuál es una ventaja del uso de software especializado para análisis de datos cualitativos?",
+      "options": [
+        { "id": "o1", "text": "Automatiza tareas y aumenta precisión en la codificación", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Elimina la necesidad de análisis humano", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Solo sirve para datos numéricos", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "No permite visualización de datos", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "text": "¿Qué principio es importante para la presentación rigurosa de resultados?",
+      "options": [
+        { "id": "o1", "text": "Presentar solo datos observados y adaptar la comunicación a la audiencia", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Generalizar conclusiones sin evidencia", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Usar términos absolutos sin respaldo", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Ignorar gráficos claros", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "text": "¿Qué herramienta es común para análisis estadístico de datos cuantitativos?",
+      "options": [
+        { "id": "o1", "text": "SPSS", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "NVivo", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "MAXQDA", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Microsoft Paint", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "text": "¿Qué elemento suele incluir un perfil de usuario (persona)?",
+      "options": [
+        { "id": "o1", "text": "Nombre, edad, estilo de vida, habilidades tecnológicas", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Código fuente del software", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Número de versión del sistema operativo", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Lista de comandos de teclado", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "text": "¿Qué es un diagrama de afinidad en análisis cualitativo?",
+      "options": [
+        { "id": "o1", "text": "Una técnica para agrupar datos similares en categorías", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Un gráfico de barras para datos numéricos", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Un tipo de cuestionario", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Un diagrama UML", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "text": "¿Por qué es importante combinar datos cuantitativos y cualitativos en IPO?",
+      "options": [
+        { "id": "o1", "text": "Para obtener un análisis más completo y contextualizado", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Porque uno reemplaza al otro", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Para simplificar el análisis eliminando variables", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Para evitar hacer análisis cualitativos", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q11",
+      "type": "multiple",
+      "text": "¿Qué es una escala de Likert?",
+      "options": [
+        { "id": "o1", "text": "Una escala ordinal que mide grado de acuerdo o actitud con varios niveles", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Un tipo de gráfico circular", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Una técnica para grabar vídeos de usuarios", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Un tipo de cuestionario abierto", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q12",
+      "type": "multiple",
+      "text": "¿Cuál es un riesgo al analizar datos sin cuidado en IPO?",
+      "options": [
+        { "id": "o1", "text": "Hacer generalizaciones erróneas o especulativas", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Mejorar la precisión de los resultados", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Aumentar la validez del estudio", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Obtener conclusiones claras y fiables", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q13",
+      "type": "multiple",
+      "text": "¿Qué técnica se usa para transcribir y codificar datos cualitativos?",
+      "options": [
+        { "id": "o1", "text": "Transcripción y agrupación de información para interpretar patrones", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Cálculo de medias y porcentajes", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Representación en gráficos de barras", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Medición de tiempos de respuesta", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q14",
+      "type": "multiple",
+      "text": "¿Qué se debe evitar al presentar resultados de un estudio IPO?",
+      "options": [
+        { "id": "o1", "text": "Especulaciones y términos absolutos sin evidencia", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Presentar datos observados y con claridad", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Usar gráficos claros y adaptados a la audiencia", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Resumir hallazgos clave para facilitar comprensión", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q15",
+      "type": "multiple",
+      "text": "¿Qué se recomienda hacer para validar críticamente las conclusiones de un estudio?",
+      "options": [
+        { "id": "o1", "text": "Verificar evidencias, considerar tamaño de muestra y evitar generalizaciones erróneas", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Ignorar el volumen y calidad de datos", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Generalizar a partir de observaciones aisladas", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Asumir que todas las conclusiones son correctas sin revisión", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q16",
+      "type": "multiple",
+      "text": "¿Qué tipo de gráficos se usan comúnmente para representar datos cuantitativos?",
+      "options": [
+        { "id": "o1", "text": "Barras, histogramas, gráficos circulares y diagramas de dispersión", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Diagramas UML", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Diagramas de afinidad", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Tablas de códigos", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q17",
+      "type": "multiple",
+      "text": "¿Qué es el análisis de logs en el contexto de IPO?",
+      "options": [
+        { "id": "o1", "text": "Estudio de registros de interacción para analizar comportamientos y patrones", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Grabación de vídeo de usuarios", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Entrevistas a usuarios", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Cuestionarios online", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q18",
+      "type": "multiple",
+      "text": "¿Qué debe incluir un resumen claro para la presentación de resultados?",
+      "options": [
+        { "id": "o1", "text": "Hallazgos clave destacados para facilitar comprensión", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Información irrelevante para saturar la audiencia", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Términos técnicos sin explicación", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Conclusiones sin evidencia", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q19",
+      "type": "multiple",
+      "text": "¿Qué rol juega la codificación en el análisis cualitativo?",
+      "options": [
+        { "id": "o1", "text": "Agrupar y categorizar información para facilitar su interpretación", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Calcular estadísticas de datos numéricos", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Crear gráficos de barras", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Diseñar interfaces gráficas", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q20",
+      "type": "multiple",
+      "text": "¿Por qué es importante interpretar los resultados en contexto y con cautela?",
+      "options": [
+        { "id": "o1", "text": "Para evitar malas conclusiones y comprender mejor las implicaciones reales", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Para justificar cualquier conclusión sin evidencia", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Para acelerar la presentación sin análisis crítico", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Para eliminar la necesidad de validación", "isCorrect": false, "value": 0 }
+      ]
+    }
+  ]
+}

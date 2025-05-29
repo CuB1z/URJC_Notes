@@ -1,0 +1,635 @@
+{
+  "id": "quiz-evolucion-adaptacion-software-02",
+  "title": "Evolución y Adaptación del Software - Tema 1 (20 Preguntas)",
+  "description": "Examen completo con 20 preguntas sobre mantenimiento, evolución, sistemas heredados, WordPress y procesos de software.",
+  "tags": [
+    "URJC",
+    "EAS",
+    "Software",
+    "Mantenimiento",
+    "Evolución",
+    "Legacy Systems"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "text": "¿Qué actividad NO es típica del mantenimiento adaptativo del software?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Adaptar el sistema a nuevos entornos tecnológicos.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Corregir errores de código detectados en producción.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Actualizar el software para compatibilidad con nuevo hardware.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Modificar componentes para ajustarse a actualizaciones del sistema operativo.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "text": "Según la definición de SWEBOK, ¿qué relación existe entre mantenimiento y evolución del software?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "El mantenimiento solo corrige errores, la evolución crea nuevas funcionalidades.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "La evolución incluye tanto cambios por mantenimiento como incorporación de nuevos requisitos.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "La evolución es un proceso separado que no incluye mantenimiento.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "El mantenimiento es posterior a la evolución del software.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "text": "¿Cuál de los siguientes factores incrementa la complejidad y costos en el mantenimiento de software?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Buena documentación y diseño modular.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Falta de documentación y alta interdependencia entre módulos.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Uso de lenguajes modernos y estandarizados.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Pruebas de regresión frecuentes y exhaustivas.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "text": "¿Qué representa un sistema socio-técnico en el contexto de sistemas heredados?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Un sistema que solo incluye software sin interacción humana.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Un sistema que combina tecnología, procesos, personas y políticas organizativas.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Un sistema creado exclusivamente para fines técnicos sin impacto social.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Un sistema heredado que ya no funciona y debe desecharse.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "text": "¿Cuál es una estrategia adecuada cuando un sistema heredado tiene alta calidad pero bajo valor de negocio?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Invertir grandes recursos para mejorarlo y mantenerlo.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Evaluar el costo de cambios y considerar desecharlo si son muy altos.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Reemplazarlo inmediatamente con un sistema nuevo.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Ignorar el sistema ya que no afecta a la organización.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "text": "¿Cuál es la principal función del mantenimiento preventivo en software?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Corregir errores detectados por los usuarios.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Mejorar o añadir funcionalidades nuevas.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Facilitar el mantenimiento futuro mediante mejoras estructurales.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o4",
+          "text": "Adaptar el software a cambios en el entorno tecnológico.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "text": "¿Cuál de estas afirmaciones sobre la evolución del software es correcta?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "La evolución se limita a corregir errores sin añadir funcionalidades.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "La evolución implica generar nuevas versiones con cambios funcionales o no funcionales.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "La evolución solo se aplica en software recién desarrollado.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "La evolución reemplaza completamente versiones antiguas sin mantenerlas.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "text": "¿Cuál de las siguientes no es una fase del ciclo de implementación de cambios en software?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Análisis de requisitos",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Desarrollo de software",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Eliminación definitiva de todos los cambios sin implementación",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o4",
+          "text": "Actualización de requisitos",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "text": "¿Qué porcentaje aproximado del presupuesto en empresas de informática se destina al mantenimiento de software?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "10-20%",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "50-60%",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "80-90%",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o4",
+          "text": "Menos del 5%",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "text": "En la evolución y mantenimiento, ¿qué efecto tiene la falta de documentación sobre las decisiones de diseño?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Facilita la realización de cambios porque es más flexible.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Obliga a los responsables a investigar el motivo original, aumentando el costo y riesgo.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "No afecta al proceso de mantenimiento ni evolución.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Permite eliminar funcionalidades obsoletas fácilmente.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "type": "multiple",
+      "text": "¿Cuál de las siguientes describe mejor el concepto de 'mantenibilidad' en software?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "La facilidad con que un software puede ser cambiado y adaptado.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "La capacidad de un software para funcionar sin errores en producción.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "La velocidad con la que se desarrolla el software inicial.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "La cantidad de usuarios que puede soportar un sistema simultáneamente.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "type": "multiple",
+      "text": "¿Cuál de estas afirmaciones sobre el proceso único de evolución es verdadera?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Separa estrictamente el desarrollo inicial del mantenimiento posterior.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Integra desarrollo y mantenimiento como un proceso continuo y evolutivo.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Solo aplica a sistemas que no requieren cambios después de su entrega.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Implica descartar versiones antiguas inmediatamente después de cambios.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "type": "multiple",
+      "text": "¿Qué servicio AWS es utilizado típicamente para bases de datos gestionadas al implementar WordPress en AWS?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Amazon S3",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Amazon RDS",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Amazon EC2",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "AWS Lambda",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "type": "multiple",
+      "text": "¿Qué aspecto no se considera al evaluar un sistema heredado desde la perspectiva técnica?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Comprensión y estructura del código fuente.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Importancia del sistema para los objetivos de negocio.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Documentación y gestión de versiones.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Disponibilidad de datos de prueba y seguimiento de regresiones.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "type": "multiple",
+      "text": "¿Cuál es el resultado esperado de un mantenimiento perfectivo?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Corregir errores de software detectados en producción.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Añadir o mejorar funcionalidades para satisfacer nuevas necesidades del usuario.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Actualizar el software para compatibilidad con nuevo hardware.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Reducir la cantidad de documentación técnica disponible.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "type": "multiple",
+      "text": "¿Cuál es una de las principales causas para que el mantenimiento de software sea complejo y costoso?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Alta rotación del personal de desarrollo.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "Software desarrollado con metodologías ágiles.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Uso de lenguajes de programación modernos.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Buena gestión de configuraciones.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "type": "multiple",
+      "text": "¿Qué factor aumenta la probabilidad de recibir solicitudes de cambio en un sistema?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Pocas interfaces y baja complejidad de interacciones.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Requisitos estables y sin cambios frecuentes.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Alta cantidad y complejidad de interfaces del sistema.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o4",
+          "text": "Uso exclusivo de software propietario sin integración externa.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "type": "multiple",
+      "text": "¿Cuál es un objetivo principal al evaluar la perspectiva de negocio de un sistema heredado?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Determinar el rendimiento técnico del hardware.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Valorar la contribución del sistema a los procesos de negocio y su uso.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Contabilizar líneas de código y módulos existentes.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Medir la frecuencia de fallos en la base de datos.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "type": "multiple",
+      "text": "¿Qué componente no forma parte típicamente de la arquitectura recomendada para WordPress en AWS?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Balanceador de carga (ELB).",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Servidores EC2.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Base de datos RDS.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Firewall hardware dedicado en sitio.",
+          "isCorrect": true,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "type": "multiple",
+      "text": "¿Cuál es la mejor descripción para un sistema heredado con alta calidad y alto valor para el negocio?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Requiere mantenimiento barato y aporta grandes beneficios, por lo que se debe optimizar y mantener.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "Es costoso de mantener y debe ser descartado pronto.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Tiene poco valor y no justifica inversión.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Solo debe mantenerse si se añaden nuevas funcionalidades constantemente.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    }
+  ]
+}

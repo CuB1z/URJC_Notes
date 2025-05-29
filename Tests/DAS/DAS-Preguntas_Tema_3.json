@@ -1,0 +1,1206 @@
+{
+    "id": "DAS-T3-2025",
+    "title": "Test de Diseño y Arquitectura Software - Tema 3",
+    "description": "Evaluación sobre conceptos de diseño y arquitectura software basados en el Tema 3",
+    "tags": [
+        "Diseño de Software",
+        "Arquitectura de Software",
+        "Estilos Arquitectónicos",
+        "Patrones de Diseño",
+        "UML"
+    ],
+    "questions": [
+        {
+            "id": "q1",
+            "type": "multiple",
+            "text": "¿Qué es un estilo arquitectónico?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Decisiones de alto nivel que se toman en las etapas iniciales del diseño",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Soluciones específicas y detalladas para problemas recurrentes",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un modelo físico de un sistema real",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Una técnica para optimizar procesos sin usar modelos",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q2",
+            "type": "multiple",
+            "text": "¿Qué es un patrón de diseño?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Soluciones específicas y detalladas para problemas recurrentes dentro de la arquitectura",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Decisiones de alto nivel que se toman en las etapas iniciales del diseño",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un modelo físico de un sistema real",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Una técnica para optimizar procesos sin usar modelos",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q3",
+            "type": "multiple",
+            "text": "¿Cuál de los siguientes NO es un estilo arquitectónico?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Pipes and Filters",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Estilos por Capas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Cliente-Servidor",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Builder",
+                    "isCorrect": true,
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "id": "q4",
+            "type": "multiple",
+            "text": "¿Qué es el patrón MVC?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un patrón que permite ofrecer diversas vistas de los mismos datos y facilita la interacción multimodal",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un estilo arquitectónico que organiza el software en diferentes niveles",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un patrón que permite copiar objetos existentes sin que el código dependa de sus clases",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un estilo arquitectónico utilizado para acceder a datos y aplicaciones en servidores a través de Internet",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q5",
+            "type": "multiple",
+            "text": "¿Cuál de los siguientes NO es un patrón de diseño creacional?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Builder",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Singleton",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Adapter",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o4",
+                    "text": "Prototype",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q6",
+            "type": "multiple",
+            "text": "¿Qué es la notación C4?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Una notación creada para ayudar a los desarrolladores a comunicar la arquitectura y documentar el diseño del código",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un estilo arquitectónico que organiza el software en diferentes niveles",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un patrón que permite copiar objetos existentes sin que el código dependa de sus clases",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un patrón que permite ofrecer diversas vistas de los mismos datos y facilita la interacción multimodal",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q7",
+            "type": "multiple",
+            "text": "¿Qué es un patrón de diseño estructural?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un patrón que se encarga de la composición de clases y objetos",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un patrón que define la interacción y comunicación entre objetos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un patrón que se enfoca en la creación de objetos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un patrón que permite modificar componentes de manera independiente",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q8",
+            "type": "multiple",
+            "text": "¿Cuál de los siguientes NO es un patrón de diseño estructural?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Adapter",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Proxy",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Facade",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Strategy",
+                    "isCorrect": true,
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "id": "q9",
+            "type": "multiple",
+            "text": "¿Qué es el patrón Singleton?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un patrón que garantiza la existencia de una única instancia para una clase",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un patrón que permite copiar objetos existentes sin que el código dependa de sus clases",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un patrón que abstrae el proceso de creación de un objeto complejo",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un patrón que define nuevas operaciones sobre una jerarquía de clases sin modificar las clases sobre las que opera",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q10",
+            "type": "multiple",
+            "text": "¿Cuál de los siguientes NO es un patrón de diseño de comportamiento?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Chain of Responsibility",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "State",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Visitor",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Abstract Factory",
+                    "isCorrect": true,
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "id": "q11",
+            "type": "multiple",
+            "text": "¿Qué es el patrón Observer?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un patrón que define una dependencia de uno a muchos entre objetos, de forma que cuando un objeto cambie de estado se notifique y actualicen automáticamente todos los objetos que dependen de él",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un patrón que encapsula la comunicación entre objetos a través de un objeto denominado 'mediator'",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un patrón que permite disponer de varios métodos para resolver un problema y elegir cuál utilizar en tiempo de ejecución",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un patrón que permite establecer la línea que deben llevar los mensajes para que los objetos realicen la tarea indicada",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q12",
+            "type": "multiple",
+            "text": "¿Qué es el patrón Factory Method?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un patrón que centraliza en una clase constructora la creación de objetos de un subtipo determinado, ocultando al usuario la diversidad de casos particulares",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un patrón que permite trabajar con objetos de familias relacionadas y haciendo transparente el tipo de familia que se esté utilizando",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un patrón que permite copiar objetos existentes sin que el código dependa de sus clases",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un patrón que abstrae el proceso de creación de un objeto complejo, centralizando dicho proceso en un único punto",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q13",
+            "type": "multiple",
+            "text": "¿Qué es el patrón Adapter?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un patrón que transforma y adapta interfaces en otras para que puedan ser utilizadas por una clase que de otro modo no podría utilizarla",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un patrón que proporciona un intermediario de un objeto para controlar su uso",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un patrón que proporciona una interfaz simplificada a una librería, un framework o un conjunto de clases complejas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un patrón que permite establecer la línea que deben llevar los mensajes para que los objetos realicen la tarea indicada",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q14",
+            "type": "multiple",
+            "text": "¿Qué es el patrón Proxy?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un patrón que proporciona un intermediario de un objeto para controlar su uso",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un patrón que transforma y adapta interfaces en otras para que puedan ser utilizadas por una clase que de otro modo no podría utilizarla",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un patrón que proporciona una interfaz simplificada a una librería, un framework o un conjunto de clases complejas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un patrón que permite establecer la línea que deben llevar los mensajes para que los objetos realicen la tarea indicada",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q15",
+            "type": "multiple",
+            "text": "¿Qué es el patrón Facade?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un patrón que proporciona una interfaz simplificada a una librería, un framework o un conjunto de clases complejas",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un patrón que transforma y adapta interfaces en otras para que puedan ser utilizadas por una clase que de otro modo no podría utilizarla",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un patrón que proporciona un intermediario de un objeto para controlar su uso",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un patrón que permite establecer la línea que deben llevar los mensajes para que los objetos realicen la tarea indicada",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q16",
+            "type": "multiple",
+            "text": "¿Qué es el patrón Decorator?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un patrón que permite añadir funcionalidades a un objeto dinámicamente",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un patrón que transforma y adapta interfaces en otras para que puedan ser utilizadas por una clase que de otro modo no podría utilizarla",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un patrón que proporciona un intermediario de un objeto para controlar su uso",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un patrón que proporciona una interfaz simplificada a una librería, un framework o un conjunto de clases complejas",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q17",
+            "type": "multiple",
+            "text": "¿Qué es el patrón Composite?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un patrón que permite componer objetos en estructuras de árbol para representar jerarquías parte-todo",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un patrón que permite añadir funcionalidades a un objeto dinámicamente",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un patrón que transforma y adapta interfaces en otras para que puedan ser utilizadas por una clase que de otro modo no podría utilizarla",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un patrón que proporciona un intermediario de un objeto para controlar su uso",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q18",
+            "type": "multiple",
+            "text": "¿Qué es el patrón Bridge?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un patrón que desacopla una abstracción de su implementación, de forma que ambas puedan variar independientemente",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un patrón que permite añadir funcionalidades a un objeto dinámicamente",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un patrón que transforma y adapta interfaces en otras para que puedan ser utilizadas por una clase que de otro modo no podría utilizarla",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un patrón que proporciona un intermediario de un objeto para controlar su uso",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q19",
+            "type": "multiple",
+            "text": "¿Qué es el patrón Strategy?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un patrón que define una familia de algoritmos, encapsula cada uno de ellos y los hace intercambiables",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un patrón que permite añadir funcionalidades a un objeto dinámicamente",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un patrón que transforma y adapta interfaces en otras para que puedan ser utilizadas por una clase que de otro modo no podría utilizarla",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un patrón que proporciona un intermediario de un objeto para controlar su uso",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q20",
+            "type": "multiple",
+            "text": "¿Qué es el patrón Template Method?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un patrón que define el esqueleto de un algoritmo en una operación, diferiendo algunos pasos a las subclases",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un patrón que permite añadir funcionalidades a un objeto dinámicamente",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un patrón que transforma y adapta interfaces en otras para que puedan ser utilizadas por una clase que de otro modo no podría utilizarla",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un patrón que proporciona un intermediario de un objeto para controlar su uso",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q21",
+            "type": "multiple",
+            "text": "¿Qué es el patrón Command?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un patrón que convierte una solicitud en un objeto, permitiendo parametrizar clientes con diferentes solicitudes, encolar o registrar solicitudes y soportar operaciones que se pueden deshacer",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un patrón que permite añadir funcionalidades a un objeto dinámicamente",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un patrón que transforma y adapta interfaces en otras para que puedan ser utilizadas por una clase que de otro modo no podría utilizarla",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un patrón que proporciona un intermediario de un objeto para controlar su uso",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q22",
+            "type": "multiple",
+            "text": "¿Qué es el patrón Chain of Responsibility?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un patrón que permite que más de un objeto maneje una solicitud, pasando la solicitud a lo largo de una cadena de manejadores hasta que un manejador la procese",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un patrón que permite añadir funcionalidades a un objeto dinámicamente",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un patrón que transforma y adapta interfaces en otras para que puedan ser utilizadas por una clase que de otro modo no podría utilizarla",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un patrón que proporciona un intermediario de un objeto para controlar su uso",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q23",
+            "type": "multiple",
+            "text": "¿Qué es el patrón Mediator?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un patrón que define un objeto que encapsula cómo interactúan un conjunto de objetos, promoviendo el acoplamiento débil al evitar que los objetos se refieran entre sí explícitamente",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un patrón que permite añadir funcionalidades a un objeto dinámicamente",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un patrón que transforma y adapta interfaces en otras para que puedan ser utilizadas por una clase que de otro modo no podría utilizarla",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un patrón que proporciona un intermediario de un objeto para controlar su uso",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q24",
+            "type": "multiple",
+            "text": "¿Qué es el patrón Memento?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un patrón que captura y externaliza el estado interno de un objeto sin violar la encapsulación, de manera que el objeto pueda ser restaurado a este estado más tarde",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un patrón que permite añadir funcionalidades a un objeto dinámicamente",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un patrón que transforma y adapta interfaces en otras para que puedan ser utilizadas por una clase que de otro modo no podría utilizarla",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un patrón que proporciona un intermediario de un objeto para controlar su uso",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q25",
+            "type": "multiple",
+            "text": "¿Qué es el patrón State?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un patrón que permite a un objeto alterar su comportamiento cuando su estado interno cambia, pareciendo que el objeto cambia su clase",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un patrón que permite añadir funcionalidades a un objeto dinámicamente",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un patrón que transforma y adapta interfaces en otras para que puedan ser utilizadas por una clase que de otro modo no podría utilizarla",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un patrón que proporciona un intermediario de un objeto para controlar su uso",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q26",
+            "type": "multiple",
+            "text": "¿Qué es el patrón Visitor?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un patrón que permite definir una nueva operación sin cambiar las clases de los elementos sobre los que opera",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un patrón que permite añadir funcionalidades a un objeto dinámicamente",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un patrón que transforma y adapta interfaces en otras para que puedan ser utilizadas por una clase que de otro modo no podría utilizarla",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un patrón que proporciona un intermediario de un objeto para controlar su uso",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q27",
+            "type": "multiple",
+            "text": "¿Qué es el patrón Interpreter?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un patrón que define una representación para su gramática junto con un intérprete que usa la representación para interpretar oraciones en el lenguaje",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un patrón que permite añadir funcionalidades a un objeto dinámicamente",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un patrón que transforma y adapta interfaces en otras para que puedan ser utilizadas por una clase que de otro modo no podría utilizarla",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un patrón que proporciona un intermediario de un objeto para controlar su uso",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q28",
+            "type": "multiple",
+            "text": "¿Qué es el patrón Iterator?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un patrón que proporciona una forma de acceder secuencialmente a los elementos de un objeto agregado sin exponer su representación subyacente",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un patrón que permite añadir funcionalidades a un objeto dinámicamente",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un patrón que transforma y adapta interfaces en otras para que puedan ser utilizadas por una clase que de otro modo no podría utilizarla",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un patrón que proporciona un intermediario de un objeto para controlar su uso",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q29",
+            "type": "multiple",
+            "text": "¿Cuál de los siguientes NO es un tipo de diagrama UML?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Diagrama de clases",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Diagrama de secuencia",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Diagrama de flujo de datos",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o4",
+                    "text": "Diagrama de casos de uso",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q30",
+            "type": "multiple",
+            "text": "¿Qué representa un diagrama de clases en UML?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "La estructura estática de un sistema mostrando sus clases y relaciones",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "El comportamiento dinámico del sistema a través de interacciones entre objetos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "El flujo de actividades dentro de un sistema",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "La distribución física de componentes en hardware",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q31",
+            "type": "multiple",
+            "text": "¿Qué es un diagrama de secuencia en UML?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un diagrama que muestra cómo los objetos interactúan en un escenario particular de un caso de uso",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un diagrama que muestra la estructura estática de un sistema",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un diagrama que muestra el flujo de actividades dentro de un sistema",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un diagrama que muestra la distribución física de componentes en hardware",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q32",
+            "type": "multiple",
+            "text": "¿Qué es un diagrama de casos de uso en UML?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un diagrama que captura los requisitos funcionales que serán ofrecidos por el sistema de información",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un diagrama que muestra la estructura estática de un sistema",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un diagrama que muestra el comportamiento dinámico del sistema a través de interacciones entre objetos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un diagrama que muestra la distribución física de componentes en hardware",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q33",
+            "type": "multiple",
+            "text": "¿Qué es un diagrama de despliegue en UML?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un diagrama que captura cómo las entidades lógicas se reparten en entidades físicas",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un diagrama que muestra la estructura estática de un sistema",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un diagrama que muestra el comportamiento dinámico del sistema a través de interacciones entre objetos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un diagrama que captura los requisitos funcionales que serán ofrecidos por el sistema de información",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q34",
+            "type": "multiple",
+            "text": "El patrón Singleton garantiza la existencia de múltiples instancias de una clase.",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Verdadero",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Falso",
+                    "isCorrect": true,
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "id": "q35",
+            "type": "multiple",
+            "text": "El patrón _______ permite añadir funcionalidades a un objeto dinámicamente.",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Decorator",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Adapter",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Proxy",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Facade",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q36",
+            "type": "multiple",
+            "text": "El patrón Observer define una dependencia de uno a muchos entre objetos.",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Verdadero",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Falso",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q37",
+            "type": "multiple",
+            "text": "El patrón _______ proporciona una interfaz simplificada a una librería, un framework o un conjunto de clases complejas.",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Facade",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Adapter",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Proxy",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Decorator",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q38",
+            "type": "multiple",
+            "text": "El patrón Factory Method permite trabajar con objetos de familias relacionadas.",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Verdadero",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Falso",
+                    "isCorrect": true,
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "id": "q39",
+            "type": "multiple",
+            "text": "El patrón _______ permite definir una nueva operación sin cambiar las clases de los elementos sobre los que opera.",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Visitor",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Adapter",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Proxy",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Decorator",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q40",
+            "type": "multiple",
+            "text": "El patrón Adapter transforma y adapta interfaces en otras para que puedan ser utilizadas por una clase que de otro modo no podría utilizarla.",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Verdadero",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Falso",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        }
+    ]
+}

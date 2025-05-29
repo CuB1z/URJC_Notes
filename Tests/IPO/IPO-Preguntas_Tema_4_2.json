@@ -1,0 +1,228 @@
+{
+  "id": "ipo_tema_4_2_quiz_001",
+  "title": "Quiz sobre Aspectos Clave de Usabilidad: Facilidad de Aprendizaje, Flexibilidad y Robustez (Tema 4.2)",
+  "description": "Preguntas para evaluar conocimientos sobre los aspectos y ejes fundamentales de la usabilidad, facilidad de aprendizaje, flexibilidad y robustez en sistemas interactivos, según el Tema 4.2.",
+  "tags": ["URJC", "IPO", "Usabilidad", "Facilidad de Aprendizaje", "Flexibilidad", "Robustez", "Interacción Persona Ordenador"],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "text": "¿Cuál es uno de los aspectos clave para medir la usabilidad según el Tema 4.2?",
+      "options": [
+        { "id": "o1", "text": "Eficacia: capacidad para completar tareas correctamente", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Solo la estética de la interfaz", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Tamaño de la pantalla", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Cantidad de funciones del sistema", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "text": "¿Qué significa 'facilidad de aprendizaje' en usabilidad?",
+      "options": [
+        { "id": "o1", "text": "La rapidez con que un usuario nuevo se vuelve competente usando el sistema", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Que el sistema tenga muchos tutoriales", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "La capacidad de memorizar atajos", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Que el sistema sea complejo para expertos", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "text": "¿Cuál es un principio para facilitar el aprendizaje de un sistema?",
+      "options": [
+        { "id": "o1", "text": "Visibilidad de operaciones: mostrar claramente las acciones disponibles", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Ocultar opciones para evitar confusión", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Utilizar metáforas complejas", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "No ofrecer realimentación al usuario", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "text": "¿Qué significa el principio de 'affordance' en facilidad de aprendizaje?",
+      "options": [
+        { "id": "o1", "text": "Que los elementos sugieran naturalmente su uso (por ejemplo, botones que parecen presionables)", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Que los elementos no respondan a interacciones", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Que el sistema ignore la acción del usuario", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Que el usuario deba memorizar comandos complejos", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "text": "¿Qué busca la flexibilidad en un sistema interactivo?",
+      "options": [
+        { "id": "o1", "text": "Permitir múltiples formas de interacción adaptadas a preferencias y contextos del usuario", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Limitar al usuario a un único modo de operación", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Ignorar las diferencias individuales de usuarios", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "No permitir personalización", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "text": "¿Qué es la 'iniciativa de diálogo' en el contexto de flexibilidad?",
+      "options": [
+        { "id": "o1", "text": "Que el usuario pueda dirigir la interacción y restringirla cuando quiera", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Que el sistema tome todas las decisiones automáticamente", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Que el usuario no pueda interrumpir el sistema", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Que las tareas deban hacerse en un orden rígido", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "text": "¿Qué significa que un sistema sea 'multihilo' en cuanto a flexibilidad?",
+      "options": [
+        { "id": "o1", "text": "Que soporte realizar múltiples tareas concurrentes o intercaladas", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Que solo pueda ejecutar una tarea a la vez", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Que los usuarios no puedan cambiar entre tareas", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Que el sistema bloquee tareas simultáneas", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "text": "¿Qué permite el 'cambio entre tareas' en un sistema flexible?",
+      "options": [
+        { "id": "o1", "text": "Que el usuario pueda alternar entre tareas sin perder el contexto", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Que el usuario deba finalizar una tarea para comenzar otra", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Que el sistema cierre automáticamente tareas abiertas", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Que no se guarde el progreso en las tareas", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "text": "¿Qué es la 'personalización' en un sistema interactivo flexible?",
+      "options": [
+        { "id": "o1", "text": "La adaptación automática de la interfaz y funciones según reglas y contexto del usuario", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Que todos los usuarios usen la misma configuración fija", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Que el usuario no pueda cambiar ajustes", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Que el sistema ignore preferencias del usuario", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "text": "¿Qué busca la robustez en un sistema interactivo?",
+      "options": [
+        { "id": "o1", "text": "Apoyar al usuario para lograr sus objetivos sin problemas", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Complicar la interacción para evitar errores", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Ignorar los errores del usuario", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Reducir la visibilidad del estado del sistema", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q11",
+      "type": "multiple",
+      "text": "¿Qué es la 'capacidad de observación' en la robustez de un sistema?",
+      "options": [
+        { "id": "o1", "text": "Permitir que el usuario evalúe el estado del sistema mediante la interfaz", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Ocultar mensajes y estados para simplificar la interfaz", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "No mostrar valores por defecto", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "No permitir al usuario monitorear la operación", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q12",
+      "type": "multiple",
+      "text": "¿Qué función tiene la 'capacidad de recuperación' en la robustez?",
+      "options": [
+        { "id": "o1", "text": "Facilitar al usuario recuperar la interacción tras errores, por ejemplo con opción a 'deshacer'", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Obligar al usuario a reiniciar el sistema ante cualquier error", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Ignorar errores y continuar sin advertencias", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Eliminar historial de acciones para ahorrar memoria", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q13",
+      "type": "multiple",
+      "text": "¿Cómo deben ser los mensajes de error para mantener la robustez?",
+      "options": [
+        { "id": "o1", "text": "Claros, amables y contextuales que ayuden a la corrección sin culpar al usuario", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Confusos y técnicos para expertos", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Ignorados y ocultados", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Que culpabilicen al usuario para evitar errores futuros", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q14",
+      "type": "multiple",
+      "text": "¿Por qué son importantes los tiempos de respuesta en la robustez del sistema?",
+      "options": [
+        { "id": "o1", "text": "Mantienen informado y satisfecho al usuario durante procesos largos", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Ignoran al usuario mientras el sistema procesa", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Reducen la eficacia del sistema", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Son irrelevantes para la interacción", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q15",
+      "type": "multiple",
+      "text": "¿Qué busca el ajuste de tareas en la robustez?",
+      "options": [
+        { "id": "o1", "text": "Soportar adecuadamente las tareas permitiendo completarlas y adaptándolas al usuario", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Imponer un único método rígido para todas las tareas", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Ignorar las necesidades del usuario", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Reducir la flexibilidad en la interacción", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q16",
+      "type": "multiple",
+      "text": "¿Qué características del usuario deben considerarse para maximizar la usabilidad y accesibilidad?",
+      "options": [
+        { "id": "o1", "text": "Edad, género, cultura, nivel educativo, experiencia tecnológica y discapacidades", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Solo nivel educativo y experiencia tecnológica", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Solo edad y género", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "No considerar características personales", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q17",
+      "type": "multiple",
+      "text": "¿Por qué es esencial adaptar el diseño a las características del usuario?",
+      "options": [
+        { "id": "o1", "text": "Para asegurar que el sistema sea usable y accesible para todos", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Para aumentar la complejidad del sistema", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Para limitar el acceso a usuarios avanzados", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Para evitar que usuarios con discapacidades usen el sistema", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q18",
+      "type": "multiple",
+      "text": "¿Cuál es la relación entre eficacia y eficiencia en la usabilidad?",
+      "options": [
+        { "id": "o1", "text": "Eficacia es completar tareas correctamente; eficiencia es hacerlo con rapidez y recursos mínimos", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Eficacia mide solo velocidad; eficiencia mide solo precisión", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Ambos términos significan lo mismo", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "No tienen relación en usabilidad", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q19",
+      "type": "multiple",
+      "text": "¿Qué tipo de realimentación es recomendada para mejorar la facilidad de aprendizaje?",
+      "options": [
+        { "id": "o1", "text": "Visual, auditiva o animada que informa al usuario de acciones y estados", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "No proporcionar ninguna señal para no distraer", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Solo mensajes técnicos sin contexto", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Retroalimentación confusa y ambigua", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q20",
+      "type": "multiple",
+      "text": "¿Qué beneficio aporta mantener la consistencia en diseño y comportamiento del sistema?",
+      "options": [
+        { "id": "o1", "text": "Facilita el aprendizaje y uso, reduciendo errores y confusión", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Genera sorpresa y aumenta la carga cognitiva", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "No tiene impacto en la usabilidad", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Obliga a los usuarios a memorizar más comandos", "isCorrect": false, "value": 0 }
+      ]
+    }
+  ]
+}

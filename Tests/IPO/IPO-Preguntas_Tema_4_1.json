@@ -1,0 +1,228 @@
+{
+  "id": "ipo_tema_4_1_quiz_001",
+  "title": "Quiz sobre Usabilidad, Ética y Diseño Inclusivo en Interacción Persona-Ordenador (Tema 4.1)",
+  "description": "Preguntas para evaluar conocimientos sobre usabilidad, evaluación, contexto, ética, diseño inclusivo, principios y patrones en interfaces, basadas en el Tema 4.1.",
+  "tags": ["URJC", "IPO", "Usabilidad", "Diseño Inclusivo", "Ética", "Evaluación UI", "Heurísticas", "Patrones"],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "text": "¿Cuál es un beneficio clave de una buena usabilidad en sistemas interactivos?",
+      "options": [
+        { "id": "o1", "text": "Reducción de costes en formación, asistencia y mantenimiento", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Incremento del tiempo de desarrollo", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Complicación en la interfaz para usuarios expertos", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Aumento de errores del usuario", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "text": "¿Qué dimensión de usabilidad se refiere a la rapidez con la que un usuario nuevo aprende el sistema?",
+      "options": [
+        { "id": "o1", "text": "Learnability (facilidad de aprendizaje)", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Eficiencia", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Memorabilidad", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Satisfacción", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "text": "¿Qué método NO es común para evaluar usabilidad?",
+      "options": [
+        { "id": "o1", "text": "Observación directa y tests con usuarios", "isCorrect": false, "value": 0 },
+        { "id": "o2", "text": "Análisis cuantitativo de métricas de rendimiento", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Entrevistas y encuestas para feedback cualitativo", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Análisis financiero de costos sin usuarios", "isCorrect": true, "value": 1 }
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "text": "¿Por qué la usabilidad es relativa?",
+      "options": [
+        { "id": "o1", "text": "Porque depende de usuarios, tareas y contexto específicos", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Porque es igual para todos los usuarios", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Porque siempre mejora con el tiempo", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Porque no varía según dispositivos", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "text": "¿Qué busca promover el diseño ético e inclusivo?",
+      "options": [
+        { "id": "o1", "text": "Accesibilidad, equidad y evitar discriminación o molestias", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Diseños exclusivos para usuarios avanzados", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Ignorar diversidad cultural y social", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Maximizar complejidad de interfaces", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "text": "¿Cuál es un ejemplo de mala práctica en diseño de interfaces?",
+      "options": [
+        { "id": "o1", "text": "Formularios sin etiquetas claras o con demasiados campos obligatorios", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Interfaces con jerarquías claras y consistentes", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Permitir acciones reversibles y feedback inmediato", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Diseño basado en patrones conocidos y validados", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "text": "¿Qué principio ayuda a evitar confusión y errores en la interfaz?",
+      "options": [
+        { "id": "o1", "text": "Modelos mentales claros y coherencia en diseño", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Uso de colores aleatorios y metáforas desconocidas", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Evitar consistencia para estimular la curiosidad", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Ocultar feedback al usuario", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "text": "¿Cuál es una regla fundamental en la interacción física simulada en interfaces?",
+      "options": [
+        { "id": "o1", "text": "Ubicación estable, gravedad y movimientos coherentes", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Movimientos aleatorios y sin relación física", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Interacción basada exclusivamente en texto", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Ignorar control del usuario", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "text": "¿Qué estándar es relevante para accesibilidad web?",
+      "options": [
+        { "id": "o1", "text": "WCAG (Web Content Accessibility Guidelines)", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "ISO 9001", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "IEEE 802.11", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "HTML5", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "text": "¿Qué establece la norma ISO 9241 en usabilidad?",
+      "options": [
+        { "id": "o1", "text": "Eficacia, eficiencia y satisfacción", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Sólo diseño gráfico", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Programación de hardware", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Marketing digital", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q11",
+      "type": "multiple",
+      "text": "¿Qué principio de diseño de Nielsen se refiere a prevenir errores antes de que ocurran?",
+      "options": [
+        { "id": "o1", "text": "Prevención de errores", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Flexibilidad y eficiencia", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Consistencia y estándares", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Visibilidad del estado del sistema", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q12",
+      "type": "multiple",
+      "text": "¿Cuál es un heurístico de Shneiderman?",
+      "options": [
+        { "id": "o1", "text": "Uso de atajos para usuarios expertos", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Ignorar la retroalimentación", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Evitar la consistencia", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Diseñar interfaces solo para novatos", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q13",
+      "type": "multiple",
+      "text": "¿Qué busca el principio de diseño de Norman 'mapa natural'?",
+      "options": [
+        { "id": "o1", "text": "Que las relaciones entre controles y acciones sean intuitivas", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Que el diseño sea lo más complejo posible", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Ignorar la retroalimentación", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Reducir la visibilidad del estado", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q14",
+      "type": "multiple",
+      "text": "¿Qué es un patrón de diseño en HCI?",
+      "options": [
+        { "id": "o1", "text": "Una solución reutilizable a problemas comunes de diseño de interfaces", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Un nuevo lenguaje de programación", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Un sistema operativo", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Una herramienta de hardware", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q15",
+      "type": "multiple",
+      "text": "¿Cuál es un ejemplo de patrón de diseño para facilitar navegación en sitios complejos?",
+      "options": [
+        { "id": "o1", "text": "Mapas de sitios navegables", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Colores brillantes", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Animaciones sin función", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Ventanas emergentes molestas", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q16",
+      "type": "multiple",
+      "text": "¿Qué ventaja tiene reutilizar patrones de diseño probados?",
+      "options": [
+        { "id": "o1", "text": "Facilitar interfaces intuitivas y consistentes", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Complicar el desarrollo innecesariamente", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Ignorar las necesidades del usuario", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Reducir la accesibilidad", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q17",
+      "type": "multiple",
+      "text": "¿Qué patrón ayuda a reducir el miedo a cometer errores?",
+      "options": [
+        { "id": "o1", "text": "Función 'deshacer' (undo)", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Animaciones distractoras", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Mensajes de error confusos", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Ocultar opciones avanzadas", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q18",
+      "type": "multiple",
+      "text": "¿Por qué es importante adaptar los diseños a la cultura del usuario?",
+      "options": [
+        { "id": "o1", "text": "Para facilitar comprensión y evitar malentendidos", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Porque todos los usuarios entienden igual los iconos", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Para hacer el diseño más complejo", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Para evitar la accesibilidad", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q19",
+      "type": "multiple",
+      "text": "¿Qué debe ser un eje central en el diseño de sistemas interactivos según la conclusión del tema?",
+      "options": [
+        { "id": "o1", "text": "La usabilidad y la adaptación al usuario y contexto", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "La tecnología más avanzada sin considerar al usuario", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "El diseño basado solo en estética", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Evitar evaluaciones con usuarios", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q20",
+      "type": "multiple",
+      "text": "¿Qué debe evitarse para lograr experiencias positivas y enriquecedoras en interfaces?",
+      "options": [
+        { "id": "o1", "text": "Ignorar inclusión y accesibilidad", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Aplicar principios y heurísticas reconocidas", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Realizar evaluaciones con usuarios", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Reutilizar patrones probados", "isCorrect": false, "value": 0 }
+      ]
+    }
+  ]
+}

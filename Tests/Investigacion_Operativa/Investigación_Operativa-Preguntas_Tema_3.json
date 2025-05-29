@@ -1,0 +1,790 @@
+{
+    "id": "IO-T3-2025",
+    "title": "Test de Investigación Operativa - Tema 3: Optimización Entera",
+    "description": "Evaluación sobre Optimización Entera y Programación Entera en Investigación Operativa",
+    "tags": [
+        "Investigación Operativa",
+        "Optimización Entera",
+        "Programación Entera",
+        "Programación Lineal",
+        "Branch and Bound",
+        "Cutting Plane"
+    ],
+    "questions": [
+        {
+            "id": "q1",
+            "type": "multiple",
+            "text": "¿Qué caracteriza a un problema de Optimización Entera?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Todas las variables son continuas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Al menos una variable debe tomar valores enteros",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "No tiene restricciones",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Solo se aplica a problemas no lineales",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q2",
+            "type": "multiple",
+            "text": "¿Cuál es la principal diferencia entre Programación Entera y Programación Lineal?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "La Programación Entera no tiene función objetivo",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "La Programación Lineal solo usa variables continuas",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "La Programación Entera no tiene restricciones",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "La Programación Lineal siempre tiene solución óptima",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q3",
+            "type": "multiple",
+            "text": "¿Qué es la relajación lineal en el contexto de la Programación Entera?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Ignorar todas las restricciones del problema",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Convertir todas las variables en continuas",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Eliminar la función objetivo",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Añadir más variables enteras",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q4",
+            "type": "multiple",
+            "text": "¿Cuál es el principio básico del método Branch and Bound?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Resolver el problema de forma aleatoria",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Dividir el problema en subproblemas más pequeños y acotar las soluciones",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Ignorar las restricciones enteras",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Convertir todas las variables en continuas",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q5",
+            "type": "multiple",
+            "text": "¿Qué es un corte en el método de Cutting Plane?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Una restricción que elimina soluciones no enteras sin afectar las soluciones enteras",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Una variable que se elimina del problema",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un método para dividir el problema en partes",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Una técnica para relajar las restricciones",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q11",
+            "type": "multiple",
+            "text": "¿Qué es una variable binaria en Programación Entera?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Una variable que solo puede tomar valores decimales",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Una variable que solo puede tomar los valores 0 o 1",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Una variable que puede tomar cualquier valor entero",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Una variable que solo puede tomar valores negativos o positivos",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q12",
+            "type": "multiple",
+            "text": "¿Qué caracteriza a un problema de Programación Entera Mixta?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Todas las variables son enteras",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Todas las variables son continuas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Combina variables enteras y continuas",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o4",
+                    "text": "Solo utiliza variables binarias",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q13",
+            "type": "multiple",
+            "text": "¿Qué es el gap de integralidad en Programación Entera?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "La diferencia entre la solución óptima entera y la solución óptima de la relajación lineal",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "El número de variables enteras en el problema",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "La suma de todas las variables enteras",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "El tiempo que tarda en resolverse el problema",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q14",
+            "type": "multiple",
+            "text": "¿Cuál es el propósito principal del método de planos de corte?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Dividir el problema en subproblemas más pequeños",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Añadir restricciones para eliminar soluciones no enteras",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Relajar las restricciones del problema",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Convertir todas las variables en continuas",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q15",
+            "type": "multiple",
+            "text": "¿Qué es la formulación fuerte en Programación Entera?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Una formulación que utiliza solo variables binarias",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Una formulación que produce una relajación lineal más ajustada",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Una formulación con más restricciones",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Una formulación que siempre garantiza una solución óptima",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q16",
+            "type": "multiple",
+            "text": "¿Qué es la desigualdad válida en Programación Entera?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Una restricción que se cumple para todas las soluciones factibles enteras",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Una restricción que solo se cumple para soluciones continuas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Una restricción que siempre mejora la solución óptima",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Una restricción que elimina todas las soluciones no factibles",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q17",
+            "type": "multiple",
+            "text": "¿Qué es la relajación lagrangiana en el contexto de la Programación Entera?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Ignorar todas las restricciones del problema",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Mover algunas restricciones a la función objetivo con un multiplicador",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Convertir todas las variables en continuas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Añadir más variables enteras al problema",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q18",
+            "type": "multiple",
+            "text": "¿Qué es la programación dinámica en relación con la Programación Entera?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un método para resolver problemas continuos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Una técnica para dividir el problema en etapas y resolverlas secuencialmente",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Un algoritmo para generar números aleatorios",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un método para convertir variables enteras en continuas",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q19",
+            "type": "multiple",
+            "text": "¿Qué es la heurística en el contexto de la Programación Entera?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un método que garantiza encontrar la solución óptima",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Una técnica para encontrar soluciones factibles rápidamente, aunque no necesariamente óptimas",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Un algoritmo que solo funciona con variables continuas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un método para convertir problemas enteros en lineales",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q20",
+            "type": "multiple",
+            "text": "¿Qué es la metaheurística en Programación Entera?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un método exacto para resolver problemas enteros",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Una estrategia general para guiar heurísticas en la búsqueda de soluciones",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Un algoritmo que solo funciona con variables binarias",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Una técnica para convertir problemas enteros en continuos",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q21",
+            "type": "multiple",
+            "text": "¿Qué es la complejidad computacional en Programación Entera?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "El tiempo que tarda en resolverse un problema entero",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "El esfuerzo requerido para resolver un problema entero en términos de recursos computacionales",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "El número de variables enteras en un problema",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "La cantidad de memoria necesaria para resolver un problema entero",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q22",
+            "type": "multiple",
+            "text": "¿Qué es la NP-Completitud en Programación Entera?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un problema que puede resolverse en tiempo polinómico",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Un problema que puede reducirse a un problema NP-Completo en tiempo polinómico",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Un problema que no tiene solución entera",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un problema que no tiene solución óptima",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q23",
+            "type": "multiple",
+            "text": "¿Qué es la complejidad NP-Hard en Programación Entera?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un problema que puede resolverse en tiempo polinómico",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Un problema al menos tan difícil como un problema NP-Completo",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Un problema que no tiene solución entera",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un problema que no tiene solución óptima",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q24",
+            "type": "multiple",
+            "text": "¿Qué es la complejidad P en Programación Entera?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un problema que puede resolverse en tiempo polinómico",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un problema al menos tan difícil como un problema NP-Completo",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un problema que no tiene solución entera",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un problema que no tiene solución óptima",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q25",
+            "type": "multiple",
+            "text": "¿Qué es el problema de la mochila en Programación Entera?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un problema donde se deben seleccionar objetos para maximizar el valor total sin exceder la capacidad de una mochila",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un problema donde se deben seleccionar inversiones para maximizar el beneficio total",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un problema donde se deben seleccionar rutas para minimizar la distancia total recorrida",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un problema donde se deben seleccionar productos para maximizar el beneficio total",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q26",
+            "type": "multiple",
+            "text": "¿Qué caracteriza al problema del viajante de comercio (TSP)?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un problema donde se deben seleccionar objetos para maximizar el valor total sin exceder la capacidad de una mochila",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Un problema donde se deben seleccionar inversiones para maximizar el beneficio total",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un problema donde se deben seleccionar rutas para minimizar la distancia total recorrida",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o4",
+                    "text": "Un problema donde se deben seleccionar productos para maximizar el beneficio total",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q27",
+            "type": "multiple",
+            "text": "¿Qué es la planificación de producción en Programación Entera?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un problema donde se deben seleccionar objetos para maximizar el valor total sin exceder la capacidad de una mochila",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Un problema donde se deben seleccionar inversiones para maximizar el beneficio total",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un problema donde se deben seleccionar rutas para minimizar la distancia total recorrida",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un problema donde se deben seleccionar productos para maximizar el beneficio total respetando las limitaciones de tiempo y recursos",
+                    "isCorrect": true,
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "id": "q28",
+            "type": "multiple",
+            "text": "¿Qué es el método de Branch and Cut en Programación Entera?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un método que combina la división de problemas con cortes para reducir el espacio de soluciones",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un método que ignora las restricciones enteras",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un método que convierte todas las variables en continuas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un método que elimina variables del problema",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q29",
+            "type": "multiple",
+            "text": "¿Cuál es el objetivo principal del problema de selección de inversiones en Programación Entera?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Seleccionar inversiones para maximizar el beneficio total bajo restricciones presupuestarias",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Seleccionar rutas para minimizar la distancia total recorrida",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Seleccionar objetos para maximizar el valor total sin exceder la capacidad de una mochila",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Seleccionar productos para maximizar el beneficio total respetando las limitaciones de tiempo y recursos",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q30",
+            "type": "multiple",
+            "text": "¿Qué es la formulación débil en Programación Entera?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Una formulación que utiliza solo variables binarias",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Una formulación que produce una relajación lineal menos ajustada",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Una formulación con más restricciones",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Una formulación que siempre garantiza una solución óptima",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        }
+    ]
+}

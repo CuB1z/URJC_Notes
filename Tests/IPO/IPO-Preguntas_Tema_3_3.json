@@ -1,0 +1,228 @@
+{
+  "id": "ipo_tema_3_3_quiz_001",
+  "title": "Quiz sobre Diseño Centrado en el Usuario, Card Sorting, Prototipos y Análisis de Tareas (Tema 3.3)",
+  "description": "Preguntas para evaluar conocimientos sobre diseño centrado en el usuario, técnicas como card sorting, prototipos, análisis de tareas y casos de uso, basadas en el Tema 3.3.",
+  "tags": ["URJC", "IPO", "Diseño Centrado en el Usuario", "Card Sorting", "Prototipos", "Análisis de Tareas"],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "text": "¿Cuál es un principio fundamental del Diseño Centrado en el Usuario (DCU)?",
+      "options": [
+        { "id": "o1", "text": "Recoger y responder a las necesidades y comportamientos reales de los usuarios", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Priorizar siempre la tecnología más avanzada sin consultar usuarios", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Diseñar la interfaz al final del desarrollo", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Reducir el número de usuarios para simplificar el diseño", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "text": "¿Qué es el Card Sorting?",
+      "options": [
+        { "id": "o1", "text": "Una técnica para descubrir cómo los usuarios organizan conceptos en grupos", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Un tipo de prototipo en papel", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Un software para crear interfaces gráficas", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Una metodología para evaluar usabilidad mediante encuestas", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "text": "¿Cuál es una desventaja del Card Sorting tradicional?",
+      "options": [
+        { "id": "o1", "text": "Consume mucho tiempo y puede ser tedioso analizar resultados sin herramientas", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "No permite descubrir agrupaciones de conceptos", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "No es útil para organizar información", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Es exclusivamente para diseñadores, no usuarios", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "text": "¿Qué tipo de prototipo se crea para evaluar ideas y luego se descarta?",
+      "options": [
+        { "id": "o1", "text": "Maqueta 'para tirar'", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Prototipo incremental", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Prototipo evolutivo", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Prototipo digital de alta fidelidad", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "text": "¿Qué ventaja tienen los prototipos en papel?",
+      "options": [
+        { "id": "o1", "text": "Permiten cambios rápidos, bajo coste y facilitan la crítica del usuario", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Son difíciles de modificar una vez hechos", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Requieren gran inversión en software", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Son completamente interactivos", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "text": "¿Cuál es una característica de los prototipos de alta fidelidad?",
+      "options": [
+        { "id": "o1", "text": "Son versiones digitales con funcionalidad y apariencia detallada", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Se crean exclusivamente en papel", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Se usan solo para la fase inicial de diseño", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Son ideales para cambios rápidos durante la evaluación", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "text": "¿Qué es un escenario en el contexto de prototipos?",
+      "options": [
+        { "id": "o1", "text": "Una historia que representa personajes y situaciones para explorar decisiones de diseño", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Un manual técnico para desarrolladores", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Una prueba automatizada del sistema", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Una encuesta a usuarios", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "text": "¿Qué es un storyboard?",
+      "options": [
+        { "id": "o1", "text": "Una narración gráfica que muestra cuadros secuenciales de interacción", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Un esquema de programación", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Un tipo de prototipo digital", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Un diagrama UML", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "text": "¿Qué es un objetivo en el modelo Objetivo - Tarea - Acción?",
+      "options": [
+        { "id": "o1", "text": "El resultado final que se desea alcanzar", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Una operación individual", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Una secuencia de pasos sin relación", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Una función del sistema", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "text": "¿Qué define una tarea en el análisis de tareas?",
+      "options": [
+        { "id": "o1", "text": "Un conjunto estructurado de actividades relacionadas realizadas en secuencia", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Una única acción aislada", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Un error de usuario", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Un fallo del sistema", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q11",
+      "type": "multiple",
+      "text": "¿Qué es una acción en el modelo Objetivo - Tarea - Acción?",
+      "options": [
+        { "id": "o1", "text": "Una operación individual o paso dentro de una tarea", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "El resultado final deseado", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Una agrupación de tareas", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Un fallo del usuario", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q12",
+      "type": "multiple",
+      "text": "¿Qué método de análisis de tareas se enfoca en acciones físicas observables?",
+      "options": [
+        { "id": "o1", "text": "Análisis jerárquico de tareas (HTA)", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Análisis de relaciones entre entidades", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Análisis basado en conocimiento", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Card Sorting", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q13",
+      "type": "multiple",
+      "text": "¿Cuál es un beneficio del análisis de tareas?",
+      "options": [
+        { "id": "o1", "text": "Permite un diseño consistente con el modelo mental del usuario", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Reduce la necesidad de evaluación", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Ignora los objetivos del usuario", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Simplifica la interfaz eliminando funciones", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q14",
+      "type": "multiple",
+      "text": "En un ejemplo de compra de DVD, ¿qué plan seguiría un usuario habitual?",
+      "options": [
+        { "id": "o1", "text": "Encontrar DVD, añadir al carro, confirmar compra", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Buscar catálogo, revisar opiniones, imprimir recibo", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Añadir al carro, introducir datos bancarios, salir", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Comprar sin buscar DVD", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q15",
+      "type": "multiple",
+      "text": "¿Qué diferencia al plan de un nuevo usuario en el ejemplo de compra de DVD?",
+      "options": [
+        { "id": "o1", "text": "Incluye introducir datos bancarios y dirección de envío", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Solo busca el DVD y confirma compra", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "No necesita añadir al carro", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Usa un método de pago diferente", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q16",
+      "type": "multiple",
+      "text": "¿Qué permite la descomposición de tareas en el análisis de tareas?",
+      "options": [
+        { "id": "o1", "text": "Dividir tareas complejas en subtareas más simples para mejor comprensión", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Eliminar tareas innecesarias sin análisis", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Ignorar la secuencia de actividades", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Automatizar todas las acciones", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q17",
+      "type": "multiple",
+      "text": "¿Qué representa un caso de uso en el contexto de tareas y escenarios?",
+      "options": [
+        { "id": "o1", "text": "Comportamiento del usuario en términos de acciones y respuestas del sistema", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Un prototipo visual del sistema", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Una encuesta a usuarios", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Una técnica de análisis cuantitativo", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q18",
+      "type": "multiple",
+      "text": "¿Qué ocurre si en un caso de uso el usuario introduce un país no válido?",
+      "options": [
+        { "id": "o1", "text": "El sistema muestra un error y vuelve a preguntar", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "El sistema continúa sin validar", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "El sistema se cierra", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "El usuario es redirigido a otra aplicación", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q19",
+      "type": "multiple",
+      "text": "¿Qué ventaja ofrece conocer el modelo conceptual del usuario a través del análisis de tareas?",
+      "options": [
+        { "id": "o1", "text": "Permite diseñar interfaces que el usuario encuentra naturales y fáciles de usar", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Evita la necesidad de realizar pruebas de usabilidad", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Reduce la necesidad de documentación", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Simplifica el desarrollo eliminando funcionalidades", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q20",
+      "type": "multiple",
+      "text": "¿Cuál es el objetivo de realizar un análisis profundo de las tareas del usuario?",
+      "options": [
+        { "id": "o1", "text": "Detectar posibles problemas y optimizar la interacción para mejorar la usabilidad", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Reducir el número de usuarios", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Aumentar la complejidad del sistema", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Evitar iteraciones en el diseño", "isCorrect": false, "value": 0 }
+      ]
+    }
+  ]
+}

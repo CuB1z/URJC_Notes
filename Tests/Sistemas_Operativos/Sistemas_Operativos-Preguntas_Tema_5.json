@@ -1,0 +1,945 @@
+{
+    "id": "SO-T5-2025",
+    "title": "Test sobre el Tema 5 - Sistemas Operativos",
+    "description": "Evaluación sobre la gestión de memoria en sistemas operativos",
+    "tags": [
+        "Sistemas Operativos",
+        "Gestión de Memoria",
+        "Paginación",
+        "Segmentación",
+        "Memoria Virtual",
+        "Swap"
+    ],
+    "questions": [
+        {
+            "id": "q1",
+            "type": "multiple",
+            "text": "¿Qué es un servidor de memoria de procesos?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un componente que gestiona los recursos de memoria de los procesos",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un sistema para gestionar redes",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un protocolo de seguridad de datos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un hardware de almacenamiento",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q2",
+            "type": "multiple",
+            "text": "¿Qué técnica de gestión de memoria divide la memoria en bloques de tamaño fijo?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Segmentación",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Paginación",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Asignación contigua",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Segmentación paginada",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q3",
+            "type": "multiple",
+            "text": "¿Qué es un mapa de memoria?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Una representación estructurada de cómo se organiza la memoria en un sistema operativo",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un sistema para gestionar redes",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un protocolo de seguridad de datos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un hardware de almacenamiento",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q4",
+            "type": "multiple",
+            "text": "¿Qué técnica de gestión de memoria combina segmentación y paginación?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Asignación contigua",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Segmentación",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Paginación",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Segmentación paginada",
+                    "isCorrect": true,
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "id": "q5",
+            "type": "multiple",
+            "text": "¿Qué estructura se utiliza para almacenar la metainformación de la memoria virtual?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Tabla de segmentos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Tabla de páginas",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Mapa de bits",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Superbloque",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q6",
+            "type": "multiple",
+            "text": "¿Qué es el conjunto residente de un proceso?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Conjunto de páginas del proceso ubicadas en marcos de página de la memoria principal",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Conjunto de páginas del proceso ubicadas en el disco",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Conjunto de páginas del proceso ubicadas en la memoria virtual",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Conjunto de páginas del proceso ubicadas en la memoria caché",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q7",
+            "type": "multiple",
+            "text": "¿Qué algoritmo de reemplazamiento de páginas reemplaza la página que lleva más tiempo en la memoria?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "FIFO (First In, First Out)",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Reloj",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "LRU (Least Recently Used)",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "MRU (Most Recently Used)",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q8",
+            "type": "multiple",
+            "text": "¿Qué es la preasignación de swap?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Asignar un espacio fijo en el swap para cada página virtual",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Asignar un espacio variable en el swap para cada página virtual",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Asignar un espacio fijo en la memoria principal para cada página virtual",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Asignar un espacio variable en la memoria principal para cada página virtual",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q9",
+            "type": "multiple",
+            "text": "¿Qué política de asignación de páginas permite que el número de marcos de página asignados a un proceso varíe en función de sus necesidades?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Asignación fija",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Asignación dinámica",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Asignación contigua",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Asignación segmentada",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q10",
+            "type": "multiple",
+            "text": "¿Qué técnica de gestión de memoria permite que varias aplicaciones o procesos compartan datos?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Memoria compartida",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Paginación",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Segmentación",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Asignación contigua",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q11",
+            "type": "multiple",
+            "text": "¿Qué es el bit de referencia en el algoritmo de reloj?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un indicador que muestra si la página ha sido accedida recientemente",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un contador de accesos a página",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un marcador de página defectuosa",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un indicador de página bloqueada",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q12",
+            "type": "multiple",
+            "text": "¿Qué es la TLB (Translation Lookaside Buffer)?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Una caché que almacena parte de la tabla de páginas",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un buffer de datos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un registro de control",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un tipo de memoria RAM",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q13",
+            "type": "multiple",
+            "text": "¿Qué ocurre cuando el espacio de swap se agota?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "El sistema debe abortar procesos para liberar espacio",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Se crea automáticamente más espacio de swap",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "El sistema continúa funcionando normalmente",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Se comprime la memoria existente",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q14",
+            "type": "multiple",
+            "text": "¿Qué característica define a una región de memoria?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Es una zona contigua de direcciones de memoria",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Siempre debe ser compartida",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Solo puede contener código",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Tiene tamaño fijo únicamente",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q15",
+            "type": "multiple",
+            "text": "¿Qué es el conjunto de trabajo de un proceso?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Conjunto de páginas con datos e instrucciones que el proceso está utilizando",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Todas las páginas asignadas al proceso",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Solo las páginas de código del proceso",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Las páginas en el espacio de swap",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q16",
+            "type": "multiple",
+            "text": "¿Qué ventaja principal ofrece la segmentación paginada?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Combina la flexibilidad de la segmentación con la eficiencia de la paginación",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Reduce el tamaño de las tablas de páginas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Elimina la fragmentación externa",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Simplifica la gestión de memoria",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q17",
+            "type": "multiple",
+            "text": "¿Qué información contiene una entrada de la tabla de segmentos?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Dirección base, tamaño, bits de protección y bit de validez",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Solo la dirección base del segmento",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Únicamente los bits de protección",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "El contenido del segmento",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q18",
+            "type": "multiple",
+            "text": "¿Qué es el reemplazamiento global de páginas?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Permite asignar una nueva página a cualquier marco, sea propio o de otro proceso",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Solo reemplaza páginas dentro del mismo proceso",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Reemplaza páginas solo en el espacio de swap",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "No permite reemplazar páginas",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q19",
+            "type": "multiple",
+            "text": "¿Qué ocurre cuando se crea una nueva región de memoria?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Se define su ubicación virtual y se asigna espacio físico si es necesario",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Se copia automáticamente de otra región existente",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Se marca como inválida hasta su primer uso",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Se carga siempre en memoria principal",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q20",
+            "type": "multiple",
+            "text": "¿Qué algoritmo de reemplazo de páginas minimiza los fallos de página?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "LRU (Least Recently Used)",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "FIFO",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Aleatorio",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "LIFO",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q21",
+            "type": "multiple",
+            "text": "¿Cuál es la función principal de la MMU (Unidad de Gestión de Memoria)?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Convertir direcciones lógicas en direcciones físicas",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Almacenar datos temporalmente",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Ejecutar instrucciones",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Gestionar la red",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q22",
+            "type": "multiple",
+            "text": "¿Qué sucede cuando se produce un fallo de página?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Se debe cargar la página requerida desde el swap a la memoria principal",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "El proceso termina inmediatamente",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Se ignora y continúa la ejecución",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Se crea una nueva página en blanco",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q23",
+            "type": "multiple",
+            "text": "¿Qué propiedad tienen las regiones de código en la memoria?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Son compartidas y tienen permisos de lectura y ejecución (RX)",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Son privadas y tienen permisos de escritura",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Son temporales y se eliminan al terminar",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Son variables y pueden cambiar de tamaño",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q24",
+            "type": "multiple",
+            "text": "¿Qué diferencia hay entre el heap y la pila en términos de gestión de memoria?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "El heap es para memoria dinámica y la pila para registros de activación",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "No hay diferencia entre ellos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "El heap es fijo y la pila variable",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "La pila es compartida y el heap privado",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q25",
+            "type": "multiple",
+            "text": "¿Cuándo se crean nuevas regiones de memoria para un proceso?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Al crear el proceso, cambiar el programa o solicitar una nueva región",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Solo al iniciar el sistema",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Únicamente cuando hay memoria disponible",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Al terminar otros procesos",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q26",
+            "type": "multiple",
+            "text": "¿Qué es la fragmentación externa en la gestión de memoria?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Espacio libre entre bloques asignados que no puede utilizarse por ser demasiado pequeño",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Espacio desperdiciado dentro de las páginas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Memoria asignada pero no utilizada",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Memoria compartida entre procesos",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q27",
+            "type": "multiple",
+            "text": "¿Qué es la política de asignación bajo demanda?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Las páginas solo se cargan cuando son requeridas por el proceso",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Todas las páginas se cargan al inicio",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Las páginas se cargan aleatoriamente",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Las páginas nunca se cargan",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q28",
+            "type": "multiple",
+            "text": "¿Qué es la técnica de copy-on-write en gestión de memoria?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Las páginas compartidas solo se copian cuando un proceso intenta modificarlas",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Las páginas se copian al iniciarse el proceso",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Las páginas nunca se copian",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Las páginas se copian periódicamente",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q29",
+            "type": "multiple",
+            "text": "¿Qué es el thrashing en un sistema de memoria virtual?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Situación donde el sistema pasa más tiempo intercambiando páginas que ejecutando procesos",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Cuando la memoria está completamente llena",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Cuando no hay páginas disponibles",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Cuando todos los procesos están bloqueados",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q30",
+            "type": "multiple",
+            "text": "¿Qué es una página huérfana en gestión de memoria?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Una página que permanece asignada después de que el proceso haya terminado",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Una página que nunca ha sido utilizada",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Una página sin permisos de acceso",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Una página compartida entre procesos",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        }
+    ]
+}

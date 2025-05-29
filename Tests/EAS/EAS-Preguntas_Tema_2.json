@@ -1,0 +1,318 @@
+{
+  "id": "quiz-evolucion-adaptacion-software-03",
+  "title": "Leyes de la Evolución del Software - Tema 2",
+  "description": "Cuestionario basado en las Leyes de Lehman, tipos de sistemas y conceptos clave de la evolución y adaptación del software.",
+  "tags": ["URJC", "EAS", "Software", "Evolución", "Lehman", "Leyes de Lehman"],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "text": "¿Cuál es la característica principal de un sistema tipo-E según Lehman?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Su comportamiento está completamente definido por una especificación exacta.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Su comportamiento depende del entorno y debe adaptarse continuamente.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Sistemas que solo ejecutan procedimientos predefinidos sin cambios.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Sistemas matemáticos estáticos sin interacción con el mundo real.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "text": "¿Qué establece la Ley del Cambio Continuo de Lehman?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Un sistema puede permanecer estático indefinidamente sin perder utilidad.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Todo sistema tipo-E debe ser adaptado continuamente o se vuelve menos útil con el tiempo.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "La calidad del software aumenta automáticamente con el tiempo.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Los sistemas especificados nunca necesitan cambios después de su creación.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "text": "¿Qué implica la Ley de la Complejidad Creciente en la evolución del software?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "La complejidad se mantiene constante a lo largo del tiempo.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "La complejidad tiende a aumentar a menos que se tomen medidas para controlarla.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "La complejidad siempre disminuye a medida que se optimiza el software.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "La complejidad no tiene impacto en la mantenibilidad del software.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "text": "Según la Ley de la Auto-Regulación, la evolución del software sigue un proceso que es:",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Controlado externamente sin retroalimentación.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Totalmente aleatorio y sin control.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Un proceso autorregulado con mecanismos internos de control y estabilidad.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o4",
+          "text": "Un proceso lineal y predecible sin desviaciones.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "text": "La Ley de la Estabilidad Organizacional señala que la tasa global de mantenimiento y evolución es:",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Altamente variable y depende exclusivamente del número de desarrolladores.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Constante a lo largo del tiempo debido a limitaciones organizativas y de gestión.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Incrementa exponencialmente con el tiempo.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Disminuye rápidamente después del lanzamiento del software.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "text": "¿Qué riesgo se menciona en la Ley de la Familiaridad durante la evolución del software?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Cambios muy pequeños causan pérdida de interés en los desarrolladores.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Cambios demasiado grandes dificultan la comprensión y aumentan errores.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "El ritmo de crecimiento funcional no afecta la familiaridad del equipo.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "La familiaridad solo es importante al inicio del desarrollo.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "text": "¿Qué exige la Ley del Crecimiento Continuo para satisfacer a los usuarios?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Mantener la funcionalidad constante y sin cambios.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Incrementar continuamente la funcionalidad del sistema.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Reducir la cantidad de funcionalidades para simplificar el sistema.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Cambiar solo el diseño visual sin agregar funcionalidades nuevas.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "text": "¿Qué indica la Ley de la Calidad Decreciente si no se mantiene cuidadosamente el software?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "El sistema mantiene su calidad percibida con el tiempo sin cambios.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "La calidad percibida del sistema disminuirá aunque funcione correctamente.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "La calidad siempre aumenta con el uso y la evolución del sistema.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "La calidad no afecta la percepción de los usuarios.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "text": "¿Cómo se describe la evolución del software según la Ley del Sistema de Retroalimentación?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Como un proceso lineal y predecible sin retroalimentación.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Como un sistema de retroalimentación multilateral con múltiples agentes y ajustes iterativos.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Como un proceso aleatorio sin control ni planificación.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Como una secuencia fija de cambios sin interacciones externas.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "text": "¿Quiénes formularon inicialmente las leyes de la evolución del software?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Alan Turing y Grace Hopper.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Meir M. Lehman y László Belady.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Donald Knuth y Edsger Dijkstra.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Tim Berners-Lee y Linus Torvalds.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    }
+  ]
+}

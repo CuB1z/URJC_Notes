@@ -1,0 +1,228 @@
+{
+  "id": "ipo_tema_6_2_quiz_001",
+  "title": "Quiz sobre Encuestas y Métricas para Evaluación de Interfaces de Usuario (Tema 6.2)",
+  "description": "Preguntas para evaluar conocimientos sobre diseño de encuestas, métricas de usabilidad y cuestionarios online según el Tema 6.2.",
+  "tags": ["URJC", "IPO", "Evaluación", "Encuestas", "Métricas", "Usabilidad", "Cuestionarios"],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "text": "¿Cuál es una recomendación clave para diseñar una encuesta efectiva?",
+      "options": [
+        { "id": "o1", "text": "Definir claramente el objetivo de la encuesta antes de crear preguntas", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Incluir muchas preguntas abiertas para obtener más información", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Poner preguntas demográficas al inicio para filtrar usuarios", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Evitar hacer pruebas piloto para ahorrar tiempo", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "text": "¿Dónde se recomienda colocar las preguntas demográficas en una encuesta?",
+      "options": [
+        { "id": "o1", "text": "Al final de la encuesta", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Al inicio de la encuesta", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Al azar entre otras preguntas", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "No incluir preguntas demográficas", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "text": "¿Cuál de estas es una buena práctica para redactar preguntas en encuestas?",
+      "options": [
+        { "id": "o1", "text": "Usar lenguaje simple, neutral y claro", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Formular preguntas complicadas para profundizar", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Evitar ordenar preguntas de lo general a lo específico", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "No usar botones de opción ni casillas de verificación", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "text": "¿Qué se debe incluir para mejorar la tasa y calidad de respuestas en encuestas online?",
+      "options": [
+        { "id": "o1", "text": "Explicar claramente el propósito y uso de los resultados", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Hacer la encuesta lo más larga posible", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Evitar enviar recordatorios a los usuarios", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "No ofrecer incentivos ni motivación", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "text": "¿Cuál es una métrica de efectividad en usabilidad?",
+      "options": [
+        { "id": "o1", "text": "Porcentaje de tareas completadas con éxito", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Tiempo que tarda el usuario en abrir el programa", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Número de colores usados en la interfaz", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Cantidad de botones en pantalla", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "text": "¿Qué métrica se usa para medir la eficiencia en usabilidad?",
+      "options": [
+        { "id": "o1", "text": "Tiempo empleado para completar tareas", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Número de usuarios registrados", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Cantidad de texto en la pantalla", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Frecuencia de clics en publicidad", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "text": "¿Qué aspecto mide la satisfacción en usabilidad?",
+      "options": [
+        { "id": "o1", "text": "Preferencia del usuario y percepción positiva sobre el producto", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Número de errores cometidos", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Velocidad de conexión a internet", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Cantidad de funcionalidades del sistema", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "text": "¿Cuál de estas plataformas permite crear y administrar cuestionarios de usabilidad?",
+      "options": [
+        { "id": "o1", "text": "Gary Perlman’s Quest", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Photoshop", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Microsoft Word", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Excel", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "text": "¿Qué es el cuestionario SUS?",
+      "options": [
+        { "id": "o1", "text": "System Usability Scale, un cuestionario breve y fiable para medir usabilidad", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Un sistema operativo", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Un software de diseño gráfico", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Una red social", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "text": "¿Qué tipo de análisis permite el uso de nubes de palabras en respuestas abiertas?",
+      "options": [
+        { "id": "o1", "text": "Análisis cualitativo para detectar temas y sentimientos predominantes", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Análisis cuantitativo de tiempo", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Análisis financiero del proyecto", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Análisis de hardware", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q11",
+      "type": "multiple",
+      "text": "¿Qué herramienta permite generar nubes de palabras para análisis cualitativo?",
+      "options": [
+        { "id": "o1", "text": "Nube de Palabras (https://www.nubedepalabras.es/)", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Excel", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Microsoft Word", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Adobe Photoshop", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q12",
+      "type": "multiple",
+      "text": "¿Qué cuestionario mide la satisfacción del usuario con el sistema informático?",
+      "options": [
+        { "id": "o1", "text": "CSUQ (Computer System Usability Questionnaire)", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "SUS (System Usability Scale)", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "QUIS", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Photoshop", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q13",
+      "type": "multiple",
+      "text": "¿Cuál es una característica importante para el diseño de escalas en encuestas?",
+      "options": [
+        { "id": "o1", "text": "Cada escala debe medir un solo aspecto", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Incluir muchas opciones positivas para motivar al usuario", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "No incluir opciones ‘No sé’ para evitar confusión", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Combinar preguntas de diferentes temas en una escala", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q14",
+      "type": "multiple",
+      "text": "¿Qué se recomienda para el orden de las preguntas en una encuesta?",
+      "options": [
+        { "id": "o1", "text": "Ordenar de lo general a lo específico para facilitar la comprensión", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Mezclar preguntas sin orden para hacer la encuesta más dinámica", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Colocar preguntas demográficas al inicio", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Evitar preguntas específicas", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q15",
+      "type": "multiple",
+      "text": "¿Qué se debe hacer antes de lanzar una encuesta a gran escala?",
+      "options": [
+        { "id": "o1", "text": "Realizar pruebas piloto con usuarios reales para validar y ajustar las preguntas", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Lanzar la encuesta sin pruebas para obtener más respuestas", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "No revisar las preguntas antes de enviar", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Evitar cambios tras recibir comentarios", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q16",
+      "type": "multiple",
+      "text": "¿Qué se debe balancear en las opciones de respuesta de una escala?",
+      "options": [
+        { "id": "o1", "text": "Opciones positivas y negativas para evitar sesgos", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Solo opciones positivas para motivar respuestas", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Excluir opciones neutrales o ‘No sé’", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Combinar opciones irrelevantes para confundir", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q17",
+      "type": "multiple",
+      "text": "¿Qué es la plataforma 'Gary Perlman’s Quest'?",
+      "options": [
+        { "id": "o1", "text": "Una plataforma para crear y administrar cuestionarios de usabilidad", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Un software para diseño gráfico", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Una red social", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Un editor de vídeo", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q18",
+      "type": "multiple",
+      "text": "¿Qué cuestionario está diseñado para medir la satisfacción tras una prueba de uso?",
+      "options": [
+        { "id": "o1", "text": "PUEU (Post-Study Usability Questionnaire)", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "SUMI", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "WAMMI", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "QUIS", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q19",
+      "type": "multiple",
+      "text": "¿Qué tipo de preguntas se recomienda limitar en encuestas para facilitar el análisis?",
+      "options": [
+        { "id": "o1", "text": "Preguntas abiertas", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Preguntas cerradas", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Preguntas demográficas", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Preguntas con opciones ‘Sí/No’", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q20",
+      "type": "multiple",
+      "text": "¿Qué es importante incluir en una encuesta para recoger aportes adicionales de los usuarios?",
+      "options": [
+        { "id": "o1", "text": "Espacio para comentarios abiertos", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Solo opciones de respuesta múltiples", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Evitar preguntas adicionales para no saturar", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "No permitir respuestas personalizadas", "isCorrect": false, "value": 0 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,941 @@
+{
+  "id": "quiz195cc5",
+  "title": "Tema 6 - Seguridad Informática: Malware y Contramedidas",
+  "description": "Cuestionario extenso sobre tipos de malware, herramientas de análisis, técnicas de evasión, contramedidas y buenas prácticas.",
+  "tags": [
+    "URJC",
+    "URJC_SI"
+  ],
+  "questions": [
+    {
+      "id": "q5e2e62",
+      "type": "multiple",
+      "text": "¿Qué es el malware?",
+      "options": [
+        {
+          "id": "of5e72a",
+          "text": "Es software diseñado para infiltrarse o dañar un sistema sin el consentimiento del usuario.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o1bebd4",
+          "text": "Es una herramienta de desarrollo utilizada para pruebas de sistema.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2d7f07",
+          "text": "Es una técnica de cifrado de archivos personales.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oa103cf",
+          "text": "Es una política de seguridad en redes inalámbricas.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q01ca7c",
+      "type": "multiple",
+      "text": "¿Cuál de las siguientes NO es una característica típica del malware?",
+      "options": [
+        {
+          "id": "oabca53",
+          "text": "Compresión de archivos multimedia",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "obea7b4",
+          "text": "Replicación",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o82046d",
+          "text": "Métodos de ocultamiento",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "ob13c02",
+          "text": "Explotación de privilegios",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q4d2448",
+      "type": "multiple",
+      "text": "¿Cuál es la diferencia principal entre un virus y un gusano?",
+      "options": [
+        {
+          "id": "oa3de84",
+          "text": "El virus requiere intervención del usuario para propagarse, el gusano no.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o4b9a4d",
+          "text": "El gusano necesita un dispositivo USB, el virus no.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "odd1ab4",
+          "text": "Los gusanos no se replican, los virus sí.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o90a17f",
+          "text": "Los virus operan en red y los gusanos no.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qdce03f",
+      "type": "multiple",
+      "text": "¿Cuál es el objetivo principal del troyano Zeus?",
+      "options": [
+        {
+          "id": "o7cd0cb",
+          "text": "Robar credenciales bancarias",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "oa77a25",
+          "text": "Mostrar anuncios emergentes",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o6d95b0",
+          "text": "Eliminar archivos del sistema",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o672473",
+          "text": "Cifrar documentos personales",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q800ff1",
+      "type": "multiple",
+      "text": "¿Qué tipo de malware representa WannaCry?",
+      "options": [
+        {
+          "id": "o1447ad",
+          "text": "Ransomware",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "ob1ff22",
+          "text": "Spyware",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "odc28a8",
+          "text": "Adware",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oa7790d",
+          "text": "Rootkit",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q650cf5",
+      "type": "multiple",
+      "text": "¿Qué hace un rootkit en un sistema comprometido?",
+      "options": [
+        {
+          "id": "o426d80",
+          "text": "Oculta su presencia y permite acceso persistente al sistema.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "odf1a20",
+          "text": "Elimina todos los registros del sistema.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o792524",
+          "text": "Acelera la carga de páginas web.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o12393e",
+          "text": "Evita el uso de software de cifrado.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qd40119",
+      "type": "multiple",
+      "text": "¿Qué describe mejor el concepto de 'Malware como Servicio' (MaaS)?",
+      "options": [
+        {
+          "id": "ob6efd1",
+          "text": "Alquiler de herramientas de malware a otros atacantes sin conocimientos técnicos.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "oc4a870",
+          "text": "Venta de programas antivirus modificados.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o293295",
+          "text": "Servicio técnico para eliminar malware profesionalmente.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "ob7c1fb",
+          "text": "Aplicaciones legales para automatizar backups.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q4265cd",
+      "type": "multiple",
+      "text": "¿Cuál de las siguientes herramientas permite analizar archivos y URLs usando múltiples motores antivirus?",
+      "options": [
+        {
+          "id": "o3867d7",
+          "text": "VirusTotal",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o8ffc28",
+          "text": "Ghidra",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o19f843",
+          "text": "Wireshark",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o7db9bc",
+          "text": "Radare2",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q12add7",
+      "type": "multiple",
+      "text": "¿Qué caracteriza al análisis dinámico de malware?",
+      "options": [
+        {
+          "id": "o0e8884",
+          "text": "Observa el comportamiento del malware ejecutándolo en un entorno controlado.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o5ecad9",
+          "text": "Se basa únicamente en revisar firmas digitales.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oa97713",
+          "text": "Analiza solo el código sin ejecutarlo.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o456739",
+          "text": "Es inútil para detectar conexiones a servidores remotos.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qf6c053",
+      "type": "multiple",
+      "text": "¿Cuál es la función de una herramienta de sandboxing como Cuckoo Sandbox?",
+      "options": [
+        {
+          "id": "oaf615a",
+          "text": "Ejecutar malware en un entorno aislado para observar su comportamiento.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "oe450bf",
+          "text": "Comprimir archivos ejecutables para su distribución.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4c860a",
+          "text": "Proteger contraseñas en navegadores web.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "odb63e5",
+          "text": "Reforzar el sistema contra ataques DDoS.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q4c6f08",
+      "type": "multiple",
+      "text": "¿Para qué se utiliza la herramienta Ghidra?",
+      "options": [
+        {
+          "id": "o8c789d",
+          "text": "Para realizar ingeniería inversa y analizar binarios sin ejecutarlos.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3aa8ca",
+          "text": "Para cifrar comunicaciones SSL.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oc57da5",
+          "text": "Para gestionar bases de datos SQL.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o5b7828",
+          "text": "Para detectar redes WiFi no autorizadas.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qb5cd59",
+      "type": "multiple",
+      "text": "¿Qué es la ofuscación en el contexto del malware?",
+      "options": [
+        {
+          "id": "o4ee8d9",
+          "text": "Una técnica para dificultar el análisis del código malicioso.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "oa534ad",
+          "text": "Un proceso para optimizar el rendimiento de scripts web.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "ob0be23",
+          "text": "Un sistema de autenticación biométrica.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o40457c",
+          "text": "Una herramienta para filtrar correos spam.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q3db8ee",
+      "type": "multiple",
+      "text": "¿Qué permite el polimorfismo en el malware?",
+      "options": [
+        {
+          "id": "ob4f4e2",
+          "text": "Que el código cambie su apariencia en cada ejecución sin alterar su funcionalidad.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o177a1c",
+          "text": "Que el malware instale múltiples antivirus en el sistema.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "od345b6",
+          "text": "Evitar la replicación del virus.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o41a6d8",
+          "text": "Modificar archivos multimedia del usuario.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q13bb48",
+      "type": "multiple",
+      "text": "¿Cuál es la diferencia entre polimorfismo y metamorfismo en malware?",
+      "options": [
+        {
+          "id": "o806fcb",
+          "text": "El metamorfismo cambia completamente el código en cada ejecución.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o13ef32",
+          "text": "El polimorfismo solo se aplica a troyanos.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oa5f9f2",
+          "text": "Ambos eliminan automáticamente antivirus.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o5ceed9",
+          "text": "El metamorfismo requiere conexión a internet para funcionar.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qcfa388",
+      "type": "multiple",
+      "text": "¿Cuál es el propósito de herramientas como UPX en malware?",
+      "options": [
+        {
+          "id": "o43f37e",
+          "text": "Empaquetar el malware para dificultar su detección.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "oac239c",
+          "text": "Analizar tráfico de red.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o08689e",
+          "text": "Implementar firewalls personalizados.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oc1e9c8",
+          "text": "Auditar políticas de seguridad en la nube.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qc81c26",
+      "type": "multiple",
+      "text": "¿Qué hace la herramienta Themida?",
+      "options": [
+        {
+          "id": "o1cd0ed",
+          "text": "Protege el malware mediante técnicas avanzadas de cifrado y evasión.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o8106d7",
+          "text": "Escanea puertos abiertos en redes WiFi.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o9b362d",
+          "text": "Convierte malware en software legítimo.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o729b8f",
+          "text": "Elimina archivos temporales en Windows.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qe98908",
+      "type": "multiple",
+      "text": "¿Cuál es el objetivo principal del spyware?",
+      "options": [
+        {
+          "id": "od34c63",
+          "text": "Espiar la actividad del usuario sin su conocimiento.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o96b68f",
+          "text": "Aumentar la velocidad del sistema.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oa7d041",
+          "text": "Actualizar automáticamente controladores.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "od4d689",
+          "text": "Eliminar malware de otros dispositivos.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q437d9b",
+      "type": "multiple",
+      "text": "¿Qué hace un keylogger?",
+      "options": [
+        {
+          "id": "o5130af",
+          "text": "Registra las pulsaciones del teclado para capturar información sensible.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o459c61",
+          "text": "Acelera la conexión a Internet.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2c2d9e",
+          "text": "Administra copias de seguridad en la nube.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o9279a8",
+          "text": "Sincroniza la hora del sistema con servidores externos.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q29c71a",
+      "type": "multiple",
+      "text": "¿Cómo se utiliza el malware en campañas de spam?",
+      "options": [
+        {
+          "id": "o8a95db",
+          "text": "Se usan botnets para enviar grandes volúmenes de correos no deseados.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "ocd7dfd",
+          "text": "Se escanean los correos en busca de errores gramaticales.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o0c2015",
+          "text": "Se redirigen los correos al servidor DNS.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o8f6098",
+          "text": "Se transforman los correos en archivos PDF.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q9417f9",
+      "type": "multiple",
+      "text": "¿Cuál es una medida preventiva recomendada contra malware?",
+      "options": [
+        {
+          "id": "o7b98b0",
+          "text": "Actualizar el sistema operativo regularmente.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "of19577",
+          "text": "Desactivar el firewall del sistema.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "od611b7",
+          "text": "Aceptar cualquier adjunto de correo electrónico.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "od95970",
+          "text": "Evitar el uso de contraseñas.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q830166",
+      "type": "multiple",
+      "text": "¿Qué hace el adware?",
+      "options": [
+        {
+          "id": "oe7e010",
+          "text": "Muestra anuncios no deseados e interrumpe al usuario.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o408af8",
+          "text": "Instala antivirus legítimos sin consentimiento.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o386559",
+          "text": "Cifra archivos del sistema.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "occddd4",
+          "text": "Modifica configuraciones de red.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qcbd642",
+      "type": "multiple",
+      "text": "¿Qué tienen en común Ghidra y Radare2?",
+      "options": [
+        {
+          "id": "oe2f15c",
+          "text": "Ambas permiten realizar ingeniería inversa en binarios.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o8ee4b2",
+          "text": "Ambas son aplicaciones de control parental.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "ob986f5",
+          "text": "Son herramientas para análisis de tráfico web.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oad8b2e",
+          "text": "Solo funcionan en sistemas operativos móviles.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q45c754",
+      "type": "multiple",
+      "text": "¿Cuál es una limitación de los antivirus basados en firmas?",
+      "options": [
+        {
+          "id": "o370718",
+          "text": "No detectan malware polimórfico o metamórfico.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o94866f",
+          "text": "No funcionan en sistemas operativos modernos.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o334c4e",
+          "text": "Requieren hardware especializado para ejecutarse.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o79d5e7",
+          "text": "Solo escanean documentos PDF.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q072e60",
+      "type": "multiple",
+      "text": "¿Qué es Cuckoo Sandbox?",
+      "options": [
+        {
+          "id": "ob91798",
+          "text": "Un entorno controlado para ejecutar malware y observar su comportamiento.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "oc6a62f",
+          "text": "Una herramienta para enviar correos en masa.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oae3994",
+          "text": "Una suite de optimización de discos duros.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3c8f3c",
+          "text": "Un framework de redes neuronales.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q46f490",
+      "type": "multiple",
+      "text": "¿Qué método puede activar un malware?",
+      "options": [
+        {
+          "id": "o6b3ed2",
+          "text": "Un clic del usuario o un contador de tiempo.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o5b3d15",
+          "text": "Una actualización legítima del sistema operativo.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "of6f798",
+          "text": "Un reinicio seguro del sistema.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3000df",
+          "text": "La instalación de software de seguridad.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q148890",
+      "type": "multiple",
+      "text": "¿Qué es una manifestación del malware?",
+      "options": [
+        {
+          "id": "o63e922",
+          "text": "Los efectos visibles como eliminación de archivos o mensajes emergentes.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o5f95ee",
+          "text": "La lista de procesos activos del sistema.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o852b54",
+          "text": "La dirección IP de origen del atacante.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "ofbe0f4",
+          "text": "El nombre del archivo ejecutable original.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qcb06c5",
+      "type": "multiple",
+      "text": "¿Cuál es la finalidad principal del ransomware?",
+      "options": [
+        {
+          "id": "o87d4f2",
+          "text": "Cifrar archivos del usuario y exigir un pago por su liberación.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "oe5bea4",
+          "text": "Eliminar el sistema operativo completamente.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oc880e7",
+          "text": "Hacer copias de seguridad en la nube.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oa9645a",
+          "text": "Acelerar el arranque del sistema.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qb2d6a9",
+      "type": "multiple",
+      "text": "¿Qué propósito tienen técnicas como el cifrado de código y el empaquetado en malware?",
+      "options": [
+        {
+          "id": "o5a5384",
+          "text": "Evitar la detección por herramientas antivirus.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o9f3adb",
+          "text": "Aumentar el tamaño del archivo malicioso.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3fd88d",
+          "text": "Disminuir el consumo de CPU.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o7aea36",
+          "text": "Garantizar compatibilidad con Linux.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q02d49d",
+      "type": "multiple",
+      "text": "¿Cuál es una buena práctica para protegerse contra el robo de contraseñas?",
+      "options": [
+        {
+          "id": "o19d154",
+          "text": "Usar contraseñas fuertes y autenticación de dos factores.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o9139bb",
+          "text": "Compartir contraseñas solo con compañeros de trabajo.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o8d0ed4",
+          "text": "Almacenar contraseñas en documentos sin cifrar.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o0cdf2a",
+          "text": "Usar la misma contraseña para todos los servicios.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qb9d8de",
+      "type": "multiple",
+      "text": "¿Por qué es importante la educación en ciberseguridad?",
+      "options": [
+        {
+          "id": "o0aea44",
+          "text": "Porque ayuda a prevenir errores humanos que pueden permitir ataques de malware.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "obbf46b",
+          "text": "Porque elimina automáticamente todos los virus conocidos.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o6f78a3",
+          "text": "Porque sustituye a los antivirus tradicionales.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o639672",
+          "text": "Porque bloquea todos los anuncios publicitarios.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    }
+  ]
+}

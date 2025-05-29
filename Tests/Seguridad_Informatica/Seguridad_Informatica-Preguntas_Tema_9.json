@@ -1,0 +1,941 @@
+{
+  "id": "quiz03d611",
+  "title": "Tema 9 - Buenas Prácticas y Desarrollo Seguro",
+  "description": "Cuestionario sobre prácticas seguras para usuarios, administradores y desarrolladores. Incluye metodologías, estándares, y seguridad en aplicaciones móviles.",
+  "tags": [
+    "URJC",
+    "URJC_SI"
+  ],
+  "questions": [
+    {
+      "id": "q8d80b8",
+      "type": "multiple",
+      "text": "¿Cuál de las siguientes es una buena práctica para usuarios finales?",
+      "options": [
+        {
+          "id": "o6abe36",
+          "text": "Usar contraseñas fuertes y únicas.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o37de9b",
+          "text": "Desactivar el antivirus si ralentiza el sistema.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o1f7735",
+          "text": "Guardar contraseñas en notas visibles.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4a1925",
+          "text": "Compartir credenciales por correo si es urgente.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q84ecd3",
+      "type": "multiple",
+      "text": "¿Qué práctica se recomienda a un administrador para controlar el acceso?",
+      "options": [
+        {
+          "id": "o301618",
+          "text": "Aplicar control de acceso basado en roles.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o7a57f8",
+          "text": "Dar privilegios administrativos a todos los usuarios.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o806887",
+          "text": "Permitir acceso remoto sin cifrado.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o56395c",
+          "text": "Desactivar actualizaciones del sistema.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q78c3c5",
+      "type": "multiple",
+      "text": "¿Qué se debe evitar en una codificación segura?",
+      "options": [
+        {
+          "id": "o7299e2",
+          "text": "Mostrar trazas con información sensible.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "oe2774b",
+          "text": "Validar entradas externas.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oe1ff6c",
+          "text": "Canonizar rutas de archivos.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oa7777f",
+          "text": "Liberar recursos correctamente.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q322ffb",
+      "type": "multiple",
+      "text": "¿Por qué es importante validar entradas externas en el desarrollo seguro?",
+      "options": [
+        {
+          "id": "oa46973",
+          "text": "Para prevenir ataques como inyecciones o desbordamientos.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o5ff457",
+          "text": "Para comprimir mejor el código.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oa4af3d",
+          "text": "Para evitar usar cifrado simétrico.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o823e3c",
+          "text": "Para desactivar la depuración automática.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qe9ea8e",
+      "type": "multiple",
+      "text": "¿Cuál de estas herramientas se usa para análisis estático del código?",
+      "options": [
+        {
+          "id": "oe9cb9c",
+          "text": "FlawFinder",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "oc181d7",
+          "text": "Wireshark",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2eb7e5",
+          "text": "Burp Suite",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o96ab28",
+          "text": "Metasploit",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qa750a0",
+      "type": "multiple",
+      "text": "¿A qué lenguajes aplica el estándar CERT de buenas prácticas?",
+      "options": [
+        {
+          "id": "o6229d2",
+          "text": "C, C++ y Java",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "oa4c9df",
+          "text": "HTML, CSS y JavaScript",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oc3e4e3",
+          "text": "Python y Ruby",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "of61df2",
+          "text": "Go y Rust",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q294c68",
+      "type": "multiple",
+      "text": "¿Qué significa el principio KISS en desarrollo seguro?",
+      "options": [
+        {
+          "id": "oa8351e",
+          "text": "Mantener el diseño lo más simple posible.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o13a3ef",
+          "text": "Evitar el uso de claves privadas.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o766095",
+          "text": "Desarrollar sin usar frameworks externos.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o7313a9",
+          "text": "Ignorar advertencias del compilador.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qca00b6",
+      "type": "multiple",
+      "text": "¿Qué busca el principio de privilegios mínimos?",
+      "options": [
+        {
+          "id": "o855d9c",
+          "text": "Que los usuarios y procesos tengan solo los permisos necesarios.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "ofafb15",
+          "text": "Permitir acceso total durante el desarrollo.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o5fe85c",
+          "text": "Evitar el uso de roles en la red.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o7eed82",
+          "text": "Desactivar autenticación multifactor.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qb813ef",
+      "type": "multiple",
+      "text": "¿Qué característica tiene el análisis dinámico?",
+      "options": [
+        {
+          "id": "o22cd0c",
+          "text": "Requiere ejecutar la aplicación para detectar vulnerabilidades reales.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "oe6cba9",
+          "text": "No necesita un entorno de pruebas.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o94f9a4",
+          "text": "Es más rápido que el análisis estático.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o53b725",
+          "text": "Analiza solamente las dependencias.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q550d60",
+      "type": "multiple",
+      "text": "¿Qué es OWASP SAMM?",
+      "options": [
+        {
+          "id": "o705f38",
+          "text": "Un modelo abierto y adaptable de seguridad en el ciclo de desarrollo.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o360b9c",
+          "text": "Un estándar de cifrado de contraseñas.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "odb29a6",
+          "text": "Una herramienta de análisis de tráfico web.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o99f435",
+          "text": "Un protocolo de seguridad de red.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q1827a2",
+      "type": "multiple",
+      "text": "¿Qué caracteriza al modelo SDL (Microsoft)?",
+      "options": [
+        {
+          "id": "o4c9ad6",
+          "text": "Incluye checklists por fases del ciclo de desarrollo.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o257171",
+          "text": "Es un protocolo de comunicación segura.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o54c777",
+          "text": "Solo se aplica a aplicaciones móviles.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o9545d0",
+          "text": "Reemplaza a OWASP SAMM.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qdfd638",
+      "type": "multiple",
+      "text": "¿Qué significa SD3+C en desarrollo seguro?",
+      "options": [
+        {
+          "id": "o887435",
+          "text": "Seguridad por diseño, por defecto y con buena comunicación.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o38f3b9",
+          "text": "Sistema de detección de amenazas por capas.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o819e04",
+          "text": "Software distribuido con tres capas críticas.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o41fed1",
+          "text": "Sistema de documentación de control centralizado.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q2e0235",
+      "type": "multiple",
+      "text": "¿Qué práctica es recomendable en el desarrollo de apps móviles seguras?",
+      "options": [
+        {
+          "id": "ocb154f",
+          "text": "Cifrar datos tanto en reposo como en tránsito.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o81ef74",
+          "text": "Evitar validaciones en el servidor.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oe6eb9e",
+          "text": "Solicitar todos los permisos posibles.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3c9199",
+          "text": "Permitir el acceso root por defecto.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qc28161",
+      "type": "multiple",
+      "text": "¿Qué riesgo está incluido en el OWASP Mobile Top 10?",
+      "options": [
+        {
+          "id": "o9bfff4",
+          "text": "Almacenamiento inseguro de datos.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o61d474",
+          "text": "Uso excesivo de interfaces gráficas.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "ob88b6a",
+          "text": "Optimización de algoritmos de búsqueda.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oa0bf72",
+          "text": "Compresión de imágenes innecesaria.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q58db79",
+      "type": "multiple",
+      "text": "¿Qué riesgo implica la ingeniería inversa en apps móviles?",
+      "options": [
+        {
+          "id": "o5cee6b",
+          "text": "El atacante puede extraer lógica y claves del código.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o6a4f95",
+          "text": "Se aumenta la latencia de red.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o21f219",
+          "text": "Se deshabilita la compresión de datos.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o83ac1a",
+          "text": "Reduce el uso de CPU del dispositivo.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q1ce764",
+      "type": "multiple",
+      "text": "¿Por qué es preferible usar `SecureRandom` en lugar de generadores estándar?",
+      "options": [
+        {
+          "id": "o4d8e17",
+          "text": "Porque es más adecuado para propósitos criptográficos.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o158887",
+          "text": "Porque genera imágenes comprimidas más rápido.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o885e07",
+          "text": "Porque optimiza el uso de recursos en GPU.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "od4c796",
+          "text": "Porque comprime mejor los datos binarios.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q9ce4e9",
+      "type": "multiple",
+      "text": "¿Qué se recomienda hacer con archivos temporales tras su uso?",
+      "options": [
+        {
+          "id": "o75c50f",
+          "text": "Eliminarlos para evitar filtraciones de información.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "of7a1fc",
+          "text": "Cifrarlos y conservarlos indefinidamente.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o8dfbc7",
+          "text": "Enviar copia a todos los usuarios del sistema.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o0b7b5c",
+          "text": "Subirlos a una nube pública sin restricción.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q973e51",
+      "type": "multiple",
+      "text": "¿Qué busca la estrategia de defensa en profundidad?",
+      "options": [
+        {
+          "id": "o051e5f",
+          "text": "Agregar múltiples capas de seguridad a lo largo del sistema.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o90867b",
+          "text": "Deshabilitar el firewall para reducir carga.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oc965e3",
+          "text": "Permitir acceso total para agilizar auditorías.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "of99d26",
+          "text": "Concentrar la seguridad en el servidor web solamente.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q2f27c2",
+      "type": "multiple",
+      "text": "¿Por qué es importante sanear las salidas hacia otros subsistemas?",
+      "options": [
+        {
+          "id": "o440091",
+          "text": "Para evitar inyecciones y malformación de datos.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o958c20",
+          "text": "Para aplicar compresión en el servidor.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o5e021d",
+          "text": "Para almacenar logs temporales en disco.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o0cebae",
+          "text": "Para prevenir pérdida de paquetes de red.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q629e66",
+      "type": "multiple",
+      "text": "¿Por qué se deben eliminar las cuentas obsoletas?",
+      "options": [
+        {
+          "id": "o0b5384",
+          "text": "Porque representan un riesgo de acceso no autorizado si no se usan.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o983c92",
+          "text": "Porque ocupan demasiado espacio en disco.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o05aa29",
+          "text": "Porque ralentizan el sistema operativo.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3d0a0f",
+          "text": "Porque dificultan la impresión de informes.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q6808de",
+      "type": "multiple",
+      "text": "¿Qué propósito tiene canonizar rutas en codificación segura?",
+      "options": [
+        {
+          "id": "odfd527",
+          "text": "Evitar rutas relativas maliciosas que puedan alterar el acceso a archivos.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "oba1632",
+          "text": "Generar URLs más legibles para el usuario.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "obb9a12",
+          "text": "Reducir la longitud de los nombres de archivo.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "od5a5b9",
+          "text": "Aumentar el rendimiento de compilación.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qb0dc87",
+      "type": "multiple",
+      "text": "¿Qué recursos deben liberarse después de su uso?",
+      "options": [
+        {
+          "id": "o8372fa",
+          "text": "Memoria, sockets y hilos.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "oe03603",
+          "text": "Directorios de documentación.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oca2e2d",
+          "text": "Archivos de ayuda en línea.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o32ced4",
+          "text": "Imágenes y hojas de estilo.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qa658c0",
+      "type": "multiple",
+      "text": "¿Por qué es importante revisar todas las advertencias de compilación?",
+      "options": [
+        {
+          "id": "of0e6e0",
+          "text": "Porque pueden señalar vulnerabilidades latentes o errores lógicos.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "oc23cf1",
+          "text": "Para mejorar la estética del código.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o1bf6e2",
+          "text": "Para reducir el tamaño de los ejecutables.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oe18b89",
+          "text": "Porque optimiza la indexación en buscadores.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q26b117",
+      "type": "multiple",
+      "text": "¿Qué política es útil para gestionar cuentas de usuarios inactivos?",
+      "options": [
+        {
+          "id": "o0df91c",
+          "text": "Eliminación de cuentas obsoletas.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "ob5df89",
+          "text": "Duplicación automática de cuentas inactivas.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oadb317",
+          "text": "Asignación de roles sin revisión periódica.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oc8b4e5",
+          "text": "Permitir múltiples cuentas por usuario.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q678fe0",
+      "type": "multiple",
+      "text": "¿Qué permite la trazabilidad en metodologías de desarrollo seguro?",
+      "options": [
+        {
+          "id": "oe7c3cb",
+          "text": "Rastrear decisiones y cambios a lo largo del ciclo de vida del software.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o17cdaf",
+          "text": "Comprimir la base de datos de usuarios.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "od957ad",
+          "text": "Automatizar tareas de diseño gráfico.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o6249d5",
+          "text": "Crear respaldos automáticos de archivos temporales.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q469996",
+      "type": "multiple",
+      "text": "¿Por qué es necesaria la formación continua del equipo de desarrollo?",
+      "options": [
+        {
+          "id": "o6c8f6d",
+          "text": "Para mantenerse actualizado frente a nuevas amenazas y técnicas.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "obde14b",
+          "text": "Para reemplazar el uso de estándares internacionales.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "obe3714",
+          "text": "Para reducir el número de commits por día.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o654a24",
+          "text": "Para escribir código más compacto.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q8b59bb",
+      "type": "multiple",
+      "text": "¿Qué diferencia principal hay entre análisis estático y dinámico?",
+      "options": [
+        {
+          "id": "o61a930",
+          "text": "El estático no ejecuta código, el dinámico sí.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "oddb7de",
+          "text": "El dinámico es más rápido y automatizable.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4c181d",
+          "text": "El estático se aplica solo en producción.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oe9ea68",
+          "text": "Ambos requieren entornos de ejecución idénticos.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q1f86f3",
+      "type": "multiple",
+      "text": "¿Qué ofrece la guía OWASP para desarrolladores?",
+      "options": [
+        {
+          "id": "oc0e2da",
+          "text": "Buenas prácticas de codificación segura.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o440cc3",
+          "text": "Estándares para hardware de seguridad.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o9150e2",
+          "text": "Protocolos para análisis de tráfico Wi-Fi.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oae19b5",
+          "text": "Recomendaciones sobre diseño gráfico.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q6e1ef6",
+      "type": "multiple",
+      "text": "¿Cuál es una buena política respecto al manejo de contraseñas?",
+      "options": [
+        {
+          "id": "o4ff8a1",
+          "text": "Establecer vencimiento y caducidad periódica.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o413469",
+          "text": "Permitir contraseñas compartidas entre usuarios.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oa0c7bc",
+          "text": "Almacenar contraseñas en texto plano.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o915898",
+          "text": "Usar contraseñas por defecto indefinidamente.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qf1efce",
+      "type": "multiple",
+      "text": "¿Qué falla crítica puede comprometer la seguridad de una app móvil?",
+      "options": [
+        {
+          "id": "o4b0bdc",
+          "text": "Control deficiente de sesiones o autenticación.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o544d44",
+          "text": "Tamaño excesivo de iconos gráficos.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o9528a4",
+          "text": "Implementación de animaciones en la interfaz.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o1ddabc",
+          "text": "Uso de variables globales en la lógica de UI.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    }
+  ]
+}

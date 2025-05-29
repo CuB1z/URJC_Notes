@@ -1,0 +1,228 @@
+{
+  "id": "ipo_tema_1_2_quiz_001",
+  "title": "Quiz sobre Diseño Centrado en el Usuario (Tema 1.2)",
+  "description": "Preguntas para evaluar conocimientos sobre el Diseño Centrado en el Usuario y sus procesos, basados en el Tema 1.2.",
+  "tags": ["URJC", "IPO", "Diseño Centrado en el Usuario", "DCU"],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "text": "¿Cuál es la idea fundamental del Diseño Centrado en el Usuario (DCU)?",
+      "options": [
+        { "id": "o1", "text": "Entender quiénes son los usuarios y cómo interactúan con la tecnología", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Priorizar el hardware sobre la experiencia del usuario", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Reducir la participación del usuario en el diseño", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Crear sistemas basados en la tecnología más avanzada disponible", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "text": "¿Cuál no es una fase del proceso general de diseño centrado en las personas?",
+      "options": [
+        { "id": "o1", "text": "Planificar el proceso centrado en las personas", "isCorrect": false, "value": 0 },
+        { "id": "o2", "text": "Especificar el contexto de uso", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Ignorar el feedback del usuario", "isCorrect": true, "value": 1 },
+        { "id": "o4", "text": "Evaluar los diseños en relación con los requisitos del usuario", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "text": "¿Qué significa el modelo AIPO en el contexto del DCU?",
+      "options": [
+        { "id": "o1", "text": "Análisis, Diseño, Prototipo y Operación", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Aplicación, Implementación, Prueba y Optimización", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Acceso, Interacción, Presentación y Organización", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Análisis, Integración, Producción y Operación", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "text": "¿Qué tipos de requisitos se deben considerar en el análisis para DCU?",
+      "options": [
+        { "id": "o1", "text": "Funcionales y no funcionales, incluyendo usabilidad y experiencia de usuario", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Sólo requisitos técnicos", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Únicamente requisitos de seguridad", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Requisitos estéticos exclusivamente", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "text": "¿Qué es el análisis etnográfico en el diseño centrado en el usuario?",
+      "options": [
+        { "id": "o1", "text": "Estudio detallado del modo de vida y comportamientos de los usuarios mediante observación directa", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Diseño gráfico de interfaces", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Evaluación de hardware y software", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Elaboración de prototipos visuales", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "text": "¿Qué información incluye el perfil del usuario en DCU?",
+      "options": [
+        { "id": "o1", "text": "Edad, formación, experiencia tecnológica, entorno social y laboral", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Sólo edad y género", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Sólo preferencias estéticas", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Características del hardware utilizado", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "text": "¿Cuál de las siguientes NO es una característica del contexto de uso?",
+      "options": [
+        { "id": "o1", "text": "Nivel de ruido ambiental", "isCorrect": false, "value": 0 },
+        { "id": "o2", "text": "Condiciones de iluminación", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Preferencias de color del usuario", "isCorrect": true, "value": 1 },
+        { "id": "o4", "text": "Tipo de dispositivo usado", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "text": "¿Cuál es un objetivo clave de la usabilidad en DCU?",
+      "options": [
+        { "id": "o1", "text": "Que el sistema sea fácil de aprender y consistente", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Que el sistema tenga muchas funciones complejas", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Que el sistema sea exclusivamente para expertos", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Que el sistema ignore los errores del usuario", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "text": "La norma ISO 13407:1999 en DCU establece que:",
+      "options": [
+        { "id": "o1", "text": "Se deben involucrar usuarios durante todo el ciclo de vida del desarrollo", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "El desarrollo debe hacerse sin feedback de usuarios", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Sólo es aplicable al hardware", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Ignora las condiciones del contexto de uso", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "text": "¿Cuál es una técnica para obtener requisitos en DCU?",
+      "options": [
+        { "id": "o1", "text": "Entrevistas estructuradas con usuarios", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Diseño de circuitos electrónicos", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Programación en bajo nivel", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Análisis financiero", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q11",
+      "type": "multiple",
+      "text": "¿Qué tipo de prototipos se utilizan para probar ideas rápidamente en DCU?",
+      "options": [
+        { "id": "o1", "text": "Desde papel hasta prototipos interactivos", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Solo prototipos funcionales completos", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Prototipos físicos de hardware exclusivamente", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Ningún prototipo, se diseña directamente en producción", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q12",
+      "type": "multiple",
+      "text": "¿Cuál es el objetivo de realizar pruebas de usabilidad?",
+      "options": [
+        { "id": "o1", "text": "Recoger datos y observaciones sobre cómo usuarios reales usan el sistema", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Diseñar la interfaz gráfica sin usuarios", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Reducir el tiempo de desarrollo sin pruebas", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Implementar características técnicas avanzadas", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q13",
+      "type": "multiple",
+      "text": "¿Para qué se utiliza la técnica de card sorting en DCU?",
+      "options": [
+        { "id": "o1", "text": "Para organizar la información según cómo los usuarios clasifican conceptos", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Para desarrollar algoritmos de búsqueda", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Para realizar análisis financieros", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Para diseñar gráficos vectoriales", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q14",
+      "type": "multiple",
+      "text": "En el caso práctico del aula virtual, ¿qué permitió el análisis etnográfico?",
+      "options": [
+        { "id": "o1", "text": "Entender las necesidades y comportamiento de estudiantes, profesores y administradores", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Desarrollar hardware nuevo", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Reducir el número de usuarios", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Ignorar el contexto cultural", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q15",
+      "type": "multiple",
+      "text": "¿Cuál es una ventaja de aplicar DCU en el desarrollo de sistemas interactivos?",
+      "options": [
+        { "id": "o1", "text": "Mejorar la usabilidad y satisfacción del usuario final", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Acelerar el proceso sin consultar usuarios", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Reducir la calidad para ahorrar costes", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Evitar iteraciones y pruebas", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q16",
+      "type": "multiple",
+      "text": "¿Qué debe incluir la especificación de los requisitos del usuario y organizacionales?",
+      "options": [
+        { "id": "o1", "text": "Necesidades del usuario y restricciones existentes", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Solo los requisitos técnicos del sistema", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Sólo criterios estéticos", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Exclusivamente objetivos de negocio", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q17",
+      "type": "multiple",
+      "text": "¿Por qué es importante evaluar los diseños en relación con los requisitos del usuario?",
+      "options": [
+        { "id": "o1", "text": "Para recoger feedback y mejorar el sistema continuamente", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Para finalizar el diseño sin cambios", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Para reducir el número de usuarios", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Para aumentar la complejidad del sistema", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q18",
+      "type": "multiple",
+      "text": "¿Qué aspecto cultural es considerado en el análisis etnográfico?",
+      "options": [
+        { "id": "o1", "text": "Valores, motivaciones y perspectivas culturales de los usuarios", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Solo características técnicas del dispositivo", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Preferencias comerciales exclusivas", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Diseño gráfico", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q19",
+      "type": "multiple",
+      "text": "¿Qué ayuda a tomar decisiones de diseño acertadas en DCU?",
+      "options": [
+        { "id": "o1", "text": "Conocer el perfil y el contexto de uso del usuario", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Ignorar las condiciones del entorno", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Sólo seguir las tendencias tecnológicas", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Reducir el número de iteraciones", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q20",
+      "type": "multiple",
+      "text": "¿Qué beneficio se obtiene al involucrar a los usuarios en todas las fases del DCU?",
+      "options": [
+        { "id": "o1", "text": "Diseñar sistemas más ajustados a sus necesidades y mejorar su aceptación", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Reducir la calidad del sistema", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Disminuir la usabilidad", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Aumentar el tiempo de desarrollo sin beneficios", "isCorrect": false, "value": 0 }
+      ]
+    }
+  ]
+}

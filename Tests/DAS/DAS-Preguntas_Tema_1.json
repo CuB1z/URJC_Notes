@@ -1,0 +1,944 @@
+{
+    "id": "DAS-T1-2025",
+    "title": "Test de Diseño y Arquitectura Software - Tema 1",
+    "description": "Evaluación sobre conceptos de diseño y arquitectura software basados en el Tema 1",
+    "tags": [
+        "Diseño de Software",
+        "Arquitectura de Software",
+        "Patrones de Diseño",
+        "Estilos Arquitectónicos",
+        "ISO 42010"
+    ],
+    "questions": [
+        {
+            "id": "q1",
+            "type": "multiple",
+            "text": "¿Qué es una Arquitectura Software?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un modelo físico de un sistema real",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Una tripleta de elementos arquitectónicos como clases y paquetes UML que se conectan con una determinada forma",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Un método para resolver ecuaciones diferenciales",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Una técnica para optimizar procesos sin usar modelos",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q2",
+            "type": "multiple",
+            "text": "¿Qué es un Arquitecto Software?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un desarrollador que escribe código",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Un diseñador que identifica los requisitos funcionales y no funcionales para construir el diseño software de un sistema",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Un administrador de sistemas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un tester de software",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q3",
+            "type": "multiple",
+            "text": "¿Qué es una Arquitectura de Referencia?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un diseño específico para un producto",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Un diseño de alto nivel que describe las partes fundamentales de un conjunto de sistemas en un dominio particular",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Un modelo físico de un sistema real",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Una técnica para optimizar procesos sin usar modelos",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q4",
+            "type": "multiple",
+            "text": "¿Cuál de los siguientes NO es un principio de diseño software?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Separación de responsabilidades",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Alta cohesión implica bajo acoplamiento",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Duplicar la funcionalidad de componentes",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o4",
+                    "text": "Evitar dependencias circulares",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q5",
+            "type": "multiple",
+            "text": "¿Qué es un Patrón de Diseño Software?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un modelo físico de un sistema real",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Una solución de diseño para un problema recurrente en un contexto determinado",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Un método para resolver ecuaciones diferenciales",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Una técnica para optimizar procesos sin usar modelos",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q6",
+            "type": "multiple",
+            "text": "¿Cuál de los siguientes NO es un estilo arquitectónico?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Modelo-Vista-Controlador (MVC)",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Capas (Layers, Tiers)",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Simulación Continua",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o4",
+                    "text": "Cliente / Servidor (Client/Server)",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q7",
+            "type": "multiple",
+            "text": "¿Qué es el estándar ISO 42010?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un modelo físico de un sistema real",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Un estándar para la descripción de sistemas intensivos software que incluye soporte para lógica y decisiones de diseño",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Un método para resolver ecuaciones diferenciales",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Una técnica para optimizar procesos sin usar modelos",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q8",
+            "type": "multiple",
+            "text": "¿Qué es la separación de responsabilidades?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un principio de diseño que implica dividir un sistema en partes que gestionan diferentes aspectos",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un método para optimizar el rendimiento del software",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Una técnica para mejorar la seguridad del sistema",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un modelo físico de un sistema real",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q9",
+            "type": "multiple",
+            "text": "¿Qué es la inyección de dependencias?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un principio de diseño que implica la creación de dependencias circulares",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Una técnica para transferir la responsabilidad de creación y enlace de módulos a un framework externo configurable",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Un método para resolver ecuaciones diferenciales",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Una técnica para optimizar procesos sin usar modelos",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q10",
+            "type": "multiple",
+            "text": "¿Qué es un patrón de diseño creacional?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un patrón que se enfoca en la creación de objetos",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un patrón que se enfoca en la estructura de un sistema",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un patrón que se enfoca en el comportamiento de un sistema",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un patrón que se enfoca en la concurrencia de un sistema",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q11",
+            "type": "multiple",
+            "text": "¿Qué es un patrón de diseño estructural?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un patrón que se enfoca en la creación de objetos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Un patrón que se enfoca en la estructura de un sistema",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Un patrón que se enfoca en el comportamiento de un sistema",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un patrón que se enfoca en la concurrencia de un sistema",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q12",
+            "type": "multiple",
+            "text": "¿Qué es un patrón de diseño de comportamiento?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un patrón que se enfoca en la creación de objetos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Un patrón que se enfoca en la estructura de un sistema",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un patrón que se enfoca en el comportamiento de un sistema",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o4",
+                    "text": "Un patrón que se enfoca en la concurrencia de un sistema",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q13",
+            "type": "multiple",
+            "text": "¿Qué es un patrón de diseño de concurrencia?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un patrón que se enfoca en la creación de objetos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Un patrón que se enfoca en la estructura de un sistema",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un patrón que se enfoca en el comportamiento de un sistema",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un patrón que se enfoca en la concurrencia de un sistema",
+                    "isCorrect": true,
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "id": "q14",
+            "type": "multiple",
+            "text": "¿Qué es el principio de Hollywood?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un principio de diseño que implica que los módulos superiores no dependen de los módulos en niveles inferiores",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Un principio de diseño que implica que un módulo define una interfaz que otros módulos realizan",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un principio de diseño que implica que los módulos no deben llamarse entre sí directamente",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o4",
+                    "text": "Un principio de diseño que implica la creación de dependencias circulares",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q15",
+            "type": "multiple",
+            "text": "¿Qué es el principio de inversión de control?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un principio de diseño que implica que los módulos superiores no dependen de los módulos en niveles inferiores",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un principio de diseño que implica que un módulo define una interfaz que otros módulos realizan",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un principio de diseño que implica que los módulos no deben llamarse entre sí directamente",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un principio de diseño que implica la creación de dependencias circulares",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q16",
+            "type": "multiple",
+            "text": "¿Qué es la modularización del diseño software?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un principio de diseño que implica dividir un sistema en módulos independientes",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un principio de diseño que implica la creación de dependencias circulares",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un principio de diseño que implica que los módulos no deben llamarse entre sí directamente",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un principio de diseño que implica que los módulos superiores no dependen de los módulos en niveles inferiores",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q17",
+            "type": "multiple",
+            "text": "¿Qué es la cohesión en diseño software?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un principio de diseño que implica que los módulos no deben llamarse entre sí directamente",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Un principio de diseño que implica que los módulos superiores no dependen de los módulos en niveles inferiores",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un principio de diseño que implica que un módulo define una interfaz que otros módulos realizan",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un principio de diseño que implica que los elementos de un módulo están altamente relacionados entre sí",
+                    "isCorrect": true,
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "id": "q18",
+            "type": "multiple",
+            "text": "¿Qué es el acoplamiento en diseño software?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un principio de diseño que implica que los módulos no deben llamarse entre sí directamente",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Un principio de diseño que implica que los módulos superiores no dependen de los módulos en niveles inferiores",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un principio de diseño que implica que un módulo define una interfaz que otros módulos realizan",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un principio de diseño que implica la medida en que un módulo depende de otros módulos",
+                    "isCorrect": true,
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "id": "q19",
+            "type": "multiple",
+            "text": "¿Qué es la modularización en diseño software?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un principio de diseño que implica dividir un sistema en módulos independientes",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un principio de diseño que implica la creación de dependencias circulares",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un principio de diseño que implica que los módulos no deben llamarse entre sí directamente",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un principio de diseño que implica que los módulos superiores no dependen de los módulos en niveles inferiores",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q20",
+            "type": "multiple",
+            "text": "¿Qué es un patrón de diseño de interacción?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un patrón que se enfoca en la creación de objetos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Un patrón que se enfoca en la estructura de un sistema",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un patrón que se enfoca en el comportamiento de un sistema",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un patrón que se enfoca en la interacción entre componentes de un sistema",
+                    "isCorrect": true,
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "id": "q21",
+            "type": "multiple",
+            "text": "¿Qué es un patrón de diseño de workflow y process automation?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un patrón que se enfoca en la creación de objetos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Un patrón que se enfoca en la estructura de un sistema",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un patrón que se enfoca en la automatización de procesos y flujos de trabajo",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o4",
+                    "text": "Un patrón que se enfoca en la concurrencia de un sistema",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q22",
+            "type": "multiple",
+            "text": "¿Qué es un patrón de diseño de microservicios?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un patrón que se enfoca en la creación de objetos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Un patrón que se enfoca en la estructura de un sistema",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un patrón que se enfoca en el comportamiento de un sistema",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un patrón que se enfoca en la arquitectura de microservicios",
+                    "isCorrect": true,
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "id": "q23",
+            "type": "multiple",
+            "text": "¿Qué es un estilo arquitectónico de capas?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un estilo que se enfoca en la creación de objetos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Un estilo que se enfoca en la estructura de un sistema en capas",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o3",
+                    "text": "Un estilo que se enfoca en el comportamiento de un sistema",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un estilo que se enfoca en la concurrencia de un sistema",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q24",
+            "type": "multiple",
+            "text": "¿Qué es un estilo arquitectónico de cliente/servidor?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un estilo que se enfoca en la creación de objetos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Un estilo que se enfoca en la estructura de un sistema en capas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un estilo que se enfoca en la arquitectura de cliente/servidor",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o4",
+                    "text": "Un estilo que se enfoca en la concurrencia de un sistema",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q25",
+            "type": "multiple",
+            "text": "¿Qué es un estilo arquitectónico de pizarra?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un estilo que se enfoca en la creación de objetos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Un estilo que se enfoca en la estructura de un sistema en capas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un estilo que se enfoca en la arquitectura de pizarra",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o4",
+                    "text": "Un estilo que se enfoca en la concurrencia de un sistema",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q26",
+            "type": "multiple",
+            "text": "¿Qué es un estilo arquitectónico de máquina virtual?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un estilo que se enfoca en la creación de objetos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Un estilo que se enfoca en la estructura de un sistema en capas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un estilo que se enfoca en la arquitectura de máquina virtual",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o4",
+                    "text": "Un estilo que se enfoca en la concurrencia de un sistema",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q27",
+            "type": "multiple",
+            "text": "¿Qué es un estilo arquitectónico basado en componentes?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un estilo que se enfoca en la creación de objetos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Un estilo que se enfoca en la estructura de un sistema en capas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un estilo que se enfoca en la arquitectura basada en componentes",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o4",
+                    "text": "Un estilo que se enfoca en la concurrencia de un sistema",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q28",
+            "type": "multiple",
+            "text": "¿Qué es un estilo arquitectónico de bus de mensajes?",
+            "options": [
+            {
+                "id": "o1",
+                "text": "Un estilo que se enfoca en la creación de objetos",
+                "isCorrect": false,
+                "value": 0
+            },
+            {
+                "id": "o2",
+                "text": "Un estilo que se enfoca en la estructura de un sistema en capas",
+                "isCorrect": false,
+                "value": 0
+            },
+            {
+                "id": "o3",
+                "text": "Un estilo que se enfoca en la arquitectura de bus de mensajes",
+                "isCorrect": true,
+                "value": 1
+            },
+            {
+                "id": "o4",
+                "text": "Un estilo que se enfoca en la concurrencia de un sistema",
+                "isCorrect": false,
+                "value": 0
+            }
+            ]
+        },
+        {
+            "id": "q29",
+            "type": "multiple",
+            "text": "¿Qué es un estilo arquitectónico peer-to-peer?",
+            "options": [
+            {
+                "id": "o1",
+                "text": "Un estilo que se enfoca en la creación de objetos",
+                "isCorrect": false,
+                "value": 0
+            },
+            {
+                "id": "o2",
+                "text": "Un estilo que se enfoca en la estructura de un sistema en capas",
+                "isCorrect": false,
+                "value": 0
+            },
+            {
+                "id": "o3",
+                "text": "Un estilo que se enfoca en la arquitectura peer-to-peer",
+                "isCorrect": true,
+                "value": 1
+            },
+            {
+                "id": "o4",
+                "text": "Un estilo que se enfoca en la concurrencia de un sistema",
+                "isCorrect": false,
+                "value": 0
+            }
+            ]
+        },
+        {
+            "id": "q30",
+            "type": "multiple",
+            "text": "¿Qué es un estilo arquitectónico SOA?",
+            "options": [
+            {
+                "id": "o1",
+                "text": "Un estilo que se enfoca en la creación de objetos",
+                "isCorrect": false,
+                "value": 0
+            },
+            {
+                "id": "o2",
+                "text": "Un estilo que se enfoca en la estructura de un sistema en capas",
+                "isCorrect": false,
+                "value": 0
+            },
+            {
+                "id": "o3",
+                "text": "Un estilo que se enfoca en la arquitectura orientada a servicios",
+                "isCorrect": true,
+                "value": 1
+            },
+            {
+                "id": "o4",
+                "text": "Un estilo que se enfoca en la concurrencia de un sistema",
+                "isCorrect": false,
+                "value": 0
+            }
+            ]
+        }
+    ]
+}

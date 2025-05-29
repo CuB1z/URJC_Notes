@@ -1,0 +1,789 @@
+{
+    "id": "DAS-T5-2025",
+    "title": "Test de Diseño y Arquitectura Software - Tema 5",
+    "description": "Evaluación sobre conceptos de diseño y arquitectura software basados en el Tema 5",
+    "tags": [
+        "Diseño de Software",
+        "Arquitectura de Software",
+        "Atributos de Calidad",
+        "Escenarios",
+        "ATAM"
+    ],
+    "questions": [
+        {
+            "id": "q1",
+            "type": "multiple",
+            "text": "¿Qué es un atributo de calidad?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un requisito no funcional que mide la calidad de una parte del sistema",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Una técnica para optimizar procesos sin usar modelos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un modelo físico de un sistema real",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Una decisión de alto nivel tomada en las etapas iniciales del diseño",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q2",
+            "type": "multiple",
+            "text": "¿Qué es un escenario en el contexto de la evaluación de arquitecturas?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Una situación posible en la que un usuario interactúa con el sistema",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Una técnica para optimizar procesos sin usar modelos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un modelo físico de un sistema real",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Una decisión de alto nivel tomada en las etapas iniciales del diseño",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q3",
+            "type": "multiple",
+            "text": "¿Qué es ATAM?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un enfoque estructurado para evaluar y analizar arquitecturas de software",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Una técnica para optimizar procesos sin usar modelos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un modelo físico de un sistema real",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Una decisión de alto nivel tomada en las etapas iniciales del diseño",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q4",
+            "type": "multiple",
+            "text": "¿Cuál es el objetivo de la evaluación de arquitecturas?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Evaluar una o varias soluciones de diseño para verificar si cumplen con los atributos de calidad definidos",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Optimizar procesos sin usar modelos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Crear un modelo físico de un sistema real",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Tomar decisiones de alto nivel en las etapas iniciales del diseño",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q5",
+            "type": "multiple",
+            "text": "¿Qué es un Utility Tree?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Una herramienta que organiza y clasifica los atributos de calidad en forma de árbol",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Una técnica para optimizar procesos sin usar modelos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un modelo físico de un sistema real",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Una decisión de alto nivel tomada en las etapas iniciales del diseño",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q6",
+            "type": "multiple",
+            "text": "¿Qué es un punto sensible en ATAM?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un aspecto de la arquitectura donde un pequeño cambio puede causar una diferencia significativa en una cualidad del sistema",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Una técnica para optimizar procesos sin usar modelos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un modelo físico de un sistema real",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Una decisión de alto nivel tomada en las etapas iniciales del diseño",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q7",
+            "type": "multiple",
+            "text": "¿Qué es un trade-off en el contexto de ATAM?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Una tensión entre diferentes cualidades del sistema que pueden afectar a más de un atributo",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Una técnica para optimizar procesos sin usar modelos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un modelo físico de un sistema real",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Una decisión de alto nivel tomada en las etapas iniciales del diseño",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q8",
+            "type": "multiple",
+            "text": "¿Cuál es el rol del moderador en ATAM?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Supervisar y moderar las discusiones para asegurar que el proceso se mantenga dentro del tiempo estimado",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Controlar el tiempo de discusión de los escenarios",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Redactar los posibles escenarios durante la evaluación",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Observar que se cumplan todos los pasos del proceso ATAM",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q9",
+            "type": "multiple",
+            "text": "¿Cuál es el propósito de construir un Utility Tree?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Organizar y clasificar los atributos de calidad en forma de árbol para facilitar su evaluación",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Optimizar procesos sin usar modelos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Crear un modelo físico de un sistema real",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Tomar decisiones de alto nivel en las etapas iniciales del diseño",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q10",
+            "type": "multiple",
+            "text": "¿Qué se debe hacer en el Paso 1 del método ATAM?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Presentar el método ATAM al cliente y explicar el proceso",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Describir el contexto de negocio y los requisitos de calidad",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Identificar las aproximaciones arquitectónicas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Construir el Utility Tree",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q11",
+            "type": "multiple",
+            "text": "¿Qué se debe hacer en el Paso 2 del método ATAM?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Describir el contexto de negocio y los requisitos de calidad",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Presentar el método ATAM al cliente y explicar el proceso",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Identificar las aproximaciones arquitectónicas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Construir el Utility Tree",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q12",
+            "type": "multiple",
+            "text": "¿Qué se debe hacer en el Paso 3 del método ATAM?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Presentar la arquitectura existente y sus partes principales",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Describir el contexto de negocio y los requisitos de calidad",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Identificar las aproximaciones arquitectónicas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Construir el Utility Tree",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q13",
+            "type": "multiple",
+            "text": "¿Qué se debe hacer en el Paso 4 del método ATAM?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Identificar las aproximaciones arquitectónicas",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Describir el contexto de negocio y los requisitos de calidad",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Presentar el método ATAM al cliente y explicar el proceso",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Construir el Utility Tree",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q14",
+            "type": "multiple",
+            "text": "¿Qué se debe hacer en el Paso 5 del método ATAM?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Construir el Utility Tree",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Describir el contexto de negocio y los requisitos de calidad",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Presentar el método ATAM al cliente y explicar el proceso",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Identificar las aproximaciones arquitectónicas",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q15",
+            "type": "multiple",
+            "text": "¿Qué se debe hacer en el Paso 6 del método ATAM?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Analizar las aproximaciones arquitectónicas",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Describir el contexto de negocio y los requisitos de calidad",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Presentar el método ATAM al cliente y explicar el proceso",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Construir el Utility Tree",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q16",
+            "type": "multiple",
+            "text": "¿Cuál es el propósito de identificar aproximaciones arquitectónicas en ATAM?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Proponer al menos dos aproximaciones arquitectónicas para cada deseo de calidad",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Describir el contexto de negocio y los requisitos de calidad",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Presentar el método ATAM al cliente y explicar el proceso",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Construir el Utility Tree",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q17",
+            "type": "multiple",
+            "text": "¿Qué se debe hacer en el Paso 7 del método ATAM?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Seleccionar y priorizar los escenarios",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Describir el contexto de negocio y los requisitos de calidad",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Presentar el método ATAM al cliente y explicar el proceso",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Construir el Utility Tree",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q18",
+            "type": "multiple",
+            "text": "¿Qué se debe hacer en el Paso 8 del método ATAM?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Volver a analizar las aproximaciones arquitectónicas",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Describir el contexto de negocio y los requisitos de calidad",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Presentar el método ATAM al cliente y explicar el proceso",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Construir el Utility Tree",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q19",
+            "type": "multiple",
+            "text": "¿Qué se debe hacer en el Paso 9 del método ATAM?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Presentar los resultados",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Describir el contexto de negocio y los requisitos de calidad",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Presentar el método ATAM al cliente y explicar el proceso",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Construir el Utility Tree",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q20",
+            "type": "multiple",
+            "text": "¿Cuál es el rol del redactor en ATAM?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Redactar los posibles escenarios durante la evaluación",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Controlar el tiempo de discusión de los escenarios",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Supervisar y moderar las discusiones para asegurar que el proceso se mantenga dentro del tiempo estimado",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Observar que se cumplan todos los pasos del proceso ATAM",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q21",
+            "type": "multiple",
+            "text": "¿Cuál es el rol del controlador de tiempo en ATAM?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Controlar el tiempo de discusión de los escenarios",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Redactar los posibles escenarios durante la evaluación",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Supervisar y moderar las discusiones para asegurar que el proceso se mantenga dentro del tiempo estimado",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Observar que se cumplan todos los pasos del proceso ATAM",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q22",
+            "type": "multiple",
+            "text": "¿Cuál es el rol del monitor/observador del proceso en ATAM?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Observar que se cumplan todos los pasos del proceso ATAM y sugerir mejoras en el proceso en tiempo real",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Redactar los posibles escenarios durante la evaluación",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Supervisar y moderar las discusiones para asegurar que el proceso se mantenga dentro del tiempo estimado",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Controlar el tiempo de discusión de los escenarios",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q23",
+            "type": "multiple",
+            "text": "¿Cuál es el rol del entrevistador en ATAM?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Lanzar preguntas y problemas a los usuarios para determinar qué aspectos de calidad son más importantes y relevantes para el sistema",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Redactar los posibles escenarios durante la evaluación",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Supervisar y moderar las discusiones para asegurar que el proceso se mantenga dentro del tiempo estimado",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Controlar el tiempo de discusión de los escenarios",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q24",
+            "type": "multiple",
+            "text": "¿Qué es un riesgo en el contexto de ATAM?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un posible problema o área de incertidumbre que pueda comprometer la efectividad de la arquitectura",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Una técnica para optimizar procesos sin usar modelos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un modelo físico de un sistema real",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Una decisión de alto nivel tomada en las etapas iniciales del diseño",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q25",
+            "type": "multiple",
+            "text": "¿Qué es un deseo de calidad en el contexto de ATAM?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un objetivo de calidad razonable indicado por el cliente que impacta en la arquitectura",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Una técnica para optimizar procesos sin usar modelos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un modelo físico de un sistema real",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Una decisión de alto nivel tomada en las etapas iniciales del diseño",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        }
+    ]
+}

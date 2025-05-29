@@ -1,0 +1,1567 @@
+{
+  "id": "IO-T4-2025",
+  "title": "Test de Investigación Operativa - Tema 4: Teoría de Colas",
+  "description": "Evaluación sobre Teoría de Colas y Fenómenos de Espera en Investigación Operativa",
+  "tags": [
+    "Investigación Operativa",
+    "Teoría de Colas",
+    "Fenómenos de Espera",
+    "Sistemas de Colas",
+    "Modelos Poissonianos",
+    "Ley de Little",
+    "Redes de Colas"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "text": "¿Cuál es el objetivo principal de la Teoría de Colas?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Maximizar el tiempo de espera de los clientes",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Analizar y mejorar sistemas donde los recursos son limitados y la demanda es variable",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Eliminar completamente las colas en todos los sistemas",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Aumentar la complejidad de los sistemas de servicio",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "text": "¿Qué representa λ en un sistema de colas?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Tasa de servicio",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Tasa de llegada",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Número de servidores",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Capacidad del sistema",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "text": "¿Quién es considerado el pionero de la teoría de colas?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Isaac Newton",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Albert Einstein",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Agner Krarup Erlang",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o4",
+          "text": "John von Neumann",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "text": "¿Qué representa μ en un sistema de colas?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Tasa de llegada",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Tasa de servicio",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Número de clientes en cola",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Tiempo de espera promedio",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "text": "¿Qué significa FIFO en el contexto de la disciplina de cola?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "First In, First Out",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "Fast In, Fast Out",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "First In, Forced Out",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Final In, First Out",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "text": "¿Qué representa Lq en las medidas de eficiencia de un sistema de colas?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Número promedio de clientes en el sistema",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Número promedio de clientes en cola",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Tiempo promedio en el sistema",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Tiempo promedio en cola",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "text": "En la notación de Kendall, ¿qué representa M/M/1?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Llegadas exponenciales, servicio exponencial, un servidor",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "Llegadas uniformes, servicio uniforme, un servidor",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Llegadas exponenciales, servicio exponencial, infinitos servidores",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Llegadas Poisson, servicio determinístico, un servidor",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "text": "¿Qué establece la Ley de Little?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "L = λW",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "L = μW",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "W = λL",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "W = μL",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "text": "¿Qué caracteriza a una red de colas abierta?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Los clientes no pueden entrar ni salir del sistema",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Los clientes pueden entrar y salir del sistema",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Solo hay un servidor en el sistema",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "La población de clientes es siempre constante",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "text": "¿Qué representa ρ en un sistema de colas?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Tasa de llegada",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Tasa de servicio",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Utilización del servidor",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o4",
+          "text": "Número de servidores",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "type": "multiple",
+      "text": "En un modelo M/M/c, ¿qué representa 'c'?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Capacidad del sistema",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Número de clientes",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Número de servidores",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o4",
+          "text": "Tasa de servicio",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "type": "multiple",
+      "text": "¿Qué condición debe cumplirse para que un sistema M/M/1 sea estable?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "ρ > 1",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "ρ = 1",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "ρ < 1",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o4",
+          "text": "ρ ≥ 1",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "type": "multiple",
+      "text": "¿Qué representa W en las medidas de eficiencia de un sistema de colas?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Número promedio de clientes en el sistema",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Número promedio de clientes en cola",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Tiempo promedio en el sistema",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o4",
+          "text": "Tiempo promedio en cola",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "type": "multiple",
+      "text": "En un modelo M/M/∞, ¿cuál es el valor de Lq (número promedio en cola)?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "0",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "1",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "∞",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "λ/μ",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "type": "multiple",
+      "text": "¿Qué representa LIFO en el contexto de la disciplina de cola?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Last In, First Out",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "Long In, Fast Out",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Last In, Forced Out",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Late In, First Out",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "type": "multiple",
+      "text": "En una red de colas cerrada, ¿qué característica es cierta?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Los clientes pueden entrar y salir libremente del sistema",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "El número de clientes en el sistema es constante",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "No hay límite en el número de clientes",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "La tasa de llegada es siempre mayor que la tasa de servicio",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "type": "multiple",
+      "text": "¿Qué representa λ en un sistema de colas?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Tasa de servicio",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Tasa de llegada",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Número de servidores",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Tiempo promedio en cola",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "type": "multiple",
+      "text": "En la notación de Kendall, ¿qué representa M/M/c/K?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Llegadas exponenciales, servicio exponencial, c servidores, capacidad K",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "Llegadas Markovianas, servicio Markoviano, c clientes, K colas",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Llegadas múltiples, servicio múltiple, c canales, K clientes",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Llegadas mixtas, servicio mixto, c servidores, K disciplinas",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "type": "multiple",
+      "text": "¿Qué caracteriza a una red de colas cerrada?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Los clientes pueden entrar y salir libremente del sistema",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "El número de clientes en el sistema es constante",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "No hay límite en el número de clientes que pueden entrar",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Los clientes solo pueden moverse en una dirección",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "type": "multiple",
+      "text": "En un modelo M/M/∞, ¿cuál es el valor de Lq (número promedio en cola)?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "0",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "1",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "∞",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "λ/μ",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q21",
+      "type": "multiple",
+      "text": "¿Qué representa la utilización del servidor (ρ) en un sistema de colas?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "El tiempo promedio que un cliente pasa en el sistema",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "La proporción del tiempo que el servidor está ocupado",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "El número de clientes en cola",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "La tasa de llegada de clientes",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q22",
+      "type": "multiple",
+      "text": "En un sistema M/M/1, ¿qué representa la condición ρ < 1?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "El sistema está sobrecargado",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "El sistema es estable",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "El sistema tiene múltiples servidores",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "El sistema tiene capacidad infinita",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q23",
+      "type": "multiple",
+      "text": "¿Qué establece la Ley de Little?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "L = λW",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "L = μW",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "W = λL",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "W = μL",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q24",
+      "type": "multiple",
+      "text": "En un modelo M/M/∞, ¿cuál es el valor de Wq (tiempo promedio en cola)?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "1/μ",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "λ/μ",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "0",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o4",
+          "text": "∞",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q25",
+      "type": "multiple",
+      "text": "¿Qué caracteriza a una red de colas abierta?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Los clientes no pueden entrar ni salir del sistema",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Los clientes pueden entrar y salir del sistema",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Solo hay un servidor en el sistema",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "La población de clientes es siempre constante",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q26",
+      "type": "multiple",
+      "text": "En la notación de Kendall, ¿qué representa la letra 'M'?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Distribución exponencial (Markoviana)",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "Distribución uniforme",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Distribución normal",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Distribución determinística",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q27",
+      "type": "multiple",
+      "text": "¿Qué representa L en las medidas de eficiencia de un sistema de colas?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Número promedio de clientes en cola",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Número promedio de clientes en el sistema",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Tiempo promedio en cola",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Tiempo promedio en el sistema",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q28",
+      "type": "multiple",
+      "text": "En un sistema de colas, ¿qué representa la disciplina SIRO?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Primero en llegar, primero en ser atendido",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Último en llegar, primero en ser atendido",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Selección aleatoria para el servicio",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o4",
+          "text": "Servicio en orden de prioridad",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q29",
+      "type": "multiple",
+      "text": "¿Qué condición debe cumplirse para que un sistema M/M/c sea estable?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "ρ > 1",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "ρ = 1",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "ρ < 1",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o4",
+          "text": "ρ ≥ 1",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q30",
+      "type": "multiple",
+      "text": "En una red de colas cerrada, ¿qué característica es cierta?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Los clientes pueden entrar y salir libremente del sistema",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "El número de clientes en el sistema es constante",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "No hay límite en el número de clientes que pueden entrar",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Los clientes solo pueden moverse en una dirección",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q31",
+      "type": "multiple",
+      "text": "¿Qué representa la utilización del servidor (ρ) en un sistema de colas?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "El tiempo promedio que un cliente pasa en el sistema",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "La proporción del tiempo que el servidor está ocupado",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "El número de clientes en cola",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "La tasa de llegada de clientes",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q32",
+      "type": "multiple",
+      "text": "En un sistema M/M/1, ¿qué representa λ?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Tasa de servicio",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Tasa de llegada",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Número de servidores",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Capacidad del sistema",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q33",
+      "type": "multiple",
+      "text": "¿Qué representa la notación M/M/c/K en la teoría de colas?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Llegadas Markovianas, servicio Markoviano, c servidores, capacidad K",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "Llegadas múltiples, servicio múltiple, c clientes, K colas",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Llegadas mixtas, servicio mixto, c canales, K clientes",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Llegadas Markovianas, servicio manual, c servidores, K colas",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q34",
+      "type": "multiple",
+      "text": "En un sistema M/M/∞, ¿cuál es el valor de Lq (número promedio en cola)?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "λ/μ",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "1",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "∞",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "0",
+          "isCorrect": true,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "q35",
+      "type": "multiple",
+      "text": "¿Qué establece la Ley de Little?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "L = λW",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "L = μW",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "W = λL",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "W = μL",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q36",
+      "type": "multiple",
+      "text": "En un sistema de colas, ¿qué representa la disciplina LIFO?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Last In, First Out",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "Long In, Fast Out",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Last In, Forced Out",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Late In, First Out",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q37",
+      "type": "multiple",
+      "text": "¿Qué caracteriza a una red de colas cerrada?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Los clientes pueden entrar y salir libremente del sistema",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "El número de clientes en el sistema es constante",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "No hay límite en el número de clientes que pueden entrar",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Los clientes solo pueden moverse en una dirección",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q38",
+      "type": "multiple",
+      "text": "En un sistema M/M/1, ¿cómo se calcula el número promedio de clientes en el sistema (L)?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "L = λ / μ",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "L = ρ / (1 - ρ)",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "L = λW",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "L = μ / λ",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q39",
+      "type": "multiple",
+      "text": "¿Qué condición debe cumplirse para que un sistema M/M/c sea estable?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "ρ > 1",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "ρ = 1",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "ρ < 1",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o4",
+          "text": "ρ ≥ 1",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q40",
+      "type": "multiple",
+      "text": "En un sistema de colas, ¿qué representa W?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Número promedio de clientes en el sistema",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Número promedio de clientes en cola",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Tiempo promedio en el sistema",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o4",
+          "text": "Tiempo promedio en cola",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q41",
+      "type": "multiple",
+      "text": "¿Quién es considerado el pionero de la teoría de colas?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Isaac Newton",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Albert Einstein",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Agner Krarup Erlang",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o4",
+          "text": "John von Neumann",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q42",
+      "type": "multiple",
+      "text": "En un sistema M/M/1, ¿cómo se calcula la utilización del servidor (ρ)?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "ρ = λ + μ",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "ρ = λ / μ",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "ρ = μ / λ",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "ρ = λ * μ",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q43",
+      "type": "multiple",
+      "text": "¿Qué representa 'K' en un modelo M/M/1/K?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "El número de servidores",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "La tasa de llegada",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "La capacidad máxima del sistema",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o4",
+          "text": "El tiempo promedio de servicio",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q44",
+      "type": "multiple",
+      "text": "En una red de colas abierta, ¿qué representa 'ei'?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "La tasa de salida de la estación i",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "La tasa de llegadas externas a la estación i",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "El número de servidores en la estación i",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "La probabilidad de enrutamiento a la estación i",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q45",
+      "type": "multiple",
+      "text": "¿Qué caracteriza a una red de colas cerrada?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Los clientes pueden entrar y salir libremente del sistema",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "El número de clientes en el sistema es constante",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "No hay límite en el número de clientes que pueden entrar",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Los clientes solo pueden moverse en una dirección",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q46",
+      "type": "multiple",
+      "text": "En un sistema M/M/∞, ¿cuál es el valor de Wq (tiempo promedio en cola)?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "1/μ",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "λ/μ",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "0",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o4",
+          "text": "∞",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q47",
+      "type": "multiple",
+      "text": "¿Qué representa Pn en un sistema de colas?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "La probabilidad de que haya n clientes en el sistema",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "El número de servidores",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "La tasa de llegada cuando hay n clientes",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "El tiempo de espera del cliente n",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q48",
+      "type": "multiple",
+      "text": "En un sistema de colas, ¿qué representa la disciplina SIRO?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Servicio en orden inverso de llegada",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Servicio por prioridad",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Servicio en orden aleatorio",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o4",
+          "text": "Servicio por tiempo de espera más largo",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q49",
+      "type": "multiple",
+      "text": "¿Qué condición debe cumplirse para que un sistema M/M/c sea estable?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "ρ > 1",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "ρ = 1",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "ρ < 1",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o4",
+          "text": "ρ ≥ 1",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q50",
+      "type": "multiple",
+      "text": "En la notación de Kendall, ¿qué significa 'G' cuando se usa en lugar de 'M'?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Distribución geométrica",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Distribución general (cualquier distribución)",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Distribución gaussiana",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Distribución gamma",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    }
+  ]
+}
+

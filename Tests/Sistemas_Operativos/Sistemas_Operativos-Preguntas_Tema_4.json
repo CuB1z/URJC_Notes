@@ -1,0 +1,1409 @@
+{
+    "id": "SO-T4-2025",
+    "title": "Test sobre el Tema 4 - Sistemas Operativos",
+    "description": "Evaluación sobre la gestión de procesos en sistemas operativos",
+    "tags": [
+        "Sistemas Operativos",
+        "Gestión de Procesos",
+        "Threads",
+        "Sincronización",
+        "Planificación"
+    ],
+    "questions": [
+        {
+            "id": "q1",
+            "type": "multiple",
+            "text": "¿Qué es un proceso?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un programa en ejecución",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un archivo en el disco duro",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Una porción de memoria RAM",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un dispositivo de entrada/salida",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q2",
+            "type": "multiple",
+            "text": "¿Cuál NO es un estado válido de un proceso?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Hibernado",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Nuevo",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Bloqueado",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "En ejecución",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q3",
+            "type": "multiple",
+            "text": "¿Qué es un semáforo en sistemas operativos?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Una variable entera que solo puede ser manipulada por wait y signal",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un tipo de proceso",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un tipo de memoria compartida",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un dispositivo de sincronización hardware",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q4",
+            "type": "multiple",
+            "text": "¿Qué algoritmo de planificación es óptimo en cuanto a tiempo medio de espera?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Shortest Job First (SJF)",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "First Come First Served (FCFS)",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Round Robin",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Planificación por prioridades",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q5",
+            "type": "multiple",
+            "text": "¿Qué es un mutex?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un semáforo binario sin memoria usado para exclusión mutua",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un tipo de planificador",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un estado de proceso",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un tipo de memoria virtual",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q6",
+            "type": "multiple",
+            "text": "¿Qué tipo de planificación permite que los procesos se muevan entre diferentes colas?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Colas multinivel realimentadas",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "FCFS",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Round Robin simple",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "SJF",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q7",
+            "type": "multiple",
+            "text": "¿Qué operación NO es atómica en la manipulación de semáforos?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Incrementar el contador",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "wait()",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "signal()",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "init()",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q8",
+            "type": "multiple",
+            "text": "¿Qué información NO está contenida en el PCB (Process Control Block)?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "El historial de navegación web",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Estado del proceso",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Identificador del proceso",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Información de planificación",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q9",
+            "type": "multiple",
+            "text": "En el algoritmo Round Robin, ¿qué sucede cuando el quantum es muy grande?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Se comporta como FCFS",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Se comporta como SJF",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Aumenta la eficiencia",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Disminuye el tiempo de respuesta",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q10",
+            "type": "multiple",
+            "text": "¿Qué llamada al sistema se utiliza en Unix para crear un nuevo proceso?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "fork()",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "exec()",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "wait()",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "exit()",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q11",
+            "type": "multiple",
+            "text": "¿Qué es una condición de carrera?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Cuando dos o más procesos acceden y modifican datos compartidos simultáneamente",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un tipo de planificación de procesos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Una característica del algoritmo Round Robin",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un estado especial de un thread",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q12",
+            "type": "multiple",
+            "text": "¿Qué característica distingue a un thread de un proceso?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Los threads comparten el espacio de memoria dentro de un proceso",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Los threads no pueden ser planificados",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Los threads no pueden comunicarse entre sí",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Los threads siempre requieren más recursos que los procesos",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q13",
+            "type": "multiple",
+            "text": "¿Qué es el cambio de contexto?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "El proceso de guardar el estado de un proceso y restaurar el de otro",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Cambiar el algoritmo de planificación",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Modificar la prioridad de un proceso",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Cambiar el tipo de memoria utilizada",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q14",
+            "type": "multiple",
+            "text": "¿Qué función cumple la llamada wait() en Unix?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Esperar a que un proceso hijo termine",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Crear un nuevo proceso",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Terminar un proceso",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Ejecutar un nuevo programa",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q15",
+            "type": "multiple",
+            "text": "¿Qué problema resuelve el envejecimiento en la planificación por prioridades?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "La inanición de procesos de baja prioridad",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "La sobrecarga del procesador",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "El consumo excesivo de memoria",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "La fragmentación del disco",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q16",
+            "type": "multiple",
+            "text": "¿Qué es un interbloqueo (deadlock)?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Una situación donde dos o más procesos esperan indefinidamente por recursos que tienen otros procesos",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un error en el sistema operativo",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un tipo de planificación",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un fallo de segmentación",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q17",
+            "type": "multiple",
+            "text": "¿Qué hace la llamada exec() en Unix?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Reemplaza el espacio de memoria actual con un nuevo programa",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Crea un nuevo proceso",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Termina un proceso",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Bloquea un proceso",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q18",
+            "type": "multiple",
+            "text": "¿Cuál es la principal ventaja de los threads sobre los procesos?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Menor consumo de recursos y mejor tiempo de creación/terminación",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Mayor seguridad",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Mejor gestión de memoria",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Mayor aislamiento",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q19",
+            "type": "multiple",
+            "text": "¿Qué sucede cuando el quantum es muy pequeño en Round Robin?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Se produce una sobrecarga por excesivos cambios de contexto",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Mejora el rendimiento del sistema",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Se comporta como SJF",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Reduce el uso de CPU",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q20",
+            "type": "multiple",
+            "text": "¿Qué es una variable de condición en sincronización de threads?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un mecanismo que permite a los threads esperar hasta que una condición específica ocurra",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un tipo de semáforo",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Una variable global compartida",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un contador de threads",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q21",
+            "type": "multiple",
+            "text": "¿Qué es el grado de multiprogramación?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "El número de procesos que residen simultáneamente en memoria",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "El número de procesadores del sistema",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "La cantidad de memoria RAM disponible",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "El número de threads por proceso",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q22",
+            "type": "multiple",
+            "text": "¿Qué diferencia hay entre un semáforo binario y un mutex?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "El semáforo binario tiene memoria de quién lo bloqueó, el mutex no",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Son exactamente lo mismo",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "El mutex puede tener valores mayores que 1",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "El semáforo binario no se puede usar entre procesos",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q23",
+            "type": "multiple",
+            "text": "¿Qué sucede cuando un proceso hijo termina antes que su padre ejecute wait()?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Se convierte en un proceso zombie",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Se elimina automáticamente",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Se bloquea",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Se convierte en proceso huérfano",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q24",
+            "type": "multiple",
+            "text": "¿Qué componente realiza el cambio efectivo de un proceso a otro?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "El dispatcher",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "El scheduler",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "El kernel",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "El planificador a largo plazo",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q25",
+            "type": "multiple",
+            "text": "¿Qué ocurre con los descriptores de fichero cuando se realiza un fork()?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "El hijo hereda copias de los descriptores del padre",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "El hijo comienza con descriptores nuevos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Los descriptores se cierran automáticamente",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Solo se heredan los descriptores estándar",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q26",
+            "type": "multiple",
+            "text": "¿Qué es un pipe en sistemas operativos?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un mecanismo de comunicación unidireccional entre procesos",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un tipo de proceso especial",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un algoritmo de planificación",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un tipo de memoria virtual",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q27",
+            "type": "multiple",
+            "text": "¿Qué significa cuando un proceso está en estado 'suspendido'?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "El proceso está en memoria de intercambio y no puede pasar a ejecución",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "El proceso está ejecutándose",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "El proceso acaba de crearse",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "El proceso ha terminado",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q28",
+            "type": "multiple",
+            "text": "¿Qué es el 'tiempo de respuesta' en planificación de procesos?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Tiempo desde que se envía una solicitud hasta que se empieza a recibir respuesta",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Tiempo total de ejecución de un proceso",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Tiempo que el proceso pasa en CPU",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Tiempo entre interrupciones",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q29",
+            "type": "multiple",
+            "text": "¿Qué sucede cuando se usa signal() en un semáforo?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Incrementa el valor del semáforo y despierta un proceso bloqueado si lo hay",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Termina el proceso",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Bloquea el proceso actual",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Reinicia el semáforo",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q30",
+            "type": "multiple",
+            "text": "¿Qué ventaja principal tiene la planificación con desalojo sobre la planificación sin desalojo?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Permite una mejor respuesta a procesos de alta prioridad",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Consume menos recursos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Es más fácil de implementar",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Genera menos cambios de contexto",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q31",
+            "type": "multiple",
+            "text": "¿Qué es el fenómeno de inanición (starvation) en planificación de procesos?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Cuando un proceso nunca recibe CPU porque siempre hay otros procesos de mayor prioridad",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Cuando un proceso consume toda la memoria disponible",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Cuando un proceso termina inesperadamente",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Cuando un proceso no puede acceder al disco duro",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q32",
+            "type": "multiple",
+            "text": "¿Qué significa que un proceso sea 'CPU-bound'?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Pasa la mayor parte del tiempo ejecutando instrucciones en CPU",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Solo puede ejecutarse en un núcleo específico",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Tiene la máxima prioridad de ejecución",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Está limitado a usar un porcentaje fijo de CPU",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q33",
+            "type": "multiple",
+            "text": "¿Qué es un proceso huérfano?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un proceso cuyo proceso padre ha terminado antes que él",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un proceso sin recursos asignados",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un proceso que no puede terminar",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un proceso sin identificador",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q34",
+            "type": "multiple",
+            "text": "¿Qué función cumple pthread_exit()?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Terminar el thread actual y especificar un valor de retorno",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Crear un nuevo thread",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Esperar a que termine otro thread",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Cambiar la prioridad del thread",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q35",
+            "type": "multiple",
+            "text": "¿Qué es el modo kernel?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un modo privilegiado de ejecución donde se pueden ejecutar todas las instrucciones",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un tipo especial de proceso",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Una forma de planificación",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un estado de la memoria",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q36",
+            "type": "multiple",
+            "text": "¿Cuál es la diferencia entre comunicación síncrona y asíncrona en el paso de mensajes?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "En la síncrona el emisor se bloquea hasta que el mensaje es recibido, en la asíncrona no",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "La síncrona es más rápida que la asíncrona",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "La asíncrona requiere más memoria",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "No hay diferencia real entre ambas",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q37",
+            "type": "multiple",
+            "text": "¿Qué ocurre cuando se cierra el extremo de escritura de un pipe?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Los lectores recibirán EOF (end-of-file) al leer",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "El pipe se destruye inmediatamente",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Los datos en el pipe se pierden",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "El extremo de lectura también se cierra",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q38",
+            "type": "multiple",
+            "text": "¿Qué es un thread kernel-level?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un thread gestionado y planificado directamente por el sistema operativo",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un thread que solo puede ejecutar código del kernel",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un thread con máxima prioridad",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un thread que solo existe en modo kernel",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q39",
+            "type": "multiple",
+            "text": "¿Qué ventaja tiene la memoria compartida sobre el paso de mensajes?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Mayor velocidad en el intercambio de datos entre procesos",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Mayor seguridad",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Menor uso de memoria",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Más fácil de implementar",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q40",
+            "type": "multiple",
+            "text": "¿Qué es un manejador de señales (signal handler)?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Una función que se ejecuta cuando un proceso recibe una señal específica",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un tipo especial de proceso",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un dispositivo de hardware",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un tipo de interrupción",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q41",
+            "type": "multiple",
+            "text": "¿Qué es la latencia de despacho?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "El tiempo que tarda el dispatcher en detener un proceso y comenzar otro",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "El tiempo entre interrupciones",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "El tiempo de creación de un proceso",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "El tiempo de espera en la cola",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q42",
+            "type": "multiple",
+            "text": "¿Qué es un monitor?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un mecanismo de sincronización de alto nivel que encapsula datos y procedimientos",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un dispositivo de entrada/salida",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un tipo de memoria compartida",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un proceso del sistema operativo",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q43",
+            "type": "multiple",
+            "text": "¿Qué significa que un proceso sea 'I/O-bound'?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Pasa la mayor parte del tiempo esperando operaciones de entrada/salida",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Solo puede realizar operaciones de E/S",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "No puede realizar operaciones de E/S",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Tiene prioridad en operaciones de E/S",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q44",
+            "type": "multiple",
+            "text": "¿Qué es un semáforo contador?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un semáforo que puede tomar valores mayores que 1 para controlar múltiples recursos",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un semáforo que solo cuenta procesos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un tipo especial de mutex",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un contador de tiempo de CPU",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q45",
+            "type": "multiple",
+            "text": "¿Qué sucede cuando un proceso intenta acceder a memoria fuera de su espacio de direcciones?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Se genera una violación de segmentación (segmentation fault)",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "El acceso es redirigido a memoria libre",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Se expande automáticamente su espacio de direcciones",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "El proceso continúa normalmente",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        }
+    ]
+}

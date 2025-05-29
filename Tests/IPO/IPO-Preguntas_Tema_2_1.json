@@ -1,0 +1,228 @@
+{
+  "id": "ipo_tema_2_1_quiz_001",
+  "title": "Quiz sobre Diseño de la Interacción y Paradigmas (Tema 2.1)",
+  "description": "Preguntas para evaluar conocimientos sobre diseño de interacción, paradigmas y tecnologías asociadas, según el Tema 2.1.",
+  "tags": ["URJC", "IPO", "Diseño de la Interacción", "Paradigmas", "Realidad Virtual", "Computación Ubicua", "Realidad Aumentada"],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "text": "¿Cuál es el objetivo principal del Diseño de la Interacción?",
+      "options": [
+        { "id": "o1", "text": "Crear interfaces intuitivas y fáciles de usar para cumplir objetivos sin frustraciones", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Desarrollar hardware con mayor potencia", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Incrementar la complejidad de los sistemas", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Reducir la participación del usuario en el diseño", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "text": "¿Qué son los paradigmas de interacción?",
+      "options": [
+        { "id": "o1", "text": "Modelos o estilos generales de interacción entre personas y tecnología", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Sistemas operativos para ordenadores", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Lenguajes de programación específicos", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Métodos para fabricar dispositivos físicos", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "text": "¿Cuál de estos no es un paradigma de interacción mencionado en el texto?",
+      "options": [
+        { "id": "o1", "text": "Interacción clásica en ordenador de sobremesa", "isCorrect": false, "value": 0 },
+        { "id": "o2", "text": "Entornos virtuales y realidad virtual", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Interacción con dispositivos vestibles y tangibles", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Interacción por comandos de código binario", "isCorrect": true, "value": 1 }
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "text": "¿Qué dispositivos son principales en la interacción con ordenadores de sobremesa?",
+      "options": [
+        { "id": "o1", "text": "Teclado y ratón", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Gafas inteligentes", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Dispositivos hápticos", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Auriculares de realidad virtual", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "text": "¿Qué preguntas clave en diseño web ayudan a la navegación en ordenadores de sobremesa?",
+      "options": [
+        { "id": "o1", "text": "¿Dónde estoy? ¿A dónde puedo ir? ¿Qué hay aquí?", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "¿Quién creó la página? ¿Cuándo se actualizó? ¿Cuál es el servidor?", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "¿Qué sistema operativo uso? ¿Cuál es el navegador? ¿Tengo conexión?", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "¿Dónde está el teclado? ¿Dónde está el ratón? ¿Dónde está la pantalla?", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "text": "¿Cuál es un beneficio de la realidad virtual (RV)?",
+      "options": [
+        { "id": "o1", "text": "Permite simulaciones seguras y experimentación en entornos controlados", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Reduce la necesidad de formación", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Disminuye la inmersión del usuario", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Elimina el uso de dispositivos físicos", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "text": "¿Cuál es una limitación de la realidad virtual?",
+      "options": [
+        { "id": "o1", "text": "Puede causar fatiga o mareos en el usuario", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Es siempre económica y fácil de implementar", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "No requiere dispositivos especializados", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Elimina la necesidad de interacción humana", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "text": "¿Qué caracteriza a la computación ubicua?",
+      "options": [
+        { "id": "o1", "text": "Información disponible en todo momento y lugar mediante dispositivos conectados", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Uso exclusivo de ordenadores de sobremesa", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Interacción solo a través de comandos de texto", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Sistemas desconectados y aislados", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "text": "¿Cuál es un desafío de la computación ubicua?",
+      "options": [
+        { "id": "o1", "text": "Dependencia de la conectividad y coordinación entre dispositivos", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Escasa disponibilidad de datos", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Interacción compleja y exclusiva con interfaces visuales", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Falta de dispositivos portátiles", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "text": "¿Qué es la realidad aumentada (RA)?",
+      "options": [
+        { "id": "o1", "text": "Tecnología que superpone elementos virtuales sobre el entorno real en tiempo real", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Un sistema exclusivo de realidad virtual inmersiva", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Un dispositivo físico para computación móvil", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Una interfaz solo basada en voz", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q11",
+      "type": "multiple",
+      "text": "¿Cuál es un ejemplo popular de aplicación de realidad aumentada?",
+      "options": [
+        { "id": "o1", "text": "Pokémon Go", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Simuladores de vuelo", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Sistemas de reconocimiento de voz", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Programas de edición de video", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q12",
+      "type": "multiple",
+      "text": "¿Qué ventaja ofrece la realidad aumentada?",
+      "options": [
+        { "id": "o1", "text": "Enriquecer la experiencia real con datos útiles y entretenimiento", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Sustituir completamente el entorno real por uno virtual", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Reemplazar la interacción humana por sistemas automáticos", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Eliminar la necesidad de dispositivos físicos", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q13",
+      "type": "multiple",
+      "text": "¿Cuál es una característica del estilo de interacción?",
+      "options": [
+        { "id": "o1", "text": "La forma específica en que el usuario interactúa con el sistema dentro de un paradigma", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "El hardware utilizado para construir el sistema", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "El lenguaje de programación empleado", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "La marca del dispositivo", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q14",
+      "type": "multiple",
+      "text": "¿Cuál es una forma común de estilo de interacción en dispositivos táctiles?",
+      "options": [
+        { "id": "o1", "text": "Control mediante toques en pantalla y gestos", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Comandos de texto", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Uso exclusivo de teclado físico", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Interacción mediante código binario", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q15",
+      "type": "multiple",
+      "text": "¿Qué tipo de interacción es común en videojuegos y dispositivos hápticos?",
+      "options": [
+        { "id": "o1", "text": "Reconocimiento de gestos y control mediante movimientos corporales", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Interacción por comandos de voz solamente", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Uso exclusivo de teclado y ratón", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Interacción mediante líneas de comando", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q16",
+      "type": "multiple",
+      "text": "¿Qué caracteriza la interacción en ordenadores de sobremesa?",
+      "options": [
+        { "id": "o1", "text": "Interacción visual, directa y controlada con dispositivos como teclado y ratón", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Interacción exclusivamente por voz", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Interacción mediante realidad aumentada solamente", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Interacción por gestos sin dispositivos físicos", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q17",
+      "type": "multiple",
+      "text": "¿Cuál es un reto al diseñar para computación ubicua?",
+      "options": [
+        { "id": "o1", "text": "Garantizar la seguridad y coordinación entre múltiples dispositivos y usuarios", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Limitar el acceso a información solo en dispositivos fijos", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Evitar el uso de redes inalámbricas", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Desarrollar únicamente para dispositivos de escritorio", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q18",
+      "type": "multiple",
+      "text": "¿Cuál de estas tecnologías integra lo digital con lo físico en dispositivos vestibles y tangibles?",
+      "options": [
+        { "id": "o1", "text": "Relojes inteligentes y gafas de realidad aumentada", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Ordenadores de sobremesa tradicionales", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Software de escritorio sin hardware especializado", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Sistemas operativos obsoletos", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q19",
+      "type": "multiple",
+      "text": "¿Cuál es un ejemplo de uso educativo de la realidad virtual?",
+      "options": [
+        { "id": "o1", "text": "Entrenamiento médico o quirúrgico", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Juegos de mesa tradicionales", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Lectura de libros físicos", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Edición de fotos básica", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q20",
+      "type": "multiple",
+      "text": "¿Cuál es una característica común de las interfaces WIMP en ordenadores de sobremesa?",
+      "options": [
+        { "id": "o1", "text": "Uso de ventanas, iconos, menús y punteros", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Interacción exclusivamente por voz", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Navegación mediante realidad aumentada solamente", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Interacción mediante comandos binarios directos", "isCorrect": false, "value": 0 }
+      ]
+    }
+  ]
+}

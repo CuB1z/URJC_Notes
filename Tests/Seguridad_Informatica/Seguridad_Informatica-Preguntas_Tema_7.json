@@ -1,0 +1,941 @@
+{
+  "id": "quizba8e9f",
+  "title": "Tema 7 - Criptografía y Seguridad de la Información",
+  "description": "Cuestionario extenso sobre fundamentos criptográficos, cifrados clásicos y modernos, autenticación, firma digital, certificados, y esteganografía.",
+  "tags": [
+    "URJC",
+    "URJC_SI"
+  ],
+  "questions": [
+    {
+      "id": "q9662e3",
+      "type": "multiple",
+      "text": "¿Cuál es el objetivo principal de la criptografía?",
+      "options": [
+        {
+          "id": "o2757e3",
+          "text": "Proteger la información transformándola en ilegible para quienes no poseen la clave adecuada.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o1062bd",
+          "text": "Desarrollar hardware de redes.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o650485",
+          "text": "Crear interfaces de usuario más amigables.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2db76b",
+          "text": "Optimizar algoritmos de compresión de audio.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qf329c0",
+      "type": "multiple",
+      "text": "¿Qué propiedad garantiza que el mensaje no ha sido alterado?",
+      "options": [
+        {
+          "id": "o74b4e3",
+          "text": "Integridad",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o49f9ad",
+          "text": "Confidencialidad",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o97470e",
+          "text": "Autenticidad",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "of25517",
+          "text": "No repudio",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q311ce4",
+      "type": "multiple",
+      "text": "¿Qué hace un cifrado por transposición?",
+      "options": [
+        {
+          "id": "o805435",
+          "text": "Reordena los caracteres del mensaje sin cambiarlos.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2adf16",
+          "text": "Sustituye cada letra por otra.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o0ac50f",
+          "text": "Cifra el mensaje con clave pública.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o8fe892",
+          "text": "Inserta bits aleatorios entre caracteres.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q5ff4fe",
+      "type": "multiple",
+      "text": "¿Qué tipo de cifrado es el de Vigenère?",
+      "options": [
+        {
+          "id": "oefaea2",
+          "text": "Polialfabético",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o5936fc",
+          "text": "Monoalfabético",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oc1f26c",
+          "text": "Simétrico por bloques",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o82be10",
+          "text": "Asimétrico con clave pública",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qa5f86a",
+      "type": "multiple",
+      "text": "¿Qué hacía la máquina Enigma?",
+      "options": [
+        {
+          "id": "o43e322",
+          "text": "Cifraba mensajes mediante rotores y configuraciones diarias.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "oa5d5fa",
+          "text": "Generaba claves públicas automáticamente.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4bdd2e",
+          "text": "Transmitía datos por red inalámbrica.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o5c5c49",
+          "text": "Convertía imágenes en texto.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q4f0022",
+      "type": "multiple",
+      "text": "¿Qué establece el principio de Kerckhoffs?",
+      "options": [
+        {
+          "id": "o372dec",
+          "text": "Un sistema criptográfico debe ser seguro incluso si se conoce todo excepto la clave.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "occ466d",
+          "text": "La seguridad debe depender del secreto del algoritmo.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o5e7b9d",
+          "text": "Toda comunicación debe ser cifrada con OTP.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oc1ea30",
+          "text": "Se deben usar claves diferentes en cada transacción.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q8f2068",
+      "type": "multiple",
+      "text": "¿Qué significa difusión en criptografía según Shannon?",
+      "options": [
+        {
+          "id": "o1caee4",
+          "text": "Una pequeña modificación en el mensaje afecta muchas partes del cifrado.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "od91ca0",
+          "text": "Los datos se transmiten a múltiples usuarios simultáneamente.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "ob447ef",
+          "text": "El mensaje se divide en bloques independientes.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o01ab3c",
+          "text": "El texto cifrado tiene la misma longitud que el texto plano.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qb7999f",
+      "type": "multiple",
+      "text": "¿Qué propiedad tiene el operador XOR utilizada en criptografía?",
+      "options": [
+        {
+          "id": "o893a5d",
+          "text": "Autoinverso: A ⊕ B ⊕ B = A",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "oa35159",
+          "text": "Distribuye la suma entre productos.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o5d9f43",
+          "text": "Permite eliminar claves de sesión.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oe78557",
+          "text": "Sirve únicamente en cifrado asimétrico.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qe8806c",
+      "type": "multiple",
+      "text": "¿Qué hace al cifrado One-Time Pad (OTP) teóricamente perfecto?",
+      "options": [
+        {
+          "id": "o41af00",
+          "text": "Usa una clave aleatoria tan larga como el mensaje, usada solo una vez.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o114567",
+          "text": "Utiliza doble cifrado en cascada.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oaeec31",
+          "text": "Combina cifrado simétrico y asimétrico.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oce5b22",
+          "text": "Aplica hash en cada carácter del mensaje.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q7014ee",
+      "type": "multiple",
+      "text": "¿Qué tipo de cifrado es AES?",
+      "options": [
+        {
+          "id": "o13eca5",
+          "text": "Cifrado simétrico por bloques",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o8712f5",
+          "text": "Cifrado asimétrico",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o60c763",
+          "text": "Cifrado monoalfabético",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o350638",
+          "text": "Cifrado de flujo inseguro",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qdefe86",
+      "type": "multiple",
+      "text": "¿En qué se basa la seguridad del algoritmo RSA?",
+      "options": [
+        {
+          "id": "o57468b",
+          "text": "En la dificultad de factorizar números enteros grandes.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "oa02152",
+          "text": "En la suma de números primos consecutivos.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o0c3fda",
+          "text": "En la transformación de Fourier discreta.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o7ec6de",
+          "text": "En la entropía de la red.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q5fb847",
+      "type": "multiple",
+      "text": "¿Qué se suele cifrar con cifrado asimétrico en sistemas híbridos?",
+      "options": [
+        {
+          "id": "o929fc8",
+          "text": "La clave simétrica que luego se usa para cifrar los datos.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3b0090",
+          "text": "Todo el contenido del mensaje.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o6a13b5",
+          "text": "Los datos biométricos del usuario.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oc8ee10",
+          "text": "Los archivos de configuración del sistema.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q3b8c66",
+      "type": "multiple",
+      "text": "¿Qué combinación representa un esquema de autenticación multifactor?",
+      "options": [
+        {
+          "id": "o426bce",
+          "text": "Contraseña + token físico",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "of88572",
+          "text": "Nombre de usuario + contraseña",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "ofaf015",
+          "text": "PIN + código de barras",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oc2f6f4",
+          "text": "Clave pública + clave privada",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qfd9c24",
+      "type": "multiple",
+      "text": "¿Cuál es una característica clave del protocolo Kerberos?",
+      "options": [
+        {
+          "id": "o4c0998",
+          "text": "Evita el envío de contraseñas mediante el uso de tickets.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o873508",
+          "text": "Utiliza cifrado monoalfabético en su núcleo.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o1dc9da",
+          "text": "Emplea únicamente claves públicas.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o6237a1",
+          "text": "Es un protocolo de cifrado de audio.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q51b742",
+      "type": "multiple",
+      "text": "¿Qué garantiza una firma digital?",
+      "options": [
+        {
+          "id": "o76c407",
+          "text": "Autenticidad, integridad y no repudio del mensaje.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o842ede",
+          "text": "Compresión y cifrado del mensaje.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o6286c0",
+          "text": "Anonimato del emisor.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oa81216",
+          "text": "Velocidad en la transmisión del mensaje.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qc6f0e2",
+      "type": "multiple",
+      "text": "¿Qué se cifra en una firma digital?",
+      "options": [
+        {
+          "id": "ob05fdb",
+          "text": "El hash del mensaje, usando la clave privada.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o55d2bc",
+          "text": "Todo el contenido del mensaje con la clave pública.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o30d0f5",
+          "text": "El mensaje en claro con una clave simétrica.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "offac0c",
+          "text": "Los encabezados del correo electrónico.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q19b102",
+      "type": "multiple",
+      "text": "¿Quién emite los certificados digitales?",
+      "options": [
+        {
+          "id": "o62c5c7",
+          "text": "Una Autoridad de Certificación (CA)",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "oc0a862",
+          "text": "El usuario final.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o8446b9",
+          "text": "El proveedor de Internet.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o6c4107",
+          "text": "El sistema operativo.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q26da7f",
+      "type": "multiple",
+      "text": "¿Qué formato sigue la mayoría de los certificados digitales?",
+      "options": [
+        {
+          "id": "oe6ded4",
+          "text": "X.509",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o9254b6",
+          "text": "PGP",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o65e7bc",
+          "text": "AES256",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oa125df",
+          "text": "PEM-2048",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q2f0754",
+      "type": "multiple",
+      "text": "¿Qué hace la esteganografía?",
+      "options": [
+        {
+          "id": "oe4932c",
+          "text": "Oculta un mensaje dentro de otro medio como una imagen o audio.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o32455a",
+          "text": "Cifra un mensaje usando técnicas asimétricas.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o910378",
+          "text": "Valida certificados digitales.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o9a5aee",
+          "text": "Autentica usuarios usando tokens.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q49132b",
+      "type": "multiple",
+      "text": "¿Cuál es la diferencia entre criptografía y esteganografía?",
+      "options": [
+        {
+          "id": "o24db53",
+          "text": "La criptografía protege el contenido, la esteganografía oculta su existencia.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o8b16fd",
+          "text": "La esteganografía cifra mejor que la criptografía.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o11dd26",
+          "text": "Ambas técnicas son incompatibles entre sí.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o99d2c7",
+          "text": "La criptografía es solo visual, la esteganografía solo sonora.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q9d8651",
+      "type": "multiple",
+      "text": "¿Qué técnica esteganográfica usa los bits menos significativos de una imagen?",
+      "options": [
+        {
+          "id": "o8f61c7",
+          "text": "LSB (Least Significant Bit)",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "oec7e09",
+          "text": "XOR",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o9bc49e",
+          "text": "Base64",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oee0783",
+          "text": "AES-CBC",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qfaf2ad",
+      "type": "multiple",
+      "text": "¿En qué se basa el algoritmo ElGamal?",
+      "options": [
+        {
+          "id": "o1e4ee1",
+          "text": "En la dificultad del logaritmo discreto.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "of53bdb",
+          "text": "En la factorización de primos.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oa1063d",
+          "text": "En la transformada de Laplace.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o253bc4",
+          "text": "En claves de longitud fija.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qfce258",
+      "type": "multiple",
+      "text": "¿Cuál es una ventaja de la criptografía de curvas elípticas (ECC)?",
+      "options": [
+        {
+          "id": "o7b29bd",
+          "text": "Ofrece seguridad equivalente con claves más pequeñas.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o539267",
+          "text": "Permite eliminar claves públicas.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "ocab2c5",
+          "text": "No requiere algoritmos hash.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "of94c32",
+          "text": "Evita el uso de cifrado simétrico.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q7d7f48",
+      "type": "multiple",
+      "text": "¿Qué caracteriza al modo CBC en cifrado por bloques?",
+      "options": [
+        {
+          "id": "oec7843",
+          "text": "Cada bloque se encadena con el anterior mediante XOR.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o248d11",
+          "text": "Cifra bloques por separado sin relación.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o392ff2",
+          "text": "Se usa solo para cifrar claves.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o99e09d",
+          "text": "No requiere vector de inicialización.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q167684",
+      "type": "multiple",
+      "text": "¿Cuál es el estado actual del uso de RC4?",
+      "options": [
+        {
+          "id": "oa62193",
+          "text": "Está obsoleto debido a múltiples vulnerabilidades.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "ob06caf",
+          "text": "Es el algoritmo más seguro para VPNs.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "od9e26b",
+          "text": "Solo se usa en cifrado por bloques.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o42f9ab",
+          "text": "Requiere dos claves para funcionar.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q07858b",
+      "type": "multiple",
+      "text": "¿Dónde se utilizan comúnmente los algoritmos Salsa20 y Chacha20?",
+      "options": [
+        {
+          "id": "o31456d",
+          "text": "En aplicaciones modernas como VPNs y TLS.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "oa248f1",
+          "text": "En bases de datos relacionales.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o5ae15f",
+          "text": "En algoritmos de compresión de video.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o7ac0f7",
+          "text": "En la verificación de firmas manuscritas.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qcbaee3",
+      "type": "multiple",
+      "text": "¿Qué significa 'confusión' en términos de seguridad según Shannon?",
+      "options": [
+        {
+          "id": "o6d3bdc",
+          "text": "Complejizar la relación entre la clave y el texto cifrado.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "od73647",
+          "text": "Reordenar caracteres de forma pseudoaleatoria.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o291a0f",
+          "text": "Esconder mensajes dentro de imágenes.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o089c26",
+          "text": "Alterar frecuencias de audio en esteganografía.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q476d2f",
+      "type": "multiple",
+      "text": "¿Para qué se usa la clave pública en un sistema asimétrico?",
+      "options": [
+        {
+          "id": "od5db5f",
+          "text": "Para cifrar mensajes que solo la clave privada puede descifrar.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "of188b1",
+          "text": "Para firmar mensajes.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o1835e1",
+          "text": "Para descifrar archivos ZIP.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oa2e3f6",
+          "text": "Para generar hashes del mensaje.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qbf291e",
+      "type": "multiple",
+      "text": "¿Por qué se considera inseguro el modo ECB?",
+      "options": [
+        {
+          "id": "oc9e0ac",
+          "text": "Porque revela patrones del mensaje original.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "offa532",
+          "text": "Porque utiliza clave pública.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o9d669b",
+          "text": "Porque genera claves aleatorias en cada uso.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2542c8",
+          "text": "Porque solo funciona con imágenes.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qb98558",
+      "type": "multiple",
+      "text": "¿Cuál es una buena práctica en el manejo de claves criptográficas?",
+      "options": [
+        {
+          "id": "o57de94",
+          "text": "Revocar y cambiar claves con frecuencia.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o51badc",
+          "text": "Almacenar claves públicas y privadas juntas.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oa93830",
+          "text": "Escribir claves en papel y compartirlas.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o7df306",
+          "text": "Utilizar la misma clave para todos los sistemas.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    }
+  ]
+}

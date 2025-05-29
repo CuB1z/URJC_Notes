@@ -1,0 +1,228 @@
+{
+  "id": "ipo_tema_3_1_quiz_001",
+  "title": "Quiz sobre Obtención de Requisitos y Técnicas de Recogida de Datos (Tema 3.1)",
+  "description": "Preguntas para evaluar conocimientos sobre métodos para obtener requisitos, observación, entrevistas, cuestionarios y encuestas, según el Tema 3.1.",
+  "tags": ["URJC", "IPO", "Obtención de Requisitos", "Observación", "Entrevistas", "Cuestionarios", "Encuestas"],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "text": "¿Cuál es un objetivo clave al obtener requisitos en un proyecto?",
+      "options": [
+        { "id": "o1", "text": "Definir claramente qué información se quiere obtener y su uso final", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Recoger la mayor cantidad de información posible sin filtro", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Ignorar el análisis de datos", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Evitar definir preguntas concretas", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "text": "¿Qué es importante considerar al seleccionar participantes para la obtención de requisitos?",
+      "options": [
+        { "id": "o1", "text": "Seleccionar un grupo representativo y diverso según perfiles relevantes", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Elegir sólo personas expertas en tecnología", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Seleccionar únicamente a quienes estén disponibles", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Incluir sólo a personas con experiencia en programación", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "text": "¿Qué aspecto es esencial para establecer una buena relación con los participantes?",
+      "options": [
+        { "id": "o1", "text": "Explicar objetivos, solicitar consentimiento y garantizar privacidad", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "No informar a los participantes sobre el uso de sus datos", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Obligar a participar sin consentimiento", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Recopilar datos personales sin autorización", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "text": "¿Qué es la triangulación en la obtención de datos?",
+      "options": [
+        { "id": "o1", "text": "Uso de varias fuentes o técnicas para corroborar información y reducir sesgos", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Aplicar un solo método para simplificar el análisis", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Ignorar las inconsistencias entre fuentes", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Seleccionar participantes sin criterios", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "text": "¿Cuál es el propósito de un estudio piloto?",
+      "options": [
+        { "id": "o1", "text": "Validar claridad, metodología y ajustar instrumentos antes del estudio principal", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Realizar el estudio completo sin ajustes", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Ignorar la duración y logística", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Reducir el tamaño de la muestra final", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "text": "¿Qué tipo de observación se realiza sin intervenir en el entorno natural del usuario?",
+      "options": [
+        { "id": "o1", "text": "Observación directa", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Observación controlada", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Observación indirecta", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Observación grabada", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "text": "¿Cuál es una limitación de la observación directa?",
+      "options": [
+        { "id": "o1", "text": "La presencia del observador puede modificar el comportamiento", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Es siempre objetiva y sin sesgos", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Permite captar toda la información sin pérdida", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "No requiere preparación previa", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "text": "¿Qué ventaja ofrece la observación indirecta mediante vídeo?",
+      "options": [
+        { "id": "o1", "text": "Permite análisis detallado y revisiones múltiples", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "No requiere consentimiento", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "No ayuda a detectar errores de usuario", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Es menos precisa que la observación directa", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "text": "¿Cuál es la diferencia principal entre entrevistas estructuradas y flexibles?",
+      "options": [
+        { "id": "o1", "text": "Estructuradas tienen preguntas fijas; flexibles permiten explorar temas abiertos", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Estructuradas no tienen guion; flexibles sí", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Flexibles son más rápidas de analizar", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "No existen entrevistas flexibles", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "text": "¿Qué es fundamental para el desarrollo exitoso de una entrevista a usuarios?",
+      "options": [
+        { "id": "o1", "text": "Crear un ambiente cómodo, explicar objetivos y obtener consentimiento", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Ignorar el guion de preguntas", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Presionar al entrevistado para respuestas rápidas", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "No permitir comentarios adicionales", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q11",
+      "type": "multiple",
+      "text": "¿Cuál es una ventaja de las entrevistas a usuarios?",
+      "options": [
+        { "id": "o1", "text": "Profundizan en experiencias, motivaciones y problemas", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Son rápidas y siempre fáciles de analizar", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "No requieren preparación previa", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Eliminan la necesidad de cuestionarios", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q12",
+      "type": "multiple",
+      "text": "¿Qué es un focus group?",
+      "options": [
+        { "id": "o1", "text": "Una entrevista grupal guiada para generar debate e intercambio de ideas", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Una encuesta individual online", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Un cuestionario con preguntas cerradas", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Una observación sin interacción con usuarios", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q13",
+      "type": "multiple",
+      "text": "¿Qué papel debe desempeñar el moderador en un focus group?",
+      "options": [
+        { "id": "o1", "text": "Facilitar la participación equitativa y controlar la conversación", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Permitir que un participante monopolice el debate", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Interrumpir constantemente a los participantes", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "No intervenir en absoluto", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q14",
+      "type": "multiple",
+      "text": "¿Cuál es una ventaja de los cuestionarios y encuestas?",
+      "options": [
+        { "id": "o1", "text": "Permiten obtener datos cuantitativos y cualitativos de forma estructurada", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "No permiten expresar opiniones abiertas", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Siempre son rápidas de analizar", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "No requieren diseño ni prueba previa", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q15",
+      "type": "multiple",
+      "text": "¿Qué son las escalas de Likert?",
+      "options": [
+        { "id": "o1", "text": "Escalas que miden grados de acuerdo o actitud con niveles como 'totalmente de acuerdo'", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Herramientas para observación directa", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Métodos de grabación de vídeo", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Técnicas para entrevistas flexibles", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q16",
+      "type": "multiple",
+      "text": "¿Cuál es una buena práctica en el diseño de cuestionarios?",
+      "options": [
+        { "id": "o1", "text": "Evitar lenguaje técnico, mantener preguntas cortas y realizar pruebas piloto", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Incluir preguntas ambiguas para mayor variedad", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Hacer cuestionarios muy largos para obtener más datos", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "No incluir instrucciones para acelerar la respuesta", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q17",
+      "type": "multiple",
+      "text": "¿Cuál es una ventaja de los cuestionarios y encuestas online?",
+      "options": [
+        { "id": "o1", "text": "Facilidad de distribución y recolección, reducción de costos y tiempo", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Garantizan muestreo representativo automáticamente", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "No presentan riesgos de duplicidad de respuestas", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Eliminan la necesidad de análisis de datos", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q18",
+      "type": "multiple",
+      "text": "¿Cuál es un desafío en cuestionarios online?",
+      "options": [
+        { "id": "o1", "text": "Muestreo sesgado y riesgo de respuestas duplicadas", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Costos elevados de distribución", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Incapacidad para recolectar datos cuantitativos", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Falta de opciones para preguntas abiertas", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q19",
+      "type": "multiple",
+      "text": "¿Qué herramientas son comunes para la realización de cuestionarios online?",
+      "options": [
+        { "id": "o1", "text": "Google Forms, Survey Monkey, Amazon Mechanical Turk, Microsoft Forms", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Microsoft Word y Excel", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Adobe Photoshop y Illustrator", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Windows Media Player", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q20",
+      "type": "multiple",
+      "text": "¿Qué se debe hacer para mejorar la calidad final del estudio en la obtención de requisitos?",
+      "options": [
+        { "id": "o1", "text": "Realizar estudios piloto y ajustar instrumentos según feedback", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "No analizar los datos recolectados", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Evitar la planificación previa", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Ignorar las opiniones de los usuarios", "isCorrect": false, "value": 0 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "id": "ipo_tema_2_2_quiz_001",
+  "title": "Quiz sobre Elementos y Controles en Interfaces Gráficas (Tema 2.2)",
+  "description": "Preguntas para evaluar conocimientos sobre ventanas, pestañas, controles, distribución y programación de interfaces gráficas, basadas en el Tema 2.2.",
+  "tags": ["URJC", "IPO", "Interfaces Gráficas", "Ventanas", "Controles", "Programación UI"],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "text": "¿Qué son las ventanas en una interfaz gráfica?",
+      "options": [
+        { "id": "o1", "text": "Áreas delimitadas que muestran información o interfaces para la interacción", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Dispositivos físicos para entrada de datos", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Archivos ejecutables del sistema", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Códigos de programación", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "text": "¿Cuál de estas NO es una forma para gestionar muchas ventanas abiertas simultáneamente?",
+      "options": [
+        { "id": "o1", "text": "Listing (listado textual de ventanas)", "isCorrect": false, "value": 0 },
+        { "id": "o2", "text": "Iconising (minimizar a iconos)", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Shrinking (contraer ventanas)", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Encrypting (cifrar ventanas)", "isCorrect": true, "value": 1 }
+      ]
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "text": "¿Qué tipo de ventana termina la aplicación al cerrarse?",
+      "options": [
+        { "id": "o1", "text": "Ventana principal", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Ventana secundaria", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Ventana de diálogo", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Ventana modal", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "text": "¿Qué función tienen las pestañas en una interfaz gráfica?",
+      "options": [
+        { "id": "o1", "text": "Organizar contenido relacionado dentro de una misma ventana", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Minimizar ventanas a iconos", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Mostrar mensajes de error", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Controlar el foco del teclado", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "text": "¿Qué son los mnemotécnicos en la interacción con teclado?",
+      "options": [
+        { "id": "o1", "text": "Letras subrayadas activables con Alt + letra para accesos rápidos", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Combinaciones para cambiar la resolución de pantalla", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Nombres de programas en el menú inicio", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Iconos de la barra de tareas", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "text": "¿Cuál es la función de la tecla Tab en la navegación del foco?",
+      "options": [
+        { "id": "o1", "text": "Mover el foco hacia adelante entre componentes activos", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Cerrar la ventana activa", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Minimizar todas las ventanas", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Abrir el menú principal", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "text": "¿Qué criterio es importante para la distribución de elementos en una ventana?",
+      "options": [
+        { "id": "o1", "text": "Agrupar funciones y datos relacionados para facilitar su uso", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Colocar elementos al azar para diversidad visual", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Priorizar los colores sobre la funcionalidad", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Evitar el uso de contenedores y divisiones", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "text": "¿Qué tipos de iconos existen según su representación gráfica?",
+      "options": [
+        { "id": "o1", "text": "Similares, análogos y arbitrarios", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Digitales, analógicos y físicos", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Pequeños, medianos y grandes", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Estáticos, dinámicos y animados", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "text": "¿Cuál es una recomendación para el diseño de iconos?",
+      "options": [
+        { "id": "o1", "text": "Reutilizar iconos existentes para mantener la consistencia", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Usar iconos muy complejos para destacar", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "No usar etiquetas para no saturar", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Evitar el uso de colores", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "text": "¿Qué indica el uso de '...' en un ítem de menú?",
+      "options": [
+        { "id": "o1", "text": "Que el comando requiere información adicional antes de ejecutarse", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Que el comando es el último en la lista", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Que el comando está deshabilitado", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Que el comando se ejecuta automáticamente", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q11",
+      "type": "multiple",
+      "text": "¿Qué función tiene una barra de herramientas (toolbar)?",
+      "options": [
+        { "id": "o1", "text": "Proporcionar acceso rápido a comandos frecuentes mediante botones", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Mostrar mensajes de error", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Listar todas las ventanas abiertas", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Controlar la resolución de pantalla", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q12",
+      "type": "multiple",
+      "text": "¿Qué característica tienen los botones de conmutación?",
+      "options": [
+        { "id": "o1", "text": "Representan estados on/off y pueden agruparse para opciones exclusivas o independientes", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Solo se usan para enviar formularios", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Siempre tienen texto pero no iconos", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "No permiten cambiar de estado", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q13",
+      "type": "multiple",
+      "text": "¿Cuál es la diferencia entre botones de verificación y botones de selección?",
+      "options": [
+        { "id": "o1", "text": "Botones de verificación permiten seleccionar múltiples opciones; botones de selección permiten sólo una opción", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Ambos son idénticos y permiten seleccionar múltiples opciones", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Botones de selección permiten múltiples opciones; botones de verificación sólo una", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "No se usan en interfaces gráficas", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q14",
+      "type": "multiple",
+      "text": "¿Qué se recomienda mostrar en una lista para mantener claridad?",
+      "options": [
+        { "id": "o1", "text": "Entre 3 y 8 opciones", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Más de 20 opciones", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Sólo una opción para evitar confusión", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Opciones repetidas para resaltar importancia", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q15",
+      "type": "multiple",
+      "text": "¿Para qué se usan los tooltips en las interfaces gráficas?",
+      "options": [
+        { "id": "o1", "text": "Para proporcionar información contextual adicional sin saturar la interfaz", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Para cambiar el fondo de la ventana", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Para bloquear la interacción hasta leer la información", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Para mostrar mensajes de error únicamente", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q16",
+      "type": "multiple",
+      "text": "¿Qué herramientas se recomiendan para prototipado visual rápido y colaborativo?",
+      "options": [
+        { "id": "o1", "text": "JustinMind y Figma", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "MS Paint y Notepad", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Adobe Premiere y Final Cut", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Microsoft Excel y PowerPoint", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q17",
+      "type": "multiple",
+      "text": "¿Por qué se desaconseja el uso de Swing (Java) para proyectos modernos de UI?",
+      "options": [
+        { "id": "o1", "text": "Por su complejidad y limitaciones visuales", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Por ser incompatible con todos los sistemas operativos", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Porque no permite usar iconos", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Porque no soporta menús", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q18",
+      "type": "multiple",
+      "text": "¿Qué indica que un botón es el botón por defecto en una ventana?",
+      "options": [
+        { "id": "o1", "text": "Se activa al pulsar la tecla Enter", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Se activa al pulsar la tecla Esc", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "No tiene función asignada", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Solo se activa con clic derecho", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q19",
+      "type": "multiple",
+      "text": "¿Qué es la navegación completa desde teclado en interfaces gráficas?",
+      "options": [
+        { "id": "o1", "text": "Que todos los elementos y funciones sean accesibles usando solo el teclado", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Que el teclado no funcione para facilitar uso del ratón", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Que solo se usen teclas alfanuméricas", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Que se desactiven los atajos de teclado", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q20",
+      "type": "multiple",
+      "text": "¿Qué rol cumple la barra de título en una ventana?",
+      "options": [
+        { "id": "o1", "text": "Permite identificar la ventana y facilita su manipulación", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Controla el brillo de la pantalla", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Es un área para ingresar texto", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "No tiene función en la interfaz", "isCorrect": false, "value": 0 }
+      ]
+    }
+  ]
+}

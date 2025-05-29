@@ -1,0 +1,1565 @@
+{
+  "id": "IO-T5-2025",
+  "title": "Test Ampliado de Investigación Operativa - Tema 5",
+  "description": "Evaluación extendida sobre simulación, generación de números aleatorios y modelado de sistemas en Investigación Operativa",
+  "tags": [
+    "Investigación Operativa",
+    "Simulación",
+    "Números Aleatorios",
+    "Modelado de Sistemas",
+    "Eventos Discretos",
+    "Monte Carlo"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "text": "¿Qué es una simulación en el contexto de la Investigación Operativa?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Un proceso de crear un modelo físico de un sistema real",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Un proceso de crear un modelo abstracto de un sistema real para estudiar su comportamiento",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Un método para resolver ecuaciones diferenciales",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Una técnica para optimizar procesos sin usar modelos",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "text": "¿Cuál de las siguientes NO es una razón por la que las simulaciones son importantes?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Reducir costes y riesgos",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Analizar sistemas complejos",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Reemplazar completamente los sistemas reales",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o4",
+          "text": "Ayudar en la toma de decisiones",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "text": "¿Qué caracteriza a los modelos deterministas?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Las salidas son completamente determinadas por las entradas, sin incertidumbre",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "Incorporan elementos de aleatoriedad y variabilidad",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Siempre producen resultados diferentes para las mismas entradas",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "No pueden ser utilizados en simulaciones",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "text": "¿Qué tipo de simulación modela sistemas donde las variables cambian de manera continua a lo largo del tiempo?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Simulación Discreta",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Simulación Continua",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Simulación Estática",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Simulación Híbrida",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "text": "En una simulación discreta, ¿cuándo ocurren los cambios en las variables del sistema?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "De manera continua a lo largo del tiempo",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "En momentos específicos, generalmente como resultado de eventos",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Sólo al inicio y al final de la simulación",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "En intervalos regulares predefinidos",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "text": "¿Qué caracteriza a una simulación estática?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Modela sistemas en un estado específico en un momento determinado",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "Considera la evolución y cambios a lo largo del tiempo",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Utiliza ecuaciones diferenciales para describir el comportamiento del sistema",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Siempre produce resultados dinámicos",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "text": "¿Qué es un evento en el contexto de sistemas con sucesos discretos?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Un cambio continuo en el estado del sistema",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Una ocurrencia instantánea que cambia el estado del sistema",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Un período de tiempo durante el cual el sistema no cambia",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Una variable que describe el sistema",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "text": "¿Qué representa el estado del sistema en una simulación de eventos discretos?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Solo el número de eventos ocurridos",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Todas las variables relevantes que describen la situación actual del sistema",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Únicamente el tiempo transcurrido en la simulación",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "La velocidad a la que ocurren los eventos",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "text": "¿Cómo se maneja el tiempo en una simulación de eventos discretos?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "El tiempo avanza de manera continua",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "El tiempo avanza de un evento a otro",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "El tiempo se detiene entre eventos",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "El tiempo no se considera en absoluto",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "text": "¿Qué ventaja ofrece la discretización del tiempo en sistemas de sucesos discretos?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Aumenta la complejidad computacional",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Permite una representación más precisa de sistemas continuos",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Reduce la complejidad computacional al enfocarse únicamente en los momentos de cambio",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o4",
+          "text": "Elimina la necesidad de considerar eventos",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "type": "multiple",
+      "text": "¿Qué son las entidades en el modelado de sistemas con sucesos discretos?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Los recursos que proporcionan servicios",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Los eventos que ocurren en el sistema",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Objetos que se mueven y experimentan cambios en el sistema",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o4",
+          "text": "Las variables aleatorias del sistema",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "type": "multiple",
+      "text": "¿Qué representa la agenda de eventos en una simulación de eventos discretos?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Una lista de tareas para el equipo de simulación",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Un registro de eventos pasados",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Una lista ordenada de eventos futuros programados",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o4",
+          "text": "Un calendario de reuniones del proyecto",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "type": "multiple",
+      "text": "¿Qué método se utiliza comúnmente para generar números pseudoaleatorios?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Método de Newton-Raphson",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Método Congruencial Lineal (LCG)",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Método de Euler",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Método de Monte Carlo",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "type": "multiple",
+      "text": "¿Cuál es la fórmula del Método Congruencial Lineal para generar números pseudoaleatorios?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "X_{n+1} = (aX_n + c) · mod m",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "X_{n+1} = (aX_n - c) · mod m",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "X_{n+1} = (aX_n * c) · mod m",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "X_{n+1} = (aX_n / c) · mod m",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "type": "multiple",
+      "text": "¿Cuál es el período del generador Mersenne Twister (MT19937)?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "2^19937 - 1",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "2^19937",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "19937",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "2",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "type": "multiple",
+      "text": "¿Qué método se utiliza para generar variables aleatorias discretas a partir de una distribución uniforme?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Método de la Función de Distribución Acumulada (Inverse Transform Sampling)",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "Método de Box-Muller",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Método Congruencial Lineal",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Método de Rejection Sampling",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "type": "multiple",
+      "text": "En el contexto de simulación, ¿qué representa una entidad?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Un recurso que proporciona servicio",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Un objeto que se mueve y experimenta cambios en el sistema",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Una variable aleatoria",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Un evento discreto",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "type": "multiple",
+      "text": "¿Qué caracteriza a los modelos deterministas en simulación?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Las salidas son completamente determinadas por las entradas, sin incertidumbre",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "Incorporan elementos de aleatoriedad y variabilidad",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Siempre producen resultados diferentes para las mismas entradas",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "No pueden ser utilizados en simulaciones",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "type": "multiple",
+      "text": "¿Qué es la agenda de eventos en una simulación de eventos discretos?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Una lista de tareas para el equipo de simulación",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Un registro de eventos pasados",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Una lista ordenada de eventos futuros programados para ocurrir",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o4",
+          "text": "Un calendario de reuniones del proyecto de simulación",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "type": "multiple",
+      "text": "¿Cuál es la principal ventaja de la discretización del tiempo en sistemas de sucesos discretos?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Aumenta la complejidad computacional",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Permite una representación más precisa de sistemas continuos",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Reduce la complejidad computacional al enfocarse únicamente en los momentos de cambio",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o4",
+          "text": "Elimina la necesidad de considerar eventos",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q21",
+      "type": "multiple",
+      "text": "¿Qué es el Método Congruencial Lineal (LCG) en la generación de números pseudoaleatorios?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Un método que utiliza operaciones de desplazamiento de bits",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Un método basado en relaciones aritméticas modulares",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Un método que utiliza múltiples congruencias lineales",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Un método que genera números verdaderamente aleatorios",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q22",
+      "type": "multiple",
+      "text": "¿Cuál es el período del generador Mersenne Twister (MT19937)?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "2^19937 - 1",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "2^19937",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "19937",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "2^624 - 1",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q23",
+      "type": "multiple",
+      "text": "¿Qué método se utiliza para generar variables aleatorias continuas a partir de una distribución uniforme?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Método de la Función de Distribución Acumulada Inversa",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "Método Congruencial Lineal",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Método de Box-Muller",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Método de Rejection Sampling",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q24",
+      "type": "multiple",
+      "text": "En el Método de la Función de Distribución Acumulada para variables continuas, ¿qué se invierte?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "La función de densidad de probabilidad (FDP)",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "La función de distribución acumulada (FDA)",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "La variable aleatoria",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "El número pseudoaleatorio generado",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q25",
+      "type": "multiple",
+      "text": "¿Qué método se utiliza comúnmente para generar variables aleatorias con distribución normal?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Método Congruencial Lineal",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Método de la Transformada Inversa",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Método de Box-Muller",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o4",
+          "text": "Método de Fibonacci",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q26",
+      "type": "multiple",
+      "text": "En el método de Box-Muller para generar variables aleatorias normales, ¿cuántos números uniformes independientes se necesitan?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Uno",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Dos",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Tres",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Cuatro",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q27",
+      "type": "multiple",
+      "text": "¿Qué método se utiliza cuando la función de densidad de probabilidad es compleja o no tiene una forma cerrada para su inversa?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Método de la Transformada Inversa",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Método de Box-Muller",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Método de rechazo (Rejection Sampling)",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o4",
+          "text": "Método Congruencial Lineal",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q28",
+      "type": "multiple",
+      "text": "En el contexto de simulación, ¿qué representa un recurso?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Un objeto que se mueve a través del sistema",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Un componente que proporciona servicios a las entidades",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Un evento que ocurre en el sistema",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Una variable aleatoria del sistema",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q29",
+      "type": "multiple",
+      "text": "¿Qué representa una cola en un modelo de simulación de eventos discretos?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Un recurso que proporciona servicios",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Un evento que ocurre en el sistema",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Un espacio donde las entidades esperan para recibir servicio",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o4",
+          "text": "Una variable aleatoria del sistema",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q30",
+      "type": "multiple",
+      "text": "¿Cuál es el propósito principal de la validación en el modelado de sistemas?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Aumentar la complejidad del modelo",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Asegurar que el modelo representa adecuadamente el sistema real",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Reducir el tiempo de simulación",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Eliminar la necesidad de pruebas en el sistema real",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q31",
+      "type": "multiple",
+      "text": "¿Qué es la función de distribución acumulada (FDA) en el contexto de generación de variables aleatorias?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Una función que genera números aleatorios",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Una función que describe la probabilidad de que una variable aleatoria sea menor o igual a un valor dado",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Una función que calcula la media de una distribución",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Una función que determina la varianza de una distribución",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q32",
+      "type": "multiple",
+      "text": "En el método de la transformada inversa para variables continuas, ¿qué se invierte?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "La función de densidad de probabilidad (FDP)",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "La función de distribución acumulada (FDA)",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "La variable aleatoria",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "El número pseudoaleatorio generado",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q33",
+      "type": "multiple",
+      "text": "¿Cuál es la principal ventaja del método de la transformada inversa para generar variables aleatorias?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Es el método más rápido computacionalmente",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Funciona para todas las distribuciones de probabilidad",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Es fácil de implementar cuando se conoce la función de distribución acumulada inversa",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o4",
+          "text": "No requiere números pseudoaleatorios uniformes",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q34",
+      "type": "multiple",
+      "text": "¿Qué método se utiliza comúnmente para generar variables aleatorias con distribución exponencial?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Método de Box-Muller",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Método de la transformada inversa",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Método de rechazo",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Método congruencial lineal",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q35",
+      "type": "multiple",
+      "text": "En el contexto de simulación de Monte Carlo, ¿qué representa la convergencia?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "El tiempo que tarda la simulación en completarse",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "La tendencia de los resultados a estabilizarse alrededor de un valor a medida que aumenta el número de iteraciones",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "La precisión de los números pseudoaleatorios generados",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "La complejidad del modelo de simulación",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q36",
+      "type": "multiple",
+      "text": "¿Qué representa la longitud del período en un generador de números pseudoaleatorios?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "El tiempo que tarda en generar un número",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "La cantidad de números generados antes de que la secuencia comience a repetirse",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "El rango de valores que puede generar",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "La precisión de los números generados",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q37",
+      "type": "multiple",
+      "text": "En el Método Congruencial Lineal (LCG), ¿qué representa 'm' en la fórmula X_{n+1} = (aX_n + c) · mod m?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "El multiplicador",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "El incremento",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "El módulo",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o4",
+          "text": "La semilla inicial",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q38",
+      "type": "multiple",
+      "text": "¿Cuál es una desventaja del generador Mersenne Twister?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Tiene un período corto",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "No es adecuado para aplicaciones criptográficas debido a su predictibilidad",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Genera números con mala distribución",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Es demasiado lento para la mayoría de aplicaciones",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q39",
+      "type": "multiple",
+      "text": "¿Qué característica NO es típica de los números pseudoaleatorios generados por computadora?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Determinismo",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Repetibilidad",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Uniformidad",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Impredecibilidad absoluta",
+          "isCorrect": true,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "q40",
+      "type": "multiple",
+      "text": "En el contexto de la generación de variables aleatorias discretas, ¿qué representa la Función de Distribución Acumulada (FDA)?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "La probabilidad de que la variable tome un valor específico",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "La suma de las probabilidades de todos los valores posibles",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "La probabilidad de que la variable sea menor o igual a un valor dado",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o4",
+          "text": "La media de la distribución",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q41",
+      "type": "multiple",
+      "text": "¿Qué representa la semilla inicial en la generación de números pseudoaleatorios?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "El número máximo que puede generar el algoritmo",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "El valor inicial que determina completamente la secuencia de números generados",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "El tiempo de ejecución del generador",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "La cantidad de números a generar",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q42",
+      "type": "multiple",
+      "text": "¿Cuál es la principal ventaja de la repetibilidad en la generación de números pseudoaleatorios?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Genera números más aleatorios",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Permite reproducir experimentos bajo las mismas condiciones iniciales",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Aumenta la velocidad de generación",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Reduce el consumo de memoria",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q43",
+      "type": "multiple",
+      "text": "¿Qué característica distingue a los eventos internos en un sistema de simulación?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Siempre ocurren al inicio de la simulación",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Son generados por el propio sistema",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Solo ocurren en sistemas continuos",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "No afectan el estado del sistema",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q44",
+      "type": "multiple",
+      "text": "¿Qué representa la agenda de eventos en una simulación de eventos discretos?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Un registro de eventos pasados",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Una lista ordenada de eventos futuros programados para ocurrir",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Un calendario de reuniones del proyecto",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Una lista de tareas pendientes",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q45",
+      "type": "multiple",
+      "text": "¿Cuál es la principal ventaja de la discretización del tiempo en sistemas de sucesos discretos?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Aumenta la complejidad computacional",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Reduce la complejidad computacional al enfocarse en momentos de cambio",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Elimina la necesidad de considerar eventos",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Hace que el modelo sea completamente continuo",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q46",
+      "type": "multiple",
+      "text": "¿Qué representa un recurso en el modelado de sistemas con sucesos discretos?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Un objeto que se mueve a través del sistema",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Un componente que proporciona servicios a las entidades",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Un evento que ocurre en el sistema",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Una variable aleatoria del sistema",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q47",
+      "type": "multiple",
+      "text": "¿Qué método se utiliza para generar variables aleatorias exponenciales?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Método de Box-Muller",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Método de la transformada inversa",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Método de rechazo",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Método congruencial lineal",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q48",
+      "type": "multiple",
+      "text": "¿Qué caracteriza a los modelos estocásticos en simulación?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Las salidas son completamente determinadas por las entradas",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Incorporan elementos de aleatoriedad y variabilidad",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "No utilizan variables aleatorias",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Solo se usan en simulaciones continuas",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q49",
+      "type": "multiple",
+      "text": "¿Qué representa la función de distribución acumulada (FDA) en la generación de variables aleatorias?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Una función que genera números aleatorios",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "La probabilidad de que una variable aleatoria sea menor o igual a un valor dado",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Una función que calcula la media de una distribución",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Una función que determina la varianza de una distribución",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q50",
+      "type": "multiple",
+      "text": "¿Cuál es la principal característica del método de la transformada inversa para generar variables aleatorias?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Funciona para todas las distribuciones de probabilidad",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Es fácil de implementar cuando se conoce la función de distribución acumulada inversa",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "No requiere números pseudoaleatorios uniformes",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Es el método más rápido computacionalmente",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    }
+  ]
+}

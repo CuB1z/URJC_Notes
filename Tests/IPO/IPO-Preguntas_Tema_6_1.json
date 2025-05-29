@@ -1,0 +1,228 @@
+{
+  "id": "ipo_tema_6_1_quiz_001",
+  "title": "Quiz sobre Evaluación de Interfaces de Usuario (Tema 6.1)",
+  "description": "Preguntas para evaluar conocimientos sobre la planificación, métodos, técnicas y entornos para la evaluación de interfaces de usuario según el Tema 6.1.",
+  "tags": ["URJC", "IPO", "Evaluación", "Interfaces de Usuario", "Usabilidad", "Métodos", "Planificación"],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "text": "¿Cuál es el principal objetivo de evaluar una interfaz de usuario?",
+      "options": [
+        { "id": "o1", "text": "Garantizar que cumple con los requisitos y necesidades de los usuarios reales", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Reducir el tiempo de desarrollo a la mitad", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Eliminar por completo la necesidad de pruebas posteriores", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Maximizar el uso de tecnología avanzada independientemente del usuario", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "text": "¿En qué fases del ciclo de vida del diseño se recomienda realizar evaluaciones?",
+      "options": [
+        { "id": "o1", "text": "Durante todo el ciclo: desde prototipos iniciales hasta productos finales", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Solo al final del desarrollo", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Únicamente en la fase de diseño conceptual", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Solo cuando el producto ya está en el mercado", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "text": "¿Qué aspectos de la interfaz se deben evaluar según el tema?",
+      "options": [
+        { "id": "o1", "text": "Diseño conceptual, prototipos y producto final", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Solo el código fuente", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Solo el hardware", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Solo la estética visual", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "text": "¿Quiénes suelen participar en la evaluación de interfaces de usuario?",
+      "options": [
+        { "id": "o1", "text": "Expertos en usabilidad, expertos en dominio, equipo de desarrollo y usuarios reales o simulados", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Solo desarrolladores de software", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Solo usuarios finales sin expertos", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Solo gerentes y directivos", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "text": "¿Dónde pueden realizarse las evaluaciones de interfaces?",
+      "options": [
+        { "id": "o1", "text": "Laboratorios de usabilidad, entornos naturales y laboratorios de accesibilidad", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Solo en el laboratorio de desarrollo", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "En la oficina del gerente sin usuarios", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "En sitios públicos sin control", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "text": "¿Qué elementos deben incluirse en la planificación de una evaluación?",
+      "options": [
+        { "id": "o1", "text": "Selección de participantes, lugar, permisos, aspectos a evaluar, métodos, tareas y recogida de datos", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Solo seleccionar el software a evaluar", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Ignorar aspectos legales y permisos", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "No planificar y hacer pruebas improvisadas", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "text": "¿Qué información debe documentarse tras una evaluación?",
+      "options": [
+        { "id": "o1", "text": "Características de participantes, variables, tareas, procedimiento y resultados", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Solo resultados numéricos sin contexto", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Solo grabaciones sin análisis", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "No es necesario documentar nada", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "text": "¿Qué es la evaluación heurística?",
+      "options": [
+        { "id": "o1", "text": "Análisis realizado por expertos mediante heurísticas reconocidas para identificar problemas de usabilidad", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Una encuesta a usuarios finales", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "El desarrollo de prototipos funcionales", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Un análisis financiero del proyecto", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "text": "¿Qué implica un recorrido cognitivo en evaluación?",
+      "options": [
+        { "id": "o1", "text": "Analizar paso a paso las tareas para comprobar si la IU facilita su realización", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Observación de usuarios sin interacción", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Realizar encuestas post uso", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Pruebas de rendimiento del software", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "text": "¿Qué técnicas empíricas incluyen la participación directa de usuarios?",
+      "options": [
+        { "id": "o1", "text": "Cuestionarios, entrevistas, observación directa, 'think aloud', focus groups y test A/B", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Evaluación heurística y recorrido cognitivo", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Pruebas automatizadas sin usuarios", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Análisis financiero", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q11",
+      "type": "multiple",
+      "text": "¿Qué es la técnica 'Think Aloud' en evaluación de interfaces?",
+      "options": [
+        { "id": "o1", "text": "Usuarios verbalizan sus pensamientos mientras interactúan con la interfaz", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Observadores hacen preguntas a usuarios después de la prueba", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Usuarios completan encuestas después de usar el sistema", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Registro automático de interacciones", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q12",
+      "type": "multiple",
+      "text": "¿Qué ventajas tiene realizar evaluaciones en entornos naturales?",
+      "options": [
+        { "id": "o1", "text": "Obtener datos contextuales y realistas del uso del sistema", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Mayor control y observación que en laboratorio", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Eliminación total de errores de usuario", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Menor validez externa", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q13",
+      "type": "multiple",
+      "text": "¿Qué papel juegan los laboratorios de usabilidad en la evaluación?",
+      "options": [
+        { "id": "o1", "text": "Proporcionan un entorno controlado con equipamiento especializado para observación y registro", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Son espacios improvisados sin equipo técnico", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Solo se usan para desarrollo de software", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "No permiten grabar las sesiones de prueba", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q14",
+      "type": "multiple",
+      "text": "¿Qué tecnologías avanzadas pueden usarse en evaluación de interfaces?",
+      "options": [
+        { "id": "o1", "text": "Eye tracking, mapas de calor y software de logging", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Herramientas de edición gráfica", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Software de desarrollo web", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Sistemas de gestión empresarial", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q15",
+      "type": "multiple",
+      "text": "¿Qué es un test A/B en la evaluación de interfaces?",
+      "options": [
+        { "id": "o1", "text": "Comparación entre dos versiones para medir preferencias o eficacia", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Evaluación solo con expertos sin usuarios", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Pruebas unitarias de software", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Comparación de dos sistemas diferentes sin métricas", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q16",
+      "type": "multiple",
+      "text": "¿Qué implica la monitorización (user logging) en la evaluación?",
+      "options": [
+        { "id": "o1", "text": "Registro automático y análisis detallado de interacciones del usuario", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Encuestas en papel", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Grabaciones de vídeo sin análisis", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Observación sin registro", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q17",
+      "type": "multiple",
+      "text": "¿Cuál es un beneficio de combinar métodos analíticos y empíricos en evaluación?",
+      "options": [
+        { "id": "o1", "text": "Obtener un análisis más completo y detectar más problemas de usabilidad", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Reducir la validez del estudio", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Incrementar sesgos en los resultados", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Simplificar el análisis eliminando información", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q18",
+      "type": "multiple",
+      "text": "¿Qué debe considerarse al seleccionar participantes para evaluaciones con usuarios?",
+      "options": [
+        { "id": "o1", "text": "Representatividad, diversidad y disponibilidad", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Solo la disponibilidad sin importar perfil", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Solo expertos técnicos", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Exclusivamente usuarios nuevos", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q19",
+      "type": "multiple",
+      "text": "¿Qué aspectos éticos deben respetarse en la evaluación?",
+      "options": [
+        { "id": "o1", "text": "Consentimiento informado, privacidad y confidencialidad", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Ignorar opiniones de usuarios", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Obligar a participar sin informar", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Publicar datos personales sin permiso", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q20",
+      "type": "multiple",
+      "text": "¿Qué documento es esencial para asegurar la calidad y reproducibilidad de una evaluación?",
+      "options": [
+        { "id": "o1", "text": "Plan de evaluación que incluye protocolo, metodología y análisis", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Documentación solo informal", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "No documentar el proceso", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Solo resultados sin contexto", "isCorrect": false, "value": 0 }
+      ]
+    }
+  ]
+}

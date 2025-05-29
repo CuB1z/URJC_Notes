@@ -1,0 +1,635 @@
+{
+  "id": "quiz-evolucion-adaptacion-software-06-extended",
+  "title": "Evolución, Mantenimiento y Reingeniería - Tema 6 (20 Preguntas)",
+  "description": "Cuestionario extendido con 20 preguntas sobre evolución del software, mantenimiento, sistemas heredados, ingeniería inversa y reingeniería.",
+  "tags": [
+    "URJC",
+    "EAS",
+    "Evolución",
+    "Mantenimiento",
+    "Reingeniería",
+    "Ingeniería Inversa"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "text": "¿Cuál es la mejor definición de evolución del software según Lehman y Ramil?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Proceso estático sin cambios posteriores a la entrega.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Actividades orientadas a generar una nueva versión operativa a partir de una existente.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Reemplazo total del software sin mantener versiones previas.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Solo actividades de corrección de errores en producción.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "text": "¿Cuál de los siguientes factores impulsa la evolución del software?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Cambios normativos o legales.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "El software es perfecto desde su entrega.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Falta de usuarios activos.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "El software nunca necesita adaptación tecnológica.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "text": "¿Cuál NO es un tipo de mantenimiento del software reconocido en el tema?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Mantenimiento correctivo.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Mantenimiento perfectivo.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Mantenimiento destructivo.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o4",
+          "text": "Mantenimiento preventivo.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "text": "¿Qué porcentaje aproximado del presupuesto total de una aplicación se destina al mantenimiento?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "10-20%.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "50-60%.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "80-90%.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o4",
+          "text": "Menos del 5%.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "text": "¿Cuál de las siguientes NO es una característica de los sistemas heredados?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Uso de tecnologías obsoletas.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Construidos con las últimas prácticas de desarrollo ágil.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Aún en uso dentro de la organización.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Sistemas con estructura y código difíciles de comprender.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "text": "¿Qué criterio NO se usa para evaluar la calidad técnica de un sistema heredado?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Comprensibilidad del código.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Calidad y disponibilidad de documentación.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Popularidad del software en el mercado global.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o4",
+          "text": "Nivel de automatización de pruebas.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "text": "¿Cuál de los siguientes NO es un factor para evaluar el valor de negocio de un sistema heredado?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Frecuencia de uso del sistema.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Nivel de integración con procesos críticos.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Cantidad de desarrolladores externos que conocen el sistema.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o4",
+          "text": "Riesgo ante fallos o interrupciones.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "text": "¿Qué acción se recomienda para un sistema heredado con baja calidad técnica y bajo valor de negocio?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Continuar mantenimiento y mejora continua.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Reingeniería profunda para mejorar el sistema.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Desechar el sistema.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o4",
+          "text": "Implementar nuevas funcionalidades sin evaluación previa.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "text": "¿Cuál es la diferencia principal entre mantenimiento y reingeniería de software?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "El mantenimiento es planificado y profundo, la reingeniería es local y correctiva.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "La reingeniería es una intervención planificada y profunda que no cambia la funcionalidad, el mantenimiento suele ser local y correctivo.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Ambos términos se refieren exactamente a lo mismo.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "El mantenimiento sólo aplica a software nuevo.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "text": "¿Cuál NO es una actividad típica dentro de la reingeniería de software?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Redocumentación y recuperación de especificaciones.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Migración tecnológica.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Implementación de nuevas funcionalidades que cambian el propósito del sistema.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o4",
+          "text": "Refactorización y modularización del código.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "type": "multiple",
+      "text": "¿Qué es la ingeniería inversa en el contexto del software?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Desarrollo desde cero de un sistema nuevo.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Analizar un sistema existente para recuperar su diseño y estructura.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Implementación rápida sin análisis previo.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Reemplazo total del sistema sin documentación.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "type": "multiple",
+      "text": "¿Cuál de las siguientes técnicas se usa comúnmente en la ingeniería inversa?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Análisis estático del código sin ejecutarlo.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "Generación de nuevos requisitos sin analizar el sistema.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Pruebas de caja negra sin documentación.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Despliegue en producción sin validación.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "type": "multiple",
+      "text": "¿Cuál es la relación correcta entre ingeniería directa, inversa y reingeniería?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "La ingeniería directa y la inversa son lo mismo, la reingeniería es diferente.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "La ingeniería directa es desarrollo, la inversa es análisis y la reingeniería combina ambas para modificar sistemas sin cambiar funcionalidad.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "La reingeniería solo ocurre después de la ingeniería directa.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "No hay relación entre estos conceptos.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "type": "multiple",
+      "text": "¿Cuál de las siguientes no forma parte del ciclo típico de reingeniería?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Análisis mediante ingeniería inversa.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Redefinición de objetivos de mejora.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Implementación de nuevas funcionalidades sin relación con el sistema actual.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o4",
+          "text": "Refactorización y rediseño.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "type": "multiple",
+      "text": "¿Qué elemento incrementa el coste del mantenimiento del software con el tiempo?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Buena documentación.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Complejidad acumulada y falta de documentación.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Automatización de pruebas.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Uso de lenguajes modernos.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "type": "multiple",
+      "text": "¿Qué busca lograr la migración tecnológica dentro de la reingeniería?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Cambiar el propósito funcional del sistema.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Actualizar la plataforma tecnológica sin modificar funcionalidades.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Eliminar la necesidad de pruebas.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Reducir la calidad del código para acelerar entregas.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "type": "multiple",
+      "text": "¿Qué ventaja tiene la refactorización en la reingeniería?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Permite mejorar la estructura interna sin cambiar la funcionalidad.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "Agrega nuevas funcionalidades rápidamente.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Elimina la necesidad de documentación.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Reduce la mantenibilidad a largo plazo.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "type": "multiple",
+      "text": "¿Cuál es un uso práctico de la ingeniería inversa?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Crear documentación inexistente para un sistema legado.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2",
+          "text": "Agregar funcionalidades sin planificar.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Eliminar completamente el sistema sin respaldo.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "Ignorar el análisis de código fuente.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "type": "multiple",
+      "text": "¿Qué no corresponde a un objetivo de la reingeniería de software?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Incrementar la mantenibilidad.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Eliminar código obsoleto y redundante.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3",
+          "text": "Modificar la funcionalidad principal del sistema.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o4",
+          "text": "Facilitar el testeo y la integración.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "type": "multiple",
+      "text": "¿Cuál es una reflexión final sobre la evolución del software presentada en el tema?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "La evolución del software es opcional y se puede ignorar en sistemas maduros.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2",
+          "text": "Gestionar estratégicamente la evolución mediante mantenimiento, reingeniería e ingeniería inversa reduce riesgos y preserva valor.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o3",
+          "text": "Es mejor desechar el software antiguo que intentar transformarlo.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o4",
+          "text": "La evolución no requiere planificación ni evaluación continua.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    }
+  ]
+}

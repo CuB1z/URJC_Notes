@@ -1,0 +1,944 @@
+{
+    "id": "DAS-T2-2025",
+    "title": "Test de Diseño y Arquitectura Software - Tema 2",
+    "description": "Evaluación sobre conceptos de diseño y arquitectura software basados en el Tema 2",
+    "tags": [
+        "Diseño de Software",
+        "Arquitectura de Software",
+        "Sistemas de Sistemas",
+        "Micro-Servicios",
+        "Industria 4.0"
+    ],
+    "questions": [
+        {
+            "id": "q1",
+            "type": "multiple",
+            "text": "¿Qué es la Ingeniería de Sistemas?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Una disciplina que involucra diversas sub-disciplinas para la construcción de sistemas intensivos y complejos",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un método para resolver ecuaciones diferenciales",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Una técnica para optimizar procesos sin usar modelos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un modelo físico de un sistema real",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q2",
+            "type": "multiple",
+            "text": "¿Qué es un Sistema de Sistemas (SoS)?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un sistema que integra varios subsistemas independientes y operables para lograr un objetivo superior",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un sistema que solo incluye componentes de hardware",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un sistema que no requiere integración de subsistemas",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Un sistema que se utiliza únicamente en el ámbito militar",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q3",
+            "type": "multiple",
+            "text": "¿Cuál de los siguientes NO es un tipo de SoS basado en la independencia de sus constituyentes?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Dirigidos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Reconocidos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Colaborativos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Centralizados",
+                    "isCorrect": true,
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "id": "q4",
+            "type": "multiple",
+            "text": "¿Cuál es el primer paso para construir una Arquitectura Software?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Seleccionar cuantas vistas hacen falta",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Seleccionar los diagramas apropiados para cada vista",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Seleccionar el estilo o estilos arquitectónicos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Detallar las clases o los patrones de diseño para cada subsistema",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q5",
+            "type": "multiple",
+            "text": "¿Qué es AUTOSAR?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Una arquitectura de software abierta y estandarizada para la industria automotriz",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un modelo físico de un sistema real",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un método para resolver ecuaciones diferenciales",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Una técnica para optimizar procesos sin usar modelos",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q6",
+            "type": "multiple",
+            "text": "¿Cuál de los siguientes NO es una fase de evolución de AUTOSAR?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Phase I (2004-2006)",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Phase II (2006-2009)",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Phase IV (2016-2020)",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o4",
+                    "text": "Phase III (2009-2013)",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q7",
+            "type": "multiple",
+            "text": "¿Qué es la Industria 4.0?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Una nueva revolución industrial de software para gestionar la complejidad de los sistemas software actuales",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un modelo físico de un sistema real",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un método para resolver ecuaciones diferenciales",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Una técnica para optimizar procesos sin usar modelos",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q8",
+            "type": "multiple",
+            "text": "¿Cuál de los siguientes NO es un principio de la Industria 4.0?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Interconexión",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Transparencia de la información",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Continuous software engineering (CSE)",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Duplicar la funcionalidad de componentes",
+                    "isCorrect": true,
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "id": "q9",
+            "type": "multiple",
+            "text": "¿Qué es un Micro-Servicio?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Una arquitectura de servicios web orientadas a aplicaciones débilmente acopladas",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un modelo físico de un sistema real",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un método para resolver ecuaciones diferenciales",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Una técnica para optimizar procesos sin usar modelos",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q10",
+            "type": "multiple",
+            "text": "¿Cuál de los siguientes NO es un patrón de Micro-Servicios?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Circuit-Breaker",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o2",
+                    "text": "Retry",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "API Gateway",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Simulación Continua",
+                    "isCorrect": true,
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "id": "q11",
+            "type": "multiple",
+            "text": "¿Cuál es una ventaja de los Micro-Servicios?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Desarrollo ágil",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Mayor acoplamiento",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Escalabilidad limitada",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Despliegue monolítico",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q12",
+            "type": "multiple",
+            "text": "¿Qué es un patrón Circuit-Breaker en Micro-Servicios?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Evita que una aplicación lleve a cabo la ejecución repetida de una operación",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Permite reintentos en caso de fallo",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Permite un único punto de entrada a diferentes clientes",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Duplica la funcionalidad de componentes",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q13",
+            "type": "multiple",
+            "text": "¿Qué es un patrón Retry en Micro-Servicios?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Permite reintentos en caso de fallo",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Evita que una aplicación lleve a cabo la ejecución repetida de una operación",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Permite un único punto de entrada a diferentes clientes",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Duplica la funcionalidad de componentes",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q14",
+            "type": "multiple",
+            "text": "¿Qué es un patrón API Gateway en Micro-Servicios?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Permite un único punto de entrada a diferentes clientes que acceden a microservicios",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Evita que una aplicación lleve a cabo la ejecución repetida de una operación",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Permite reintentos en caso de fallo",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Duplica la funcionalidad de componentes",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q15",
+            "type": "multiple",
+            "text": "¿Qué es la transparencia de la información en la Industria 4.0?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Proporciona a los operadores información suficiente para la toma de decisiones descentralizada",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Capacidad de los sistemas y máquinas para comunicarse mediante protocolos de IoT",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Automatización de procesos sin intervención humana",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Duplicar la funcionalidad de componentes",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q16",
+            "type": "multiple",
+            "text": "¿Qué es la interconexión en la Industria 4.0?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Capacidad de los sistemas y máquinas, sensores y personas para comunicarse mediante protocolos de IoT",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Proporciona a los operadores información suficiente para la toma de decisiones descentralizada",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Automatización de procesos sin intervención humana",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Duplicar la funcionalidad de componentes",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q17",
+            "type": "multiple",
+            "text": "¿Qué es RAMI 4.0?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un modelo de referencia para los sistemas de manufactura inteligentes",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un modelo físico de un sistema real",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un método para resolver ecuaciones diferenciales",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Una técnica para optimizar procesos sin usar modelos",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q18",
+            "type": "multiple",
+            "text": "¿Qué es la evolución de la arquitectura software?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "La capacidad de la arquitectura para mantenerse en el tiempo y soportar cambios",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "El proceso de seleccionar los diagramas apropiados para cada vista",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "La técnica para optimizar procesos sin usar modelos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "El método para resolver ecuaciones diferenciales",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q19",
+            "type": "multiple",
+            "text": "¿Qué es Continuous Software Engineering (CSE) en la Industria 4.0?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Una estrategia DevOps para el desarrollo y operaciones continuas",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un modelo físico de un sistema real",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un método para resolver ecuaciones diferenciales",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Una técnica para optimizar procesos sin usar modelos",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q20",
+            "type": "multiple",
+            "text": "¿Qué es la gestión de la configuración (SCM) en Ingeniería de Sistemas?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Una sub-disciplina que involucra la gestión de cambios y versiones de los componentes del sistema",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un modelo físico de un sistema real",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un método para resolver ecuaciones diferenciales",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Una técnica para optimizar procesos sin usar modelos",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q21",
+            "type": "multiple",
+            "text": "¿Qué es la transparencia de la información en la Industria 4.0?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Proporciona a los operadores información suficiente para la toma de decisiones descentralizada",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Capacidad de los sistemas y máquinas para comunicarse mediante protocolos de IoT",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Automatización de procesos sin intervención humana",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Duplicar la funcionalidad de componentes",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q22",
+            "type": "multiple",
+            "text": "¿Qué es la interconexión en la Industria 4.0?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Capacidad de los sistemas y máquinas, sensores y personas para comunicarse mediante protocolos de IoT",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Proporciona a los operadores información suficiente para la toma de decisiones descentralizada",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Automatización de procesos sin intervención humana",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Duplicar la funcionalidad de componentes",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q23",
+            "type": "multiple",
+            "text": "¿Qué es RAMI 4.0?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Un modelo de referencia para los sistemas de manufactura inteligentes",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un modelo físico de un sistema real",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un método para resolver ecuaciones diferenciales",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Una técnica para optimizar procesos sin usar modelos",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q24",
+            "type": "multiple",
+            "text": "¿Qué es la evolución de la arquitectura software?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "La capacidad de la arquitectura para mantenerse en el tiempo y soportar cambios",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "El proceso de seleccionar los diagramas apropiados para cada vista",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "La técnica para optimizar procesos sin usar modelos",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "El método para resolver ecuaciones diferenciales",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q25",
+            "type": "multiple",
+            "text": "¿Qué es Continuous Software Engineering (CSE) en la Industria 4.0?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Una estrategia DevOps para el desarrollo y operaciones continuas",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un modelo físico de un sistema real",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un método para resolver ecuaciones diferenciales",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Una técnica para optimizar procesos sin usar modelos",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q26",
+            "type": "multiple",
+            "text": "¿Qué es un patrón de diseño en Arquitectura Software?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Una solución general reutilizable para un problema común en un contexto dado",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un modelo físico de un sistema real",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un método para resolver ecuaciones diferenciales",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Una técnica para optimizar procesos sin usar modelos",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q27",
+            "type": "multiple",
+            "text": "¿Qué es la gestión de proyectos en Ingeniería de Sistemas?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Una sub-disciplina que involucra la planificación, organización y control de recursos para alcanzar objetivos específicos",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un modelo físico de un sistema real",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un método para resolver ecuaciones diferenciales",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Una técnica para optimizar procesos sin usar modelos",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q28",
+            "type": "multiple",
+            "text": "¿Qué es la verificación en Ingeniería de Sistemas?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "El proceso de evaluar un sistema o componente para determinar si cumple con los requisitos especificados",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un modelo físico de un sistema real",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un método para resolver ecuaciones diferenciales",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Una técnica para optimizar procesos sin usar modelos",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q29",
+            "type": "multiple",
+            "text": "¿Qué es la Ingeniería de Requisitos en Ingeniería de Sistemas?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Una sub-disciplina que involucra la identificación, documentación y gestión de los requisitos del sistema",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un modelo físico de un sistema real",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un método para resolver ecuaciones diferenciales",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Una técnica para optimizar procesos sin usar modelos",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "q30",
+            "type": "multiple",
+            "text": "¿Qué es la gestión de la configuración (SCM) en Ingeniería de Sistemas?",
+            "options": [
+                {
+                    "id": "o1",
+                    "text": "Una sub-disciplina que involucra la gestión de cambios y versiones de los componentes del sistema",
+                    "isCorrect": true,
+                    "value": 1
+                },
+                {
+                    "id": "o2",
+                    "text": "Un modelo físico de un sistema real",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o3",
+                    "text": "Un método para resolver ecuaciones diferenciales",
+                    "isCorrect": false,
+                    "value": 0
+                },
+                {
+                    "id": "o4",
+                    "text": "Una técnica para optimizar procesos sin usar modelos",
+                    "isCorrect": false,
+                    "value": 0
+                }
+            ]
+        }
+    ]
+}

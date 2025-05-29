@@ -1,0 +1,228 @@
+{
+  "id": "ipo_tema_5_quiz_001",
+  "title": "Quiz sobre Accesibilidad y Diseño Universal en Interacción Persona-Ordenador (Tema 5)",
+  "description": "Preguntas para evaluar conocimientos sobre accesibilidad, tipos de discapacidad, principios de diseño universal, normativa, internacionalización y el impacto social y ético, basadas en el Tema 5.",
+  "tags": ["URJC", "IPO", "Accesibilidad", "Diseño Universal", "Discapacidad", "Normativa", "Internacionalización", "Ética"],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple",
+      "text": "¿Cuál es el objetivo principal de la accesibilidad en sistemas interactivos?",
+      "options": [
+        { "id": "o1", "text": "Garantizar que cualquier persona pueda usar la tecnología sin importar sus capacidades", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Reducir el número de usuarios para facilitar el desarrollo", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Crear interfaces exclusivas para expertos en tecnología", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Evitar el uso de tecnologías asistivas", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "text": "¿Qué enfoque promueve el diseño universal?",
+      "options": [
+        { "id": "o1", "text": "Crear productos y sistemas usables por la mayoría sin necesidad de adaptaciones especiales", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Diseñar productos para un grupo muy específico de usuarios", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Ignorar las diferencias de capacidades entre usuarios", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Crear adaptaciones solo después de lanzar el producto", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q3",
+      "type": "multiple",
+      "text": "¿Cuál de estas adaptaciones es esencial para usuarios con discapacidad visual?",
+      "options": [
+        { "id": "o1", "text": "Textos alternativos para imágenes y navegación por teclado", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Subtítulos en vídeos", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Dispositivos Braille para discapacidad auditiva", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Interfaz táctil sin opciones de teclado", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "text": "¿Qué adaptación es crucial para personas con discapacidad auditiva?",
+      "options": [
+        { "id": "o1", "text": "Subtítulos y alertas visuales en contenido audiovisual", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Lectores de pantalla", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Navegación por voz", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Uso exclusivo de sonidos para notificaciones", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "multiple",
+      "text": "Para usuarios con discapacidad motora, ¿qué característica es recomendable en las interfaces?",
+      "options": [
+        { "id": "o1", "text": "Navegabilidad completa con teclado y comandos de voz", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Uso exclusivo del ratón para navegación", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Combinaciones complejas de teclas sin alternativa", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Interfaces que requieren movimientos precisos y rápidos", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q6",
+      "type": "multiple",
+      "text": "¿Qué recomendaciones se aplican para usuarios con discapacidad cognitiva?",
+      "options": [
+        { "id": "o1", "text": "Diseño simple y consistente con lenguaje claro y ayudas visuales", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Interfaces complejas y llenas de opciones", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Ignorar la estructura y navegación", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Evitar mensajes de error claros", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q7",
+      "type": "multiple",
+      "text": "¿Qué normas regulan la accesibilidad de páginas web y aplicaciones en España y Europa?",
+      "options": [
+        { "id": "o1", "text": "Real Decreto 1112/2018 y Directiva Europea 2016/2102", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "ISO 9001 y ISO 27001", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "IEEE 802.11", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "GDPR y CCPA", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "multiple",
+      "text": "¿Qué organización promueve las Web Content Accessibility Guidelines (WCAG)?",
+      "options": [
+        { "id": "o1", "text": "W3C (World Wide Web Consortium)", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "ISO", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "IEEE", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "ITU", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q9",
+      "type": "multiple",
+      "text": "¿Cuál es uno de los cuatro principios básicos de las WCAG?",
+      "options": [
+        { "id": "o1", "text": "Perceptible, Operable, Comprensible y Robusto", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Rápido, Estético, Consistente y Seguro", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Simple, Complejo, Flexible y Estático", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Accesible, Usable, Adaptable y Funcional", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "text": "¿Qué niveles de conformidad definen las WCAG?",
+      "options": [
+        { "id": "o1", "text": "Niveles A, AA y AAA", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Niveles 1, 2 y 3", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Niveles Básico, Medio y Avanzado", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Niveles Rojo, Amarillo y Verde", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q11",
+      "type": "multiple",
+      "text": "¿Qué aspecto debe contemplar la accesibilidad en relación con la internacionalización?",
+      "options": [
+        { "id": "o1", "text": "Adaptación a idiomas, formatos y símbolos culturales variados", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Usar solo un idioma universal", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Ignorar diferencias culturales para simplificar", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Evitar la traducción para reducir costos", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q12",
+      "type": "multiple",
+      "text": "¿Cuál es un beneficio social importante de la accesibilidad?",
+      "options": [
+        { "id": "o1", "text": "Favorecer la igualdad y participación activa en la sociedad", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Exclusión de usuarios con discapacidades", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Incrementar la brecha digital", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Reducir la participación en educación y trabajo", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q13",
+      "type": "multiple",
+      "text": "¿Qué impacto económico tiene implementar accesibilidad desde el inicio de un proyecto?",
+      "options": [
+        { "id": "o1", "text": "Reduce costes de soporte, mantenimiento y ampliación de mercado", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Aumenta significativamente el coste sin beneficios", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "No influye en el coste ni en la audiencia", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Solo beneficia a empresas tecnológicas grandes", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q14",
+      "type": "multiple",
+      "text": "¿Qué significa aplicar una cultura organizacional orientada a la accesibilidad?",
+      "options": [
+        { "id": "o1", "text": "Incluir la accesibilidad como un valor y práctica habitual en todos los procesos", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Tratar la accesibilidad solo como requisito legal", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Dejar la accesibilidad para etapas finales del desarrollo", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Evitar involucrar a usuarios con diversidad funcional", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q15",
+      "type": "multiple",
+      "text": "¿Cuál es una práctica recomendada para evaluar accesibilidad?",
+      "options": [
+        { "id": "o1", "text": "Usar herramientas automáticas, revisión manual y tests con usuarios con discapacidades", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Solo revisar automáticamente sin pruebas de usuario", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Ignorar retroalimentación de usuarios con discapacidad", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Solo probar con usuarios expertos", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q16",
+      "type": "multiple",
+      "text": "¿Qué debe evitarse para que una interfaz sea accesible para personas con daltonismo?",
+      "options": [
+        { "id": "o1", "text": "Usar color como único medio para transmitir información", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Ofrecer textos alternativos y contrastes adecuados", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Permitir navegación por teclado", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Garantizar compatibilidad con lectores de pantalla", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q17",
+      "type": "multiple",
+      "text": "¿Qué herramienta se usa comúnmente para evaluar automáticamente la accesibilidad web?",
+      "options": [
+        { "id": "o1", "text": "WAVE", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Photoshop", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Microsoft Excel", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Visual Studio Code", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q18",
+      "type": "multiple",
+      "text": "¿Qué debe incluir la adaptación de interfaces para la internacionalización?",
+      "options": [
+        { "id": "o1", "text": "Traducciones, formatos de fecha, moneda y símbolos culturales", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Solo cambiar el idioma sin considerar formatos", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Ignorar diferencias culturales", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Usar un solo formato estándar global", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q19",
+      "type": "multiple",
+      "text": "¿Qué impacto ético representa la accesibilidad en la tecnología?",
+      "options": [
+        { "id": "o1", "text": "Compromiso con derechos humanos y responsabilidad social", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Exclusión de grupos vulnerables", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "Ignorar la diversidad funcional", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Fomentar desigualdades sociales", "isCorrect": false, "value": 0 }
+      ]
+    },
+    {
+      "id": "q20",
+      "type": "multiple",
+      "text": "¿Qué se recomienda para integrar la accesibilidad en el desarrollo de sistemas?",
+      "options": [
+        { "id": "o1", "text": "Incorporarla desde las fases iniciales de diseño y desarrollo", "isCorrect": true, "value": 1 },
+        { "id": "o2", "text": "Dejarla para la fase final como corrección", "isCorrect": false, "value": 0 },
+        { "id": "o3", "text": "No considerarla para ahorrar costes", "isCorrect": false, "value": 0 },
+        { "id": "o4", "text": "Ignorar la participación de usuarios con discapacidad", "isCorrect": false, "value": 0 }
+      ]
+    }
+  ]
+}

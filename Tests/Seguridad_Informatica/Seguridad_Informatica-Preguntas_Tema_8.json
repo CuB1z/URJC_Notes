@@ -1,0 +1,941 @@
+{
+  "id": "quize91b4f",
+  "title": "Tema 8 - Seguridad de Red: Firewalls, VPNs, Honeypots y Protocolos",
+  "description": "Cuestionario sobre conceptos y herramientas clave para la protección de redes: firewalls, honeypots, VPNs, IPSec, TLS, y defensa en profundidad.",
+  "tags": [
+    "URJC",
+    "URJC_SI"
+  ],
+  "questions": [
+    {
+      "id": "q26a8de",
+      "type": "multiple",
+      "text": "¿Cuál es la función principal de un firewall?",
+      "options": [
+        {
+          "id": "o334b58",
+          "text": "Controlar el tráfico de red mediante reglas definidas.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o6ffd65",
+          "text": "Asignar direcciones IP dinámicamente.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o21f249",
+          "text": "Encriptar comunicaciones en tiempo real.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o22a7d3",
+          "text": "Escanear archivos en búsqueda de virus.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q6ad7a6",
+      "type": "multiple",
+      "text": "¿Qué tipo de firewall analiza el contenido completo del paquete?",
+      "options": [
+        {
+          "id": "of3b92e",
+          "text": "Deep Packet Inspection (DPI)",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o6d7f66",
+          "text": "Packet Filtering",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oa2fc56",
+          "text": "Stateful",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oef56b9",
+          "text": "Proxy",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q80c74e",
+      "type": "multiple",
+      "text": "¿Qué es un bastion host?",
+      "options": [
+        {
+          "id": "o3cf85d",
+          "text": "Un sistema especialmente reforzado para resistir ataques.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o9f689a",
+          "text": "Una base de datos de ataques conocidos.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o1210fc",
+          "text": "Un protocolo de cifrado de tráfico.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3544f7",
+          "text": "Una aplicación de control remoto.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q20b18a",
+      "type": "multiple",
+      "text": "¿Qué función cumple una DMZ (Zona Desmilitarizada)?",
+      "options": [
+        {
+          "id": "oaab1b0",
+          "text": "Aislar servicios públicos de la red interna.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o1fb939",
+          "text": "Ocultar direcciones IP privadas.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o60a50c",
+          "text": "Proporcionar acceso remoto cifrado a empleados.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "ocd3bc3",
+          "text": "Escanear el tráfico saliente para malware.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qeb9b29",
+      "type": "multiple",
+      "text": "¿Qué es un honeypot en seguridad informática?",
+      "options": [
+        {
+          "id": "o7b2cc9",
+          "text": "Un sistema diseñado para atraer y analizar ataques.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o700688",
+          "text": "Un dispositivo que acelera el tráfico de red.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o6f3eef",
+          "text": "Una herramienta de compresión de datos.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oef7ddc",
+          "text": "Un sistema de cifrado para bases de datos.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qed3e85",
+      "type": "multiple",
+      "text": "¿Qué tipo de servicio simula el honeypot Cowrie?",
+      "options": [
+        {
+          "id": "oa5fed2",
+          "text": "Servidor SSH/Telnet",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o71709f",
+          "text": "Servidor de bases de datos",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o5e4f6b",
+          "text": "Servidor web Apache",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "ob68a68",
+          "text": "Sistema de control industrial",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q3a8dd1",
+      "type": "multiple",
+      "text": "¿Qué es una VPN?",
+      "options": [
+        {
+          "id": "ode6f6b",
+          "text": "Un canal cifrado que permite comunicación segura sobre redes públicas.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o84f5fd",
+          "text": "Un protocolo de detección de intrusos.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o300657",
+          "text": "Una dirección IP virtual asignada a usuarios móviles.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "occ5212",
+          "text": "Una tecnología para detectar malware en red.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qbd27da",
+      "type": "multiple",
+      "text": "¿Para qué sirve una VPN de acceso remoto?",
+      "options": [
+        {
+          "id": "o7567a4",
+          "text": "Permitir a usuarios móviles conectarse de forma segura a la red de la empresa.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "oa045c8",
+          "text": "Compartir carpetas en red local.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o126557",
+          "text": "Establecer servidores DNS públicos.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oce93c5",
+          "text": "Filtrar contenido web desde dispositivos móviles.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q7affe9",
+      "type": "multiple",
+      "text": "¿Qué protocolo es nativo en IPv6 y asegura el tráfico IP?",
+      "options": [
+        {
+          "id": "oeed4a6",
+          "text": "IPSec",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o46d77c",
+          "text": "TLS",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oe2219e",
+          "text": "PPTP",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oafc96b",
+          "text": "L2TP",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q779654",
+      "type": "multiple",
+      "text": "¿Qué modo de funcionamiento de IPSec cifra extremo a extremo entre dispositivos?",
+      "options": [
+        {
+          "id": "od0ca63",
+          "text": "Modo Transporte",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "of9471d",
+          "text": "Modo Túnel",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o7e1385",
+          "text": "Modo DHCP",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o892765",
+          "text": "Modo NAT",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q767a19",
+      "type": "multiple",
+      "text": "¿Qué proporciona el componente ESP (Encapsulating Security Payload) en IPSec?",
+      "options": [
+        {
+          "id": "o5a5695",
+          "text": "Autenticación, integridad y cifrado.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "oe0f9eb",
+          "text": "Solo cifrado, sin autenticación.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o271c2f",
+          "text": "Redirección de puertos para NAT.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o1a5824",
+          "text": "Asignación dinámica de claves públicas.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q0861ff",
+      "type": "multiple",
+      "text": "¿Qué protocolos se protegen comúnmente usando SSL/TLS?",
+      "options": [
+        {
+          "id": "o7ad18e",
+          "text": "HTTPS, FTP, SMTP",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o6e6c57",
+          "text": "DNS, DHCP, NTP",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oe656e2",
+          "text": "IPSec, OSPF, BGP",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o3a8632",
+          "text": "LDAP, SNMP, SSH",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q7833e6",
+      "type": "multiple",
+      "text": "¿Qué ocurre en la fase *ClientHello* y *ServerHello* del handshake SSL/TLS?",
+      "options": [
+        {
+          "id": "oa06213",
+          "text": "Se intercambian algoritmos criptográficos y números aleatorios.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "oabcbc8",
+          "text": "Se inicia la compresión del mensaje cifrado.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o741fbd",
+          "text": "El cliente firma digitalmente su solicitud.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2b4d32",
+          "text": "Se verifica el MAC del tráfico anterior.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qc2a6f8",
+      "type": "multiple",
+      "text": "¿Qué diferencia clave existe entre IPSec y SSL en términos de capa de operación?",
+      "options": [
+        {
+          "id": "o998132",
+          "text": "IPSec opera en la capa de red y SSL en la de aplicación.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o6ea53f",
+          "text": "Ambos operan exclusivamente en la capa de red.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o267d9a",
+          "text": "SSL opera a nivel de hardware, IPSec a nivel de software.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oaed0ba",
+          "text": "IPSec solo cifra tráfico web, SSL cualquier tráfico.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qda9145",
+      "type": "multiple",
+      "text": "¿Qué simula el honeypot HoneyMySQL?",
+      "options": [
+        {
+          "id": "oce2bea",
+          "text": "Un servidor de bases de datos MySQL",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "odfe4c4",
+          "text": "Un servidor FTP con errores de autenticación",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o5de82a",
+          "text": "Un entorno de red de carga para vehículos eléctricos",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o8abbea",
+          "text": "Una API REST pública",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qe931d5",
+      "type": "multiple",
+      "text": "¿Cuál es la función de IKE (Internet Key Exchange) en IPSec?",
+      "options": [
+        {
+          "id": "oda2471",
+          "text": "Negociar claves y parámetros de seguridad entre los extremos.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o497f87",
+          "text": "Cifrar paquetes con claves públicas.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o45f028",
+          "text": "Asignar certificados X.509 automáticamente.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o165c5f",
+          "text": "Registrar eventos de red para auditoría.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q69f14f",
+      "type": "multiple",
+      "text": "¿Qué representa una SA (Security Association) en IPSec?",
+      "options": [
+        {
+          "id": "oe07239",
+          "text": "Un acuerdo entre dos equipos sobre algoritmos y parámetros de seguridad.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o15b130",
+          "text": "Una base de datos de hosts conectados a la red.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "ob9919b",
+          "text": "Una función hash criptográfica de SHA.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "of24c15",
+          "text": "Un sistema automático de detección de malware.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q779870",
+      "type": "multiple",
+      "text": "¿Qué es una honeynet?",
+      "options": [
+        {
+          "id": "o766fbc",
+          "text": "Una red de honeypots coordinados que simulan una infraestructura completa.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o11f185",
+          "text": "Una VPN entre honeypots de distintos países.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o1019b3",
+          "text": "Una base de datos de exploits web.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o625fd4",
+          "text": "Un protocolo de cifrado para redes abiertas.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q61d4b2",
+      "type": "multiple",
+      "text": "¿Cuál es una diferencia entre una VPN abierta y una cerrada?",
+      "options": [
+        {
+          "id": "o65fd7c",
+          "text": "La cerrada requiere autenticación específica, la abierta no.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o7d4ab3",
+          "text": "La abierta utiliza cifrado de mayor nivel.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o1ae4b6",
+          "text": "La cerrada no cifra el tráfico de red.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o5b4dd1",
+          "text": "La abierta siempre utiliza claves asimétricas.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q4b2cb2",
+      "type": "multiple",
+      "text": "¿Qué hace el *Alert Protocol* en TLS?",
+      "options": [
+        {
+          "id": "odfc0a4",
+          "text": "Notifica errores y advertencias durante la sesión segura.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "oc41c38",
+          "text": "Asegura la autenticación de la CA.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o8addd0",
+          "text": "Establece la conexión física entre cliente y servidor.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o9b07ba",
+          "text": "Realiza compresión de los certificados.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q1edb06",
+      "type": "multiple",
+      "text": "¿Cuál es el propósito de una VPN de tipo extranet?",
+      "options": [
+        {
+          "id": "oc4c2aa",
+          "text": "Permitir acceso controlado a terceros como clientes o proveedores.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o44955f",
+          "text": "Evitar el uso de direcciones IP públicas.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o28a70d",
+          "text": "Detectar malware en redes de terceros.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "ob2a022",
+          "text": "Auditar el tráfico interno de red.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q571d9f",
+      "type": "multiple",
+      "text": "¿En qué capa del modelo OSI opera TLS?",
+      "options": [
+        {
+          "id": "o8c49fd",
+          "text": "Capa de aplicación (7)",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "oca1573",
+          "text": "Capa de red (3)",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o9a2cfd",
+          "text": "Capa de enlace de datos (2)",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oa0871d",
+          "text": "Capa física (1)",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qe07988",
+      "type": "multiple",
+      "text": "¿Qué caracteriza a un firewall con política restrictiva?",
+      "options": [
+        {
+          "id": "o992d12",
+          "text": "Bloquea todo excepto lo explícitamente permitido.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o0cfce8",
+          "text": "Permite todo excepto lo explícitamente bloqueado.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oabc575",
+          "text": "Solo bloquea tráfico HTTP y FTP.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "od047e1",
+          "text": "Requiere múltiples interfaces para funcionar.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qc899ce",
+      "type": "multiple",
+      "text": "¿Cuál es un uso típico del honeypot Cowrie?",
+      "options": [
+        {
+          "id": "o601975",
+          "text": "Observar comandos interactivos enviados por atacantes vía SSH.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "ob61a54",
+          "text": "Emular tráfico de red cifrado SSL/TLS.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o2dd0b0",
+          "text": "Inspeccionar bases de datos SQL legítimas.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o8800d0",
+          "text": "Gestionar certificados digitales.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qd18f1a",
+      "type": "multiple",
+      "text": "¿Qué ventaja ofrece un firewall con Deep Packet Inspection (DPI)?",
+      "options": [
+        {
+          "id": "o064332",
+          "text": "Detectar amenazas en el contenido de los paquetes, no solo en cabeceras.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o9aba77",
+          "text": "Mayor velocidad de procesamiento de datos.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o9c797f",
+          "text": "Cifrado automático del tráfico de red.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o8b4722",
+          "text": "Asignación dinámica de direcciones IP.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qd89729",
+      "type": "multiple",
+      "text": "¿Cuál de los siguientes NO es un servicio proporcionado por IPSec?",
+      "options": [
+        {
+          "id": "o27022c",
+          "text": "Compresión de datos",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o5650b0",
+          "text": "Confidencialidad",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o0d4028",
+          "text": "Integridad",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "ocbd9a8",
+          "text": "Autenticación de origen",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qbcf5a4",
+      "type": "multiple",
+      "text": "¿Qué tipo de eventos reporta el protocolo de alerta en SSL/TLS?",
+      "options": [
+        {
+          "id": "o270dfe",
+          "text": "Errores como certificados caducados o MAC inválidos.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o2b49b8",
+          "text": "Rendimiento de la red.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o6204cd",
+          "text": "Tasa de transferencia de datos comprimidos.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "od7d69c",
+          "text": "Carga promedio del servidor.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qf9fd69",
+      "type": "multiple",
+      "text": "¿Qué arquitectura se puede usar para implementar una DMZ?",
+      "options": [
+        {
+          "id": "o78af81",
+          "text": "Firewall con tres interfaces o doble firewall (frontal y trasero).",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o31968c",
+          "text": "Router con función NAT y DHCP.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o15a88c",
+          "text": "VPN sobre IPv6 exclusivamente.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o826c9a",
+          "text": "Servidores con certificados SSL únicamente.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "qeffcf3",
+      "type": "multiple",
+      "text": "¿Qué se debe registrar en un honeypot correctamente configurado?",
+      "options": [
+        {
+          "id": "oaadfee",
+          "text": "Intentos de acceso, comandos y patrones de ataque.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o40817a",
+          "text": "Contraseñas del administrador de red.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o5cc11e",
+          "text": "Usuarios legítimos del sistema.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "oe46b6b",
+          "text": "Tráfico encriptado desde VPN corporativas.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "q5935cc",
+      "type": "multiple",
+      "text": "¿Qué implica el enfoque de defensa en profundidad?",
+      "options": [
+        {
+          "id": "o3dc432",
+          "text": "Utilizar múltiples capas de seguridad: firewalls, IDS, honeypots, VPN, etc.",
+          "isCorrect": true,
+          "value": 1
+        },
+        {
+          "id": "o63a8b6",
+          "text": "Proteger solo el perímetro de la red.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "of89bf4",
+          "text": "Implementar un único sistema de cifrado para toda la empresa.",
+          "isCorrect": false,
+          "value": 0
+        },
+        {
+          "id": "o8425ed",
+          "text": "Usar software antivirus en estaciones de trabajo solamente.",
+          "isCorrect": false,
+          "value": 0
+        }
+      ]
+    }
+  ]
+}
